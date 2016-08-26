@@ -1,0 +1,52 @@
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
+The top-level auxiliary file: report2.aux
+A level-1 auxiliary file: Cosmology.aux
+A level-1 auxiliary file: CMB.aux
+A level-1 auxiliary file: PMFs.aux
+A level-1 auxiliary file: Future.aux
+The style file: ieeetr.bst
+Database file #1: references.bib
+Warning--empty journal in Ade:2015xua
+Warning--empty journal in Ade:2015cva
+You've used 6 entries,
+            1876 wiz_defined-function locations,
+            520 strings with 4485 characters,
+and the built_in function-call counts, 1461 in all, are:
+= -- 143
+> -- 54
+< -- 0
++ -- 20
+- -- 14
+* -- 80
+:= -- 208
+add.period$ -- 6
+call.type$ -- 6
+change.case$ -- 6
+chr.to.int$ -- 0
+cite$ -- 8
+duplicate$ -- 92
+empty$ -- 134
+format.name$ -- 14
+if$ -- 368
+int.to.chr$ -- 0
+int.to.str$ -- 6
+missing$ -- 6
+newline$ -- 21
+num.names$ -- 6
+pop$ -- 23
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 69
+stack$ -- 0
+substring$ -- 58
+swap$ -- 42
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 2
+while$ -- 11
+width$ -- 7
+write$ -- 56
+(There were 2 warnings)

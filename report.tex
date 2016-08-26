@@ -1,0 +1,511 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%
+%% Base Template
+%% Copyright (C) 2016  Joshua Ellis
+%%
+%%
+%% This LaTeX file is free: you can redistribute it and/or modify it under the
+%% terms of the GNU General Public License as published by the Free Software
+%% Foundation, either version 3 of the License, or (at your option) any later
+%% version.
+%%
+%% This is distributed in the hope that it will be useful, but WITHOUT ANY
+%% WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR
+%% A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% HEADER
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% All LaTeX documents begin with the the `\documentclass` command which serves
+%% to set the general style of the document.  It defines the page layout, the
+%% chapter/section styles, how figures appear, etc. and may provide some
+%% additional environments too.  LaTeX comes with four main classes: `article`,
+%% `report`, `book` and `letter`.
+%%
+%% The [koma-script](https://www.ctan.org/pkg/koma-script) package provides
+%% alternatives to replacements for the default classes (`scrartcl`, `scrreprt`,
+%% `scrbook`, `scrlttr2`) and provides a lot of options to more easily customize the
+%% layout of the page.
+
+%% In general, LaTeX commands start with `\` and consist of letters only.
+%% Optional parameters are specified in brackets `[]`, whilst compulsory
+%% arguments (if any) are specified in braces `{}`.
+\documentclass[twoside, onecolumn, bibliography=totoc, parskip=half*]{scrartcl}
+%% Some common optional arguments to the document class are listed below.  The
+%% defaults depend on the class use (so see the Koma scripts for bibliography
+%% and parskip).
+%%
+%% - 10pt, 11pt, 12pt
+%%   Sets the font size
+%%
+%% - a4paper, letterpaper, a5paper, ...
+%%   Sets the page size, though the `geometry` package allows these options to be
+%%   fine-tuned.
+%%
+%% - onecolumn, twocolumn
+%%   Use a one- or two-column layout in the document
+%%
+%% - oneside, twoside
+%%   Formats the pages to be printed either one-sided or two-sided
+%%
+%% - portait, landscape
+%%   Defines the orientation of the page
+%%
+%% - draft, final
+%%   Draft modes highlights some errors in the output, and does not include
+%%   pictures (which can save a lot of time in a document with many pictures).
+
+
+%% The part of the document starting from here through to the
+%% `\begin{document}` command is called the preamble.  This is where you include
+%% additional packages which provide additional functionalities.  Below are many
+%% packages which I personally use at some point or another.
+%%
+%% They are all enabled here for the sake of checking compatibility, but in
+%% general only the ones used should be enabled.
+%%
+%% More information about nearly every package can be found at
+%% ctan.org/pkg/<pkg-name>.
+
+%% The following two packages don't play well together and require to be loaded
+%% first and in this order
+%\usepackage{atveryend}
+%\usepackage{etex}
+
+%% Formatting
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage[vmargin={3cm,3cm}]{geometry}  % Customize text width, page height, margins, etc.
+\usepackage{multicol}  % {multicols}{n} environment
+\usepackage{pdflscape} % {landscape} environment
+
+\usepackage{setspace}  % Line spacing
+\singlespacing
+% \onehalfspacing
+% \doublespacing
+
+\usepackage{fontspec}  % Allows other fonts to be specified
+\setmainfont{EB Garamond}[
+  Contextuals={Alternate},
+  Ligatures={Rare,Historic},
+  Numbers=OldStyle,
+  % CharacterVariant={1},    % historical s
+  CharacterVariant={4},    % &
+  CharacterVariant={5:3},  % v
+  % CharacterVariant={27},   % g
+]
+\newfontface\swshape{EB Garamond 12 Italic}[Style=Swash]
+
+\usepackage{microtype}   % Fine small typographical details
+
+% Change the formatting of titles and sections.
+\setkomafont{part}{\normalfont\scshape\Huge}
+\setkomafont{partnumber}{\normalfont\scshape\huge}
+\setkomafont{section}{\normalfont\Huge}
+\setkomafont{subsection}{\normalfont\huge}
+\setkomafont{subsubsection}{\normalfont\Large}
+
+\setkomafont{sectionentry}{\scshape}
+\setkomafont{paragraph}{\normalfont\large\scshape}
+
+\usepackage{enumitem}                  % Easily customize lists
+
+%% Language
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage[UKenglish]{babel} % Set up the language
+\usepackage{csquotes}         % Advanced handling of quotes
+\usepackage{siunitx}          % Provides \SI{1}{\metre}, also \ang{90}.
+
+%% Graphics & Figure
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{graphicx}   % Allow graphics to be included
+
+\usepackage{xcolor}     % Define and use colours
+\usepackage{subcaption} % Subfigures inside a figure
+
+% Keep all pictures in the './img/' sub-directory.
+\graphicspath{{./img/}}
+
+\usepackage{tikz}         % Powerful drawing language
+\usepackage{pgfplots}     % Plotting with LaTeX
+\pgfplotsset{compat=1.13}
+\usepackage[compat=1.1.0]{tikz-feynman} % Ability to draw Feynman diagrams
+
+%% TikZ pictures and plots can significantly increase the time it takes to
+%% produce the output.  The `external` TikZ library library defers the creation
+%% of these figures to a sub-process which creates a separate PDF file which is
+%% then simply imported into the main document.  To call the sub-process, you
+%% have to execute the appropriate makefile.  If you are using LatexMk, you can
+%% use the `.latexmkrc` to automatically do this for you.
+%%
+%% The following setup works on Linux, and should work on OS X too.
+% \usetikzlibrary{external}
+% \tikzexternalize[shell escape=-shell-escape, prefix=pgf-img/]
+% \immediate\write18{mkdir -p pgf-img}
+% \tikzset{
+%     external/mode=list and make,
+%     external/system call={
+%         lualatex \tikzexternalcheckshellescape -halt-on-error -interaction=batchmode -jobname="\image" "\texsource" || rm "\image.pdf"},
+% }
+
+%% Math Packages
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{amsmath}     % The core math package
+\usepackage{amssymb}     % Defines additional math fonts 
+\usepackage{mathtools}   % Various extra maths functions
+\usepackage{cancel}      % Show cancellations with \cancel
+% \usepackage{autonum}   % Only number referenced equations (must be loaded after cleverref)
+\usepackage{dsfont}
+
+\usepackage[cmintegrals,varg]{newtxmath} % Nice math with Garamond
+
+%% Define \withnumber which forces the line to have number
+\newcommand{\withnumber}{\refstepcounter{equation}\tag{\theequation}}
+
+%% Allows page breaks in math (1 = avoid if possible, 4 = whenever)
+%% Page breaks can be avoided at particular places by using \\*
+\allowdisplaybreaks[2]
+
+%% Tables
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{tabularx}  % Improved tabular environment
+\usepackage{longtable} % Multipage tables
+\usepackage{array}     % New column types, including >x<
+\usepackage{booktabs}  % Provides nicer horizontal lines
+\usepackage{multirow}  % Allows cells to span multiple rows
+\usepackage{longtable} % Allows for tables to span multiple pages
+
+%% Define the maths version of clr columns.
+\newcolumntype{C}{>{\(}c<{\)}}
+\newcolumntype{L}{>{\(}l<{\)}}
+\newcolumntype{R}{>{\(}r<{\)}}
+
+%% Other Packages
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{pageslts}  % Reference the last page
+\usepackage{hyperref}  % Automatically inserts hyperlinks.
+\usepackage{cleveref}  % Use `\cref` to reference anything
+\usepackage[perpage,symbol*]{footmisc}  % Have symbols instead of numbers for footnotes
+
+\usepackage{autonum}  % Must be loaded after all *ref packages
+
+\usepackage{mwe}  % Only provides dummy text and images.
+
+%% Glossary
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% This package requires `makeglossaries` to be run after the initial run of LaTeX
+%% so that the glossary is generated and the a second run of LaTeX is need to
+%% included the newly generated glossary.
+
+% hyperref should be loaded first
+\usepackage[toc]{glossaries}
+\usepackage{glossaries-extra}
+
+\setglossarystyle{index}
+\setabbreviationstyle[acronym]{long-short-sc}
+
+\loadglsentries{glossary}
+
+\makeglossaries
+
+%% Bibliography
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% hyperref should be loaded first
+\usepackage[
+    backend=biber,
+    autocite=inline,
+    style=phys,
+    biblabel=brackets,
+]{biblatex}
+
+\addbibresource{references.bib}
+
+%% Other modifications
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% This is not a CTAN package but instead contains a whole lot of small scripts I
+%% use nearly all the time.
+\usepackage[theorems=false]{jpellis}
+
+%% Modify the skip after each paragraph
+\setlength{\parindent}{1em}
+
+%% Define some slightly nicer colors 
+\definecolor{link-color}{RGB}{96 0 0}
+\definecolor{cite-color}{RGB}{0 96 0}
+\definecolor{file-color}{RGB}{0 0 96}
+\definecolor{url-color}{RGB}{0 0 96}
+\definecolor{link-border-color}{RGB}{255 159 159}
+\definecolor{cite-border-color}{RGB}{159 255 159}
+\definecolor{file-border-color}{RGB}{159 159 255}
+\definecolor{url-border-color}{RGB}{159 159 255}
+
+\hypersetup{
+  %% When `colorlinks` is true, all links will be coloured which looks nice in
+  %% digital version of the document but not in print.  If the document is
+  %% intended for printing, then `colorlinks` should set to false.
+  colorlinks=true,      
+  linkcolor=link-color,
+  citecolor=cite-color,
+  filecolor=file-color,
+  urlcolor=url-color,
+  linkbordercolor=link-border-color,
+  citebordercolor=cite-border-color,
+  urlbordercolor=url-border-color,
+}
+
+%% Document Information
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Define a few shorthand commands.  The `makeatletter' and `makeatother' allows
+%% the use of '@' in commands which is reserved for hidden functions.
+\makeatletter
+\newcommand{\@degreetitle}{}
+\newcommand{\degreetitle}[1]{\renewcommand{\@degreetitle}{#1}}
+
+\newcommand{\@department}{}
+\newcommand{\department}[1]{\renewcommand{\@department}{#1}}
+
+\newcommand{\@university}{}
+\newcommand{\university}[1]{\renewcommand{\@university}{#1}}
+
+\newcommand{\@keywords}{}
+\newcommand{\keywords}[1]{\renewcommand{\@keywords}{#1}}
+
+\AtBeginDocument{
+  \hypersetup{
+    pdftitle={\@title},
+    pdfauthor={\@author},
+    pdfsubject={\@subject},
+    pdfkeywords={\@keywords},
+  }
+}
+
+\makeatother
+
+\title{Writing in \texorpdfstring{\LaTeX}{LaTeX}}
+\subtitle{A Practical Introduction to \texorpdfstring{\LaTeX}{LaTeX}}
+
+\subject{LaTeX}
+\keywords{}
+
+\author{Joshua \scshape Ellis}
+\degreetitle{Masters of Science (Physics)}
+\department{School of Physics}
+\university{The University of Melbourne}
+
+\date{\today}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% DOCUMENT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\pagenumbering{Alph}
+
+%% Title
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\pagestyle{empty}
+
+\begin{titlepage}
+  \makeatletter
+
+  \begin{center}
+    \vspace*{2.5cm}
+
+    \Huge \@title \\[0em]
+    \rule{\linewidth}{2pt}
+    \huge \textsc{\@subtitle}\\[6em]
+
+    \large By \\[1cm]
+    \huge \@author \\[0.5ex]
+    \Large \normalfont \@degreetitle
+
+    \vfill
+
+    \Large \@department \\[1ex]
+    \Large \@university
+
+    \vfill
+
+    \large \@date
+  \end{center}
+
+\makeatother
+\end{titlepage}
+
+%% Table of Content
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cleardoublepage
+\pagestyle{plain}
+\pagenumbering{roman}
+
+\tableofcontents
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% CONTENT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cleardoublepage
+\pagestyle{headings}
+\pagenumbering{arabic}
+
+\section{Introduction}
+\label{sec:introduction}
+
+\gls{latex} is a program designed to typeset documents.  Unlike programs such as
+\href{http://office.microsoft.com/en-au/word/}{Microsoft Word} and
+\href{http://www.libreoffice.org/discover/writer/}{Libre\-Office Writer}, LaTeX
+makes an effort to ensure that everything is placed correctly with the
+appropriate spacing.
+
+\subsection{Philosophy}
+\label{subsec:philosophy}
+
+The main blagh blah blah\begin{tiny}
+\label{•} 
+\end{tiny}ind \gls{latex} is ``\textit{what you mean is what you
+  get}''.  That is, if you want to \emph{emphasize} some text, you should use
+\verb|\emph{this command}|.  This ensures that no matter what environment you're
+in, it uses the appropriate emphasis.  \emph{For example, if a whole sentence is
+  already emphasized, you can still use the same command to \emph{emphasize} a
+  particular word!}
+
+Similarly, to enumerate certain item, I could manually insert ``1. \dots,
+2. \dots'', but \gls{latex} provides its own \emph|{enumerate}| environment:
+\begin{enumerate}
+\item This allows items
+\item To be created easily
+  \begin{enumerate}
+  \item And nesting
+    \begin{enumerate}
+    \item Is automatically 
+    \end{enumerate}
+  \item Handled
+  \item Without much
+  \end{enumerate}
+\item Difficulty.
+\end{enumerate}
+
+\subsection{Mathematics}
+\label{subsec:mathematics}
+
+\gls{latex} also handles mathematics very nicely; for example, I can write
+Einstein's most famous equation inline: \(E = mc^2\).  Inline maths in \LaTeX{}
+is scaled appropriately so that it fits the line as can be demonstrated with
+Newton's second law: \(\vt F = \ddfrac{\vt p}{t}\).  Newton's second law could
+also be written at \(\vt F = \dd \vt p / \dd t\), where no scaling is required.
+
+Equations can also be placed on the own line within a text if they are a little
+cumbersome to write inline, such the Schr\"odinger equation:
+\begin{equation}
+    \label{eq:schrodinger_equation}
+    i \hbar \pfrac{\Psi(\vt x, t)}{t} = - \frac{\hbar^2}{2m} \nabla^2 \Psi(\vt x, t) + V(\vt x, t) \Psi(\vt x, t).
+\end{equation}
+When there are multiple equations, these can be aligned nicely to make it
+clearer.  The location which is aligned is done at the symbol after the
+\verb|&|; typically, this is done at the equal sign as shown with Maxwell's
+equation:
+\begin{subequations}
+    \label{eq:Maxwell_equations}
+    \begin{align}
+        \label{eq:Gauss_law}\withnumber
+        \nabla \cdot \vt E &= \frac{\rho}{\varepsilon_0} \\
+        \label{eq:Gauss_law_magnetism}\withnumber
+        \nabla \cdot \vt B &= 0 \\
+        \label{eq:Maxwell-Faraday_equation}\withnumber
+        \nabla \times \vt E &= - \pfrac{\vt B}{t} \\
+        \label{eq:Ampere_law}\withnumber
+        \nabla \times \vt B &= \mu_0 \vt J + \mu_0 \varepsilon_0 \pfrac{\vt E}{t}
+    \end{align}
+\end{subequations}
+
+\LaTeX{} also takes care of all the referencing with \verb|\label{}| and
+\verb|\ref{}|.  Schr\"odinger's equation for example is
+\cref{eq:schrodinger_equation}, whilst Maxwell's equations are listed under
+\cref{eq:Maxwell_equations} and Amp\`ere's law in particular is
+\cref{eq:Ampere_law}.
+
+\subsection{Glossary and Bibliography}
+\label{subsec:glossary_and_bibliography}
+
+\gls{latex}'s referencing capabailities do not end referencing particular
+equation (c.f.~\S\ref{subsec:mathematics}) but can also be used to refer to
+particular sections.  Additionally with the aid of external programs, in depth
+cross-referencing of terms in order to produce a \gls{glossary} is possible.
+
+More commonly, \LaTeX~is used in combination with \gls{bibtex} and \gls{biber}
+to produce bibliographies.  This automatically takes care of inserting the
+proper reference to some article \cite{Smith2013}, and I can easily cite the
+author and year of the article: \citeauthor{Smith2013}, \citeyear{Smith2013}.
+
+\subsection{Sharing \emph{\&} Contributing}
+\label{subsec:sharing_and_contributing}
+
+If you found this little document helpful, please feel free to share it others;
+it's completely free!  I also welcome suggestions for or modifications to this
+document.
+
+
+%% Just some filler text now...
+\clearpage
+\section{Lorem Ipsum}
+
+\lipsum[1-4]
+
+\subsection{Aliquam Dolor}
+
+\lipsum[6-9]
+
+\subsection{Dius Non Odo}
+
+\lipsum[10]
+
+\subsubsection{Dignissim Dui}
+
+\lipsum[11-12]
+
+\subsubsection{Laoreet Vitae}
+
+\lipsum[13-15]
+
+\paragraph{Egestas Est} \lipsum[16]
+
+\paragraph{Nam Commodo} \lipsum[17]
+
+\lipsum[18-22]
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% APPENDIX
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cleardoublepage
+\appendix
+\pagenumbering{Roman}
+\pagestyle{plain}
+
+%% Glossary
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cleardoublepage
+
+\printglossaries
+
+%% Bibliography
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cleardoublepage
+\pagestyle{plain}
+\printbibliography
+
+\end{document}
+
+%%% Local Variables:
+%%% TeX-master: t
+%%% End:
