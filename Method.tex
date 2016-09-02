@@ -1,6 +1,17 @@
 
 \section{Method}
 \subsection{The Fisher Matrix}
+The elements of the Fisher matrix are defined as:
+\begin{equation}
+\mathcal{F}_{ij} = - \left \langle \frac{\partial^{2}ln{\mathcal{L}}}{\partial p^i\partial p^j } \right \rangle
+\end{equation}
+where $\mathcal{L}$ is the likelihood and $p^{i}$, $p^{j}$ are the $i^{th}$ and $j^{th}$ model parameters.
+\\
+The Fisher matrix is a powerful tool in experimental design, used for forecasting the upper limits on the precision of an experiment. This comes as a result of the Cram\`{e}r-Rao theorem.
+\\
+The Cram\`{e}r-Rao theorem states that the variance of an unbiased estimator, p is greater than or equal to the reciprocal of its Fisher information.
+
+
 \subsection{Covariances}
 \subsection{extended datasets}
 \subsection{crosschecks}

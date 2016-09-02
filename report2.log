@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.7.29)  26 AUG 2016 11:50
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.7.29)  2 SEP 2016 11:55
 entering extended mode
  %&-line parsing enabled.
 **report2.tex
@@ -652,65 +652,70 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--6
 
  []
 
-) [4
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--12
+
+ []
+
+[4
 
 
-] [5]
+] <images/thomson.png, id=22, 744.7825pt x 721.69624pt>
+File: images/thomson.png Graphic file (type png)
+
+<use images/thomson.png> [5 <./images/thomson.png (PNG copy)>]
+<images/modes.png, id=26, 67.452pt x 62.634pt>
+File: images/modes.png Graphic file (type png)
+ <use images/modes.png>) [6 <./images/modes.png>] [7]
 \openout2 = `Theory.aux'.
 
- (./Theory.tex
-Underfull \hbox (badness 10000) in paragraph at lines 4--9
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--9
-
- []
-
-) [6
+ (./Theory.tex) [8
 
 
 ]
 \openout2 = `Method.aux'.
 
- (./Method.tex) [7
+ (./Method.tex) [9
 
 
 ]
 \openout2 = `Forecasts.aux'.
 
- (./Forecasts.tex) [8
+ (./Forecasts.tex)
+[10
 
 
 ]
 \openout2 = `Conclusion.aux'.
 
- (./Conclusion.tex) [9
+ (./Conclusion.tex) [11
 
 
-]
-(./report2.bbl) [10
+] (./report2.bbl) [12
 
-] (./report2.aux (./Abstract.aux) (./Introduction.aux)
-(./Theory.aux) (./Method.aux) (./Forecasts.aux) (./Conclusion.aux)) ) 
+] (./report2.aux
+(./Abstract.aux) (./Introduction.aux) (./Theory.aux) (./Method.aux)
+(./Forecasts.aux) (./Conclusion.aux)) ) 
 Here is how much of TeX's memory you used:
- 2466 strings out of 493848
- 31052 string characters out of 1152823
- 88086 words of memory out of 3000000
- 5677 multiletter control sequences out of 15000+50000
+ 2482 strings out of 493848
+ 31298 string characters out of 1152823
+ 89114 words of memory out of 3000000
+ 5691 multiletter control sequences out of 15000+50000
  12750 words of font info for 49 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 27i,6n,32p,707b,223s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/shar
-e/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-tex
-live/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/t
-ype1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/public/
-amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm
-/cmti12.pfb>
-Output written on report2.pdf (10 pages, 247060 bytes).
+ 27i,6n,32p,827b,255s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/fonts/type1/pu
+blic/amsfonts/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfon
+ts/cm/cmex10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi1
+2.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/
+share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-
+texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/font
+s/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/publi
+c/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/
+cm/cmti12.pfb>
+Output written on report2.pdf (12 pages, 346271 bytes).
 PDF statistics:
- 56 PDF objects out of 1000 (max. 8388607)
+ 82 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
