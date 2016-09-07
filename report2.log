@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.7.29)  2 SEP 2016 11:55
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.7.29)  7 SEP 2016 16:43
 entering extended mode
  %&-line parsing enabled.
 **report2.tex
@@ -666,7 +666,7 @@ File: images/thomson.png Graphic file (type png)
 <use images/thomson.png> [5 <./images/thomson.png (PNG copy)>]
 <images/modes.png, id=26, 67.452pt x 62.634pt>
 File: images/modes.png Graphic file (type png)
- <use images/modes.png>) [6 <./images/modes.png>] [7]
+ <use images/modes.png> [6 <./images/modes.png>]) [7]
 \openout2 = `Theory.aux'.
 
  (./Theory.tex) [8
@@ -707,15 +707,16 @@ Here is how much of TeX's memory you used:
 </usr/share/texmf-texlive/fonts/type1/pu
 blic/amsfonts/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfon
 ts/cm/cmex10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi1
-2.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/
-share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-
-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/font
-s/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/publi
-c/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/
-cm/cmti12.pfb>
-Output written on report2.pdf (12 pages, 346271 bytes).
+2.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/
+share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-
+texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/font
+s/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/publ
+ic/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
+m/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb
+></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on report2.pdf (12 pages, 373342 bytes).
 PDF statistics:
- 82 PDF objects out of 1000 (max. 8388607)
+ 90 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

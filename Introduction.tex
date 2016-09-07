@@ -60,8 +60,29 @@ The causes of B-mode CMB polarisation are new frontiers in physics. There is a s
 
 \subsection{CMB Power Spectrum}
 
+Studies of the CMB often rely on the CMB power spectrum to draw their conclusions. The power spectrum is defined as the amplitude of the Fourier decomposition of a signal given by f(x), like so:
 
-	
+\begin{equation}
+P(k) = \vert a_k \vert ^2
+\end{equation}
+where $a_k$ are the fourier coefficients given by:
+\begin{equation}
+a_k = \int f(x) e^{-ikx} dx
+\end{equation}
+However, since the CMB is on the sky, we are required to work in spherical co-ordinates, hence we need to use the angular power spectrum. In spherical co-ordinates all functions can be broken down into spherical harmonics, so some function $T(\hat{n})$ at a point $\hat{n}$, can be written as:
+\begin{equation}
+T(\hat{n}) = \sum_{\ell = 0}^{\ell_{max}} \sum_{m = -\ell}^{\ell} a_{\ell m} Y_{\ell m}(\hat{n})
+\end{equation}
+where $a_{lm}$ is once again a fourier coefficient given by:
+\begin{equation}
+a_{\ell m} = \int_{4 \pi} T(\hat{n}) Y_{\ell m}^{*}(\hat{n})
+\end{equation}
+The angular power spectrum is then defined as:
+\begin{equation}
+C_{\ell} = \frac{1}{2\ell + 1} \sum_{m = -\ell}^{\ell} \vert a_{\ell m} \vert ^2
+\end{equation}
+The $C_{\ell}$s are functions of the angular scales, $\ell$. The angular power sprectrum of the CMB is very sensitive to the conditions of the early Universe and hence a powerful probe of Big Bang Cosmology.
+
 \subsection{CMB-S3}
 	- stage 3 of CMB experiments operating from 2016 to 2020.
 	- n detectors, m detector years
@@ -70,7 +91,7 @@ The causes of B-mode CMB polarisation are new frontiers in physics. There is a s
 \subsubsection{SPT-3G}
 	- South Pole Telescope
 	- n detectors
-	- starting/fishishing dates
+	- starting/finishing dates
 	- area
 	- etc.
 \subsubsection{Advanced ACTPol}
