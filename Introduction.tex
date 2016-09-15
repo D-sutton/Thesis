@@ -5,7 +5,7 @@ $\Lambda$CDM cosmology is very successful at describing the Universe. However th
 A possible answer to this question are primordial magnetic fields (PMFs). PMFs are seed magnetic fields produced in the early Universe sometime before recombination. These weak seed fields - of order nanoguass - could be taken up by galactic dynamos to become the weak magnetic field we see today. So far PMFs remain undetected, but with the next generation of CMB experiments and beyond beginning over the next decade, it is important to know how sensitive these experiments are to the faint traces of PMFs and whether they are able to make a detection.
 The aim of this thesis is to forecast the upper-limits on PMF detections for stage-3 and stage-4-like CMB experiments.
 \\\\
-In this chapter I will begin by discuss the nature of the large-scale magnetic fields and the physics behind their amplification due to galactic dynamos in section 2.1. In section 2.2 I will discuss recent advances in constraining the PMF strength. Next, in section 2.3 I will give a quick review on CMB observables, polarisation and power spectra - which are instrumental in the study of PMFs. Finally in section 2.4 I will discuss CMB-S3 experiments with focus on the SPT-3G and Advanced ACTPol as well as preliminary figures on CMB-S4 experiments.
+In this chapter I will begin by discussing the nature of the large-scale magnetic fields and the physics behind their amplification due to galactic dynamos in section 2.1. In section 2.2 I will discuss recent advances in constraining the PMF strength. Next, in section 2.3 I will give a quick review on CMB observables, polarisation and power spectra - which are instrumental in the study of PMFs. Finally in section 2.4 I will discuss CMB-S3 experiments with focus on the SPT-3G and Advanced ACTPol as well as preliminary figures on CMB-S4 experiments.
 
 \subsection{Large Scale Magnetic Fields}
 
@@ -13,43 +13,45 @@ Galaxy clusters and their resident galaxies are known to possess weak microgauss
 \subsubsection*{Zeeman Splitting}
 \\
 In the presence of magnetic fields, electronic energy levels in molecules and atoms split based on the angular momentum of the electron with respect to the orientation of the magnetic field. As a result, Zeeman splitting causes the spectral lines from distant sources to also split. Splitting of the Hydrogen 21cm line and the OH 18cm line are common probes of magnetic fields in our owng galaxy. Currently Zeeman splitting has given no constraints on the magnetic fields in the ICM. Zeeman splitting has been used to measure the magnetic fields within dense gas clouds around other galaxies, with strengths in the order of 0.5-18mG \cite{Robishaw:2008ti}, however these regions are not representative of the large-scale magnetic fields threading the cosmos.
-\subsubsection*{Synchrotron Emission}
+\subsubsection*{Synchrotron Emissions}
 \\
-As electrons spiral around magnetic fields they emit synchrotron radiation. 
+As electrons and ions spiral around magnetic fields in galaxies and the intracluster medium they emit synchrotron radiation with energies proportional to the strength of the magnetic field and the velocity of the ions.
+\\
+The emissivity of synchrotron radiation is given by:
+\begin{equation}
+j(B_{\bot},\nu) \propto n_0 B_{\bot}^{(1+\alpha)/2} \nu ^{(1-\alpha)/2}
+\end{equation}
+Where $\nu$ is the frequency of the electron's circular motion, $B_{\bot}$ is the magnetic field component perpendicular to the line of sight and $n_0$ is the normalised electron density, given by $n_e dE = n_0 E^{-\alpha} dE$ where E is the energy of the electron and $\alpha$ is the spectral index, the value for which varies from galaxy to galaxy.
+\\
+Synchrotron emissions from nearby galaxies have given constraints on B_{\bot} within the range 4 $\mu G$ to 19 $\mu G$ \cite{Giovannini:2003yn}.
 \subsubsection*{Faraday Rotation}
 \\
-b
+As a polarised photon travels through a magnetised plasma it experiences Faraday Rotation. Magnetised plasmas such as the intracluster medium exhibit different refractive indices for left and right circularly polarised light. Hence, as linearly polarised light propagates through the plasma, its plane of polarisation is rotated by some some angle, $\beta$, given by:
 
-Observations of Zeeman splitting, synchrotron emissions and Faraday rotation in distant galaxies, galaxy clusters and intracluster media reveal weak magnetic fields with strength of order a few microgauss, coherent over the scale of megaparsecs. The origin of these fields is an unsolved problem in $\Lambda$CDM cosmology. Consensus has it that they could not have been produced via an astrophysical processes - such fields would be too weak. Instead there must have been a weak seed field produced at a much earlier time in the Universe. This seed field would be amplified in more recent times by magnetohydrodynamical processes.
+\begin{equation}
+\beta = RM\lambda^2
+\end{equation}
+\\
+where $\lambda$ is the wavelength of the photon and $RM$ is the rotation measure, given by:
+
+\begin{equation}
+RM = \frac{e^3}{2\pi ^2 \epsilon_0 m^2 c^3}\int_{0}^{d} n_e(s) B_{\|}(s) ds
+\end{equation}
+\\
+The angle of rotation therefore depends on the electron density, $n_e$ in the plasma, the component of the magnetic field parallel to the direction of propagation of the photon, $B_{\|}$ and the photon's wavelength, $\lambda$.
 \\\\
-A galactic dynamo is a good candidate for seed amplification. Dynamos are systems that convert kinetic energy into electromagnetic energy. Hot ionised gas rotates around the galactic centre of a galaxy. The ions drag the magnetic field lines along with them, tangling them up and increasing the magnetic flux density, and in addition the magnetic field strength. Hence galactic dynamos are able to amplify a weak seed magnetic field into a stronger magnetic field that we observe today.
+Measurements of Faraday rotation within galaxy clusters have found the magnetic field strength to lie in the range of 0.2 - 3 $\mu G$ \cite{Widrow:2002ud}. In additon, Faraday rotation measurements yield magnetic field strengths in galaxies as 4 - 6 $\mu G$ for spiral galaxies and 6 - 8 $\mu G$ in elliptical and irregular galaxies \cite{Widrow:2002ud}.
 
-
-
-
-\iffalse
-> What?
-	- weak magnetic fields coherent over kilo to megaparsec scales
-	- evidence: Faraday rotation + synchrotron emission + zeeman effect
-	- currently unknown how they originated
-> How?
-	- hydrodynamics
-	- stars
-	- pmfs
-\fi
-\subsection{Primordial Magnetic Fields}
-
-The seed magnetic fields required to form the large-scale magnetic fields we see in the Universe today may have been primordial magnetic fields (PMFs). At some point in the evolution of the Universe a weak magnetic field with a strength less than a few nanogauss may have been produced. Recent work from PLANCK (2015) has constrained the primordial magnetic field strength coherent over 1 Mpc to $B_{1Mpc}$ $<$ 4.4nG. In 2016 POLARBEAR modestly improved this constraint to $B_{1Mpc}$ $<$ 3.9nG.
-
-\iffalse
-	- seed magnetic field produced in the early universe
-	- undetected
-	- predicted magnitude of < 1 nG.
-	- evolves through magnetohydrodynamical processes
-\fi
+\subsubsection*{Galactic Dynamos}
+\\
+On their own, seed magnetic fields such as PMFs are too weak (of order nanoguass) to give rise to the magnetic fields we see in the cosmos today. There must be a process for amplifying the seed magnetic fields. \\Galactic dynamos are good candidates for seed magnetic field amplifiers. Dynamos are systems that convert kinetic energy into electromagnetic energy. Hot ionised gas rotates around the galactic centre of a galaxy. The ions drag the magnetic field lines along with them, tangling them up and increasing the magnetic flux density, and in addition the magnetic field strength. Hence galactic dynamos are able to amplify a weak seed magnetic field into a stronger magnetic field that we observe today.
 
 \subsection{CMB Polarisation}
-At the time of the reionisation electrons and photons were decoupling and the Universe was becoming transparent to light. The first light that emerged would become the CMB that we know and love. In this electron-photon fluid, Thomson scattering was a frequent interaction. Thomson scattering is a QED process where a photon scatters off an electron, with a new polarisation parallel to the initial polarisation yet perpendicular to the incident photons momentum.
+In the last decade CMB polarisation has proven a powerful tool for studying large scale strucutre and the early Universe. If PMFs did in fact exist, then their traces ought to be found within the CMB polarisation.
+
+The CMB and its polarisation first arose 
+
+At the time of the recombination. Electrons and photons were decoupling and the Universe was becoming transparent to light. The first light that emerged would become the CMB that we know and love. In this electron-photon fluid, Thomson scattering was a frequent interaction. Thomson scattering is a QED process where a photon scatters off an electron, with a new polarisation parallel to the initial polarisation yet perpendicular to the incident photons momentum.
 	Polarisation of the CMB indicates that it must be anisotropic. Were the CMB isotropic then Thomson scattering would have had no preferred polarisation and hence the individual polarisations of each photon would cancel out on the large scale. In particular, the CMB polarisation is caused by a quadrupolar anisotropy in the temperature of the early Universe \cite{Hu:1997hv}. Around an electron at the time of the CMB there are two hotter regions and two cooler regions. Photons approaching from the hotter region impart their polarisation more strongly than those from cooler regions, producing net polarisations over patches of the sky.
 
 \begin{figure}[h]
@@ -96,6 +98,18 @@ The angular power spectrum is then defined as:
 C_{\ell} = \frac{1}{2\ell + 1} \sum_{m = -\ell}^{\ell} \vert a_{\ell m} \vert ^2
 \end{equation}
 The $C_{\ell}$s are functions of the angular scales, $\ell$. The angular power sprectrum of the CMB is very sensitive to the conditions of the early Universe and hence a powerful probe of Big Bang Cosmology.
+
+\subsection{Primordial Magnetic Fields}
+
+The seed magnetic fields required to form the large-scale magnetic fields we see in the Universe today may have been primordial magnetic fields (PMFs). At some point in the evolution of the Universe a weak magnetic field with a strength less than a few nanogauss may have been produced. Recent work from PLANCK (2015) has constrained the primordial magnetic field strength coherent over 1 Mpc to $B_{1Mpc}$ $<$ 4.4nG. In 2016 POLARBEAR modestly improved this constraint to $B_{1Mpc}$ $<$ 3.9nG.
+
+\iffalse
+	- seed magnetic field produced in the early universe
+	- undetected
+	- predicted magnitude of < 1 nG.
+	- evolves through magnetohydrodynamical processes
+\fi
+
 
 \subsection{CMB-S3}
 	- stage 3 of CMB experiments operating from 2016 to 2020.

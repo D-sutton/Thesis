@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.7.29)  13 SEP 2016 14:42
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.7.29)  15 SEP 2016 16:10
 entering extended mode
  %&-line parsing enabled.
 **report2.tex
@@ -674,10 +674,6 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-LaTeX Warning: Citation `Robishaw:2008ti' on page 4 undefined on input line 15.
-
-
-
 ! LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -685,7 +681,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.18 A
-      s electrons move in circular paths they give off synchrotron radiation...
+      s electrons and ions spiral around magnetic fields in galaxies and the...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -694,6 +690,26 @@ or  <return>  to continue without it.
 [4
 
 ]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.26 ...arby galaxies have given constraints on B_
+                                                  {\bot} within the range 4 ...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.26 ...raints on B_{\bot} within the range 4 $\mu
+                                                   G$ to 19 $\mu G$ \cite{Gi...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+LaTeX Warning: Citation `Giovannini:2003yn' on page 5 undefined on input line 2
+6.
+
 
 ! LaTeX Error: There's no line here to end.
 
@@ -701,62 +717,91 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.21 b
-      
+l.29 A
+      s a polarised photon travels through a magnetised plasma it experience...
+
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--26
+Underfull \hbox (badness 10000) in paragraph at lines 39--44
 
  []
 
-[5] <images/thomson.png, id=24, 744.7825pt x 721.69624pt>
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47 O
+      n their own, seed magnetic fields such as PMFs are too weak (of order ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[5] <images/thomson.png, id=27, 744.7825pt x 721.69624pt>
 File: images/thomson.png Graphic file (type png)
 
-<use images/thomson.png> [6 <./images/thomson.png (PNG copy)>]
-<images/modes.png, id=28, 67.452pt x 62.634pt>
+<use images/thomson.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[6] <images/modes.png, id=31, 67.452pt x 62.634pt>
 File: images/modes.png Graphic file (type png)
- <use images/modes.png> [7 <./images/modes.png>]) [8]
+ <use images/modes.png>
+[7 <./images/thomson.png (PNG copy)>] [8 <./images/modes.png>]) [9]
 \openout2 = `Theory.aux'.
 
- (./Theory.tex) [9
+
+(./Theory.tex) [10
 
 
 ]
 \openout2 = `Method.aux'.
 
- (./Method.tex) [10
+ (./Method.tex
+Underfull \hbox (badness 10000) in paragraph at lines 6--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--21
+
+ []
+
+) [11
 
 
 ]
 \openout2 = `Forecasts.aux'.
 
- (./Forecasts.tex)
-[11
+ (./Forecasts.tex) [12
 
 
 ]
 \openout2 = `Conclusion.aux'.
 
- (./Conclusion.tex) [12
+ (./Conclusion.tex) [13
 
 
-] (./report2.bbl) [13
+] (./report2.bbl) [14
 
-] (./report2.aux
-(./Abstract.aux) (./Introduction.aux) (./Theory.aux) (./Method.aux)
-(./Forecasts.aux) (./Conclusion.aux))
+]
+(./report2.aux (./Abstract.aux) (./Introduction.aux) (./Theory.aux)
+(./Method.aux) (./Forecasts.aux) (./Conclusion.aux))
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 2483 strings out of 493848
- 31315 string characters out of 1152823
- 88115 words of memory out of 3000000
- 5692 multiletter control sequences out of 15000+50000
+ 2480 strings out of 493848
+ 31277 string characters out of 1152823
+ 88110 words of memory out of 3000000
+ 5689 multiletter control sequences out of 15000+50000
  12750 words of font info for 49 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  27i,6n,32p,813b,255s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -770,9 +815,9 @@ m/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb>
 exmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texliv
 e/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type
 1/public/amsfonts/cm/cmti12.pfb>
-Output written on report2.pdf (13 pages, 375221 bytes).
+Output written on report2.pdf (14 pages, 381272 bytes).
 PDF statistics:
- 94 PDF objects out of 1000 (max. 8388607)
+ 97 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
