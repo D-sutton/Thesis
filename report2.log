@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.7.29)  15 SEP 2016 16:10
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.7.29)  17 SEP 2016 11:11
 entering extended mode
  %&-line parsing enabled.
 **report2.tex
@@ -690,22 +690,6 @@ or  <return>  to continue without it.
 [4
 
 ]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.26 ...arby galaxies have given constraints on B_
-                                                  {\bot} within the range 4 ...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.26 ...raints on B_{\bot} within the range 4 $\mu
-                                                   G$ to 19 $\mu G$ \cite{Gi...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
 
 LaTeX Warning: Citation `Giovannini:2003yn' on page 5 undefined on input line 2
 6.
@@ -718,7 +702,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.29 A
-      s a polarised photon travels through a magnetised plasma it experience...
+      s a polarised photon travels through a magnetised plasma it undergoes ...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -743,21 +727,58 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[5] <images/thomson.png, id=27, 744.7825pt x 721.69624pt>
-File: images/thomson.png Graphic file (type png)
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 50--53
 
-<use images/thomson.png>
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 \\T
+        he polarisation of the CMB first arose due to quadrupolar temperatur...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<images/thomson.png, id=27, 744.7825pt x 721.69624pt>
+File: images/thomson.png Graphic file (type png)
+ <use images/thomson.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [6] <images/modes.png, id=31, 67.452pt x 62.634pt>
 File: images/modes.png Graphic file (type png)
  <use images/modes.png>
-[7 <./images/thomson.png (PNG copy)>] [8 <./images/modes.png>]) [9]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.81 T
+      he CMB angular power spectrum is defined as:
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[7 <./images/thomson.png (PNG copy)>]
+
+LaTeX Warning: Citation `Ade:2015cva' on page 8 undefined on input line 95.
+
+
+LaTeX Warning: Citation `Ade:2015cao' on page 8 undefined on input line 95.
+
+[8 <./images/modes.png>]) [9]
 \openout2 = `Theory.aux'.
 
-
-(./Theory.tex) [10
+ (./Theory.tex) [10
 
 
 ]
@@ -798,26 +819,25 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 2480 strings out of 493848
- 31277 string characters out of 1152823
- 88110 words of memory out of 3000000
- 5689 multiletter control sequences out of 15000+50000
+ 2482 strings out of 493848
+ 31303 string characters out of 1152823
+ 88107 words of memory out of 3000000
+ 5691 multiletter control sequences out of 15000+50000
  12750 words of font info for 49 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  27i,6n,32p,813b,255s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sha
 re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-te
 xlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-texlive/fonts
-/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-texlive/fonts/type1/publi
-c/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
-m/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/t
-exmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texliv
-e/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type
-1/public/amsfonts/cm/cmti12.pfb>
-Output written on report2.pdf (14 pages, 381272 bytes).
+/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/publi
+c/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
+m/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb><
+/usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/
+texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texliv
+e/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on report2.pdf (14 pages, 369796 bytes).
 PDF statistics:
- 97 PDF objects out of 1000 (max. 8388607)
+ 93 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
