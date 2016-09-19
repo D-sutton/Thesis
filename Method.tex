@@ -6,23 +6,39 @@ The elements of the Fisher matrix are defined as:
 \end{equation}
 where $\mathcal{L}$ is the likelihood and $p^{i}$, $p^{j}$ are the $i^{th}$ and $j^{th}$ model parameters.
 \\\\
-The Fisher matrix is a powerful tool in experimental design, used for forecasting the upper limits on the precision of an experiment. 
-
-
-
-
-
-
-
-
-This property comes as a result of the Cram\`{e}r-Rao theorem.
-\\\\
-The Cram\`{e}r-Rao theorem states that the variance of an unbiased estimator, p is greater than or equal to the reciprocal of its Fisher information. The Cram\`{e}r-Rao bound can be expressed as:
+If the Fisher matrix is non-singular then it can be inverted into a covariance matrix for the model parameters. This result follows from the Cram\`{e}r-Rao theorem, which states that the variance of some unbiased estimator, p is greater than or equal to the inverse of its Fisher information. The Fisher information of a model parameter is given by:
 
 \begin{equation}
-var(p) \geq \frac{1}{\langle (\frac{\partial ln(\mathcal{L}(p \vert x))}{\partial p})^2 \rangle}
+F = - \langle \frac{\partial^{2}ln{\mathcal{L}}}{{\partial p}^2} \rangle
 \end{equation}
-Where $\langle (\frac{\partial ln(\mathcal{L}(p \vert x))}{\partial p})^2 \rangle$ is defined as the Fisher information.
+
+Since the Fisher matrix can be inverted into a covariance matrix over the model parameters, it is a powerful tool in experimental design used for forecasting the upper limits on the precision of an experiment. The Fisher matrix has a number of useful properties:
+
+\begin{enumerate}
+\* Linearity under addition: Adding n Fisher matrices returns a new Fisher matrix which can be inverted into a new covariance matrix with tighter constraints. This result is especially useful when you wish to know the total accuracy of combining many different experiments.
+$$ (\mathcal{F}_{1} + \mathcal{F}_{2} + ... + \mathcal{F}_{n})^{-1} = (\mathcal{F}_{1+2+...+n})^{-1} $$
+
+As a corollary, the Fisher matrix can be multiplied by a scalar, which is useful when you want to know the effect of repeating your experiment or adding more instances of the same design.
+
+Furthermore, one can use this property to add priors to your design: suppose we know that one model parameter has been well-constrained in the past and our experiment isn't set to improve upon this result. We can combine the prior result with our current Fisher matrix to provide tighter constraints
+
+\* Marginalisation over variables
+
+\end{enumerate}
+
+
+
+
+
+Usually, the Fisher matrix is found by calculating the log-likelihood for the model parameters. This is done by making likelihood chains in Markov-chain-Monte-Carlo simulations however this is not the only approach. If your model parameters are unbiased and Gaussian distributed then, the following definition for the Fisher matrix holds:
+
+\begin{equation}
+F_{ij} = \frac{\partial f}{\partial p^i} C^{-1} \frac{\partial f}{\partial p^j}
+\end{equation}
+
+where f is the function that relates model parameters to:...
+
+In order to forecast for an experiment we need simply invert the Fisher matrix.
 
 
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.7.29)  17 SEP 2016 11:11
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.7.29)  19 SEP 2016 11:42
 entering extended mode
  %&-line parsing enabled.
 **report2.tex
@@ -775,7 +775,64 @@ LaTeX Warning: Citation `Ade:2015cva' on page 8 undefined on input line 95.
 
 LaTeX Warning: Citation `Ade:2015cao' on page 8 undefined on input line 95.
 
-[8 <./images/modes.png>]) [9]
+! Missing } inserted.
+<inserted text> 
+                }
+l.100 ...ise \propto ({\sqrt{n_{detectors}})^{-1}$
+                                                  $ Each stage of CMB experi...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[8 <./images/modes.png>] <images/experiments.png, id=41, 509.905pt x 401.5pt>
+File: images/experiments.png Graphic file (type png)
+
+<use images/experiments.png>
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 109.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.114 Experiment & Stage & N_
+                             {bolometers} & Noise (Temperature) & Noise(pola...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.114 Experiment & Stage & N_{bolometers} &
+                                            Noise (Temperature) & Noise(pola...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.114 Experiment & Stage & N_{bolometers} &
+                                            Noise (Temperature) & Noise(pola...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.114 Experiment & Stage & N_{bolometers} &
+                                            Noise (Temperature) & Noise(pola...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+) [9 <./images/experiments.png>]
 \openout2 = `Theory.aux'.
 
  (./Theory.tex) [10
@@ -790,42 +847,49 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--10
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 18--21
+! LaTeX Error: Something's wrong--perhaps a missing \item.
 
- []
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 \end{enumerate}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 ) [11
 
 
-]
+] [12]
 \openout2 = `Forecasts.aux'.
 
- (./Forecasts.tex) [12
+ (./Forecasts.tex) [13
 
 
 ]
 \openout2 = `Conclusion.aux'.
 
- (./Conclusion.tex) [13
+ (./Conclusion.tex) [14
 
 
-] (./report2.bbl) [14
+] (./report2.bbl)
+[15
 
-]
-(./report2.aux (./Abstract.aux) (./Introduction.aux) (./Theory.aux)
+] (./report2.aux (./Abstract.aux) (./Introduction.aux) (./Theory.aux)
 (./Method.aux) (./Forecasts.aux) (./Conclusion.aux))
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 2482 strings out of 493848
- 31303 string characters out of 1152823
- 88107 words of memory out of 3000000
- 5691 multiletter control sequences out of 15000+50000
+ 2489 strings out of 493848
+ 31441 string characters out of 1152823
+ 88115 words of memory out of 3000000
+ 5697 multiletter control sequences out of 15000+50000
  12750 words of font info for 49 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 27i,6n,32p,813b,255s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,9n,32p,813b,255s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sha
 re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-te
 xlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-texlive/fonts
@@ -835,9 +899,9 @@ m/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb><
 /usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/
 texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texliv
 e/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on report2.pdf (14 pages, 369796 bytes).
+Output written on report2.pdf (15 pages, 386061 bytes).
 PDF statistics:
- 93 PDF objects out of 1000 (max. 8388607)
+ 97 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
