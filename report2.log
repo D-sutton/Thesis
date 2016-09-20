@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.7.29)  19 SEP 2016 11:42
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.7.29)  20 SEP 2016 13:13
 entering extended mode
  %&-line parsing enabled.
 **report2.tex
@@ -770,15 +770,15 @@ or  <return>  to continue without it.
 
 [7 <./images/thomson.png (PNG copy)>]
 
-LaTeX Warning: Citation `Ade:2015cva' on page 8 undefined on input line 95.
+LaTeX Warning: Citation `Ade:2015cva' on page 8 undefined on input line 94.
 
 
-LaTeX Warning: Citation `Ade:2015cao' on page 8 undefined on input line 95.
+LaTeX Warning: Citation `Ade:2015cao' on page 8 undefined on input line 94.
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.100 ...ise \propto ({\sqrt{n_{detectors}})^{-1}$
+l.99 ...oise \propto ({\sqrt{n_{detectors}})^{-1}$
                                                   $ Each stage of CMB experi...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -792,12 +792,12 @@ File: images/experiments.png Graphic file (type png)
 <use images/experiments.png>
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 109.
+               Default added (so using `tbp') on input line 108.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.114 Experiment & Stage & N_
+l.113 Experiment & Stage & N_
                              {bolometers} & Noise (Temperature) & Noise(pola...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -805,7 +805,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <template> \unskip \hfil }
                           \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.114 Experiment & Stage & N_{bolometers} &
+l.113 Experiment & Stage & N_{bolometers} &
                                             Noise (Temperature) & Noise(pola...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -816,7 +816,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.114 Experiment & Stage & N_{bolometers} &
+l.113 Experiment & Stage & N_{bolometers} &
                                             Noise (Temperature) & Noise(pola...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -824,7 +824,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.114 Experiment & Stage & N_{bolometers} &
+l.113 Experiment & Stage & N_{bolometers} &
                                             Noise (Temperature) & Noise(pola...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -899,7 +899,7 @@ m/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb><
 /usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/
 texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texliv
 e/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on report2.pdf (15 pages, 386061 bytes).
+Output written on report2.pdf (15 pages, 389035 bytes).
 PDF statistics:
  97 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
