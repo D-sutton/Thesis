@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.7.29)  20 SEP 2016 13:13
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.7.29)  21 SEP 2016 15:09
 entering extended mode
  %&-line parsing enabled.
 **report2.tex
@@ -792,12 +792,12 @@ File: images/experiments.png Graphic file (type png)
 <use images/experiments.png>
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 108.
+               Default added (so using `tbp') on input line 109.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.113 Experiment & Stage & N_
+l.114 Experiment & Stage & N_
                              {bolometers} & Noise (Temperature) & Noise(pola...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -805,7 +805,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <template> \unskip \hfil }
                           \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.113 Experiment & Stage & N_{bolometers} &
+l.114 Experiment & Stage & N_{bolometers} &
                                             Noise (Temperature) & Noise(pola...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -816,7 +816,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.113 Experiment & Stage & N_{bolometers} &
+l.114 Experiment & Stage & N_{bolometers} &
                                             Noise (Temperature) & Noise(pola...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -824,7 +824,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.113 Experiment & Stage & N_{bolometers} &
+l.114 Experiment & Stage & N_{bolometers} &
                                             Noise (Temperature) & Noise(pola...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -832,10 +832,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-) [9 <./images/experiments.png>]
+) [9 <./images/experiments.png>] [10]
 \openout2 = `Theory.aux'.
 
- (./Theory.tex) [10
+ (./Theory.tex) [11
 
 
 ]
@@ -858,23 +858,23 @@ l.27 \end{enumerate}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-) [11
+) [12
 
 
-] [12]
+] [13]
 \openout2 = `Forecasts.aux'.
 
- (./Forecasts.tex) [13
+ (./Forecasts.tex) [14
 
 
 ]
 \openout2 = `Conclusion.aux'.
 
- (./Conclusion.tex) [14
+ (./Conclusion.tex) [15
 
 
 ] (./report2.bbl)
-[15
+[16
 
 ] (./report2.aux (./Abstract.aux) (./Introduction.aux) (./Theory.aux)
 (./Method.aux) (./Forecasts.aux) (./Conclusion.aux))
@@ -885,7 +885,7 @@ LaTeX Warning: There were undefined references.
 Here is how much of TeX's memory you used:
  2489 strings out of 493848
  31441 string characters out of 1152823
- 88115 words of memory out of 3000000
+ 88116 words of memory out of 3000000
  5697 multiletter control sequences out of 15000+50000
  12750 words of font info for 49 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
@@ -899,9 +899,9 @@ m/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb><
 /usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/
 texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texliv
 e/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on report2.pdf (15 pages, 389035 bytes).
+Output written on report2.pdf (16 pages, 390683 bytes).
 PDF statistics:
- 97 PDF objects out of 1000 (max. 8388607)
+ 100 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
