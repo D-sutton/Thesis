@@ -1,12 +1,12 @@
 \contentsline {section}{\numberline {1}Introduction}{4}
 \contentsline {subsection}{\numberline {1.1}Large Scale Magnetic Fields}{4}
 \contentsline {subsection}{\numberline {1.2}CMB Polarisation}{6}
-\contentsline {subsection}{\numberline {1.3}Primordial Magnetic Fields}{8}
+\contentsline {subsection}{\numberline {1.3}Primordial Magnetic Fields}{7}
 \contentsline {subsection}{\numberline {1.4}Future CMB experiments}{8}
-\contentsline {section}{\numberline {2}PMF Theory}{11}
-\contentsline {subsection}{\numberline {2.1}Biermann Batteries}{11}
-\contentsline {subsection}{\numberline {2.2}Other Methods of PMF Generation}{11}
-\contentsline {subsection}{\numberline {2.3}Effect of PMFs on the Cosmic Microwave Background}{11}
+\contentsline {section}{\numberline {2}PMF Theory}{10}
+\contentsline {subsection}{\numberline {2.1}Biermann Batteries}{10}
+\contentsline {subsection}{\numberline {2.2}Other Methods of PMF Generation}{10}
+\contentsline {subsection}{\numberline {2.3}Effect of PMFs on the Cosmic Microwave Background}{10}
 \contentsline {subsection}{\numberline {2.4}Other effects of PMFs}{11}
 \contentsline {subsection}{\numberline {2.5}Cosmic Birefringence}{11}
 \contentsline {section}{\numberline {3}Method}{12}
