@@ -27,26 +27,45 @@ Biermann batteries are also predicted to occur at later times in the Universe
 
 \subsection{Other Methods of PMF Generation}
 
-\begin{itemize}
-\item QCD
-\item Inflation
-\item I really need to read up on this stuff.
-\end{itemize}
+\subsubsection*{Inflation}
+Cosmic inflation is an attactive model for PMF generation. During inflation the Universe isn't yet an ionised plasma. This means that the Universe is not a good conductor.
+
+The rapid expansion of the Universe in this epoch stretches out modes. Inflation stretches out quantum fluctuations into large scale density perturbations which seed the structure of the Universe. Similarly, inflation could stretch out small, weak magnetic fields to megaparsec scales as required.
+
+A problem for this model is that it requires inflation to break conformal symmetry to produce this weak seed field initially. There are many models for how this could work. See X for a list of references.
+\subsubsection*{Phase Transitions}
+PMFs may have also been produced by early phase transitions, such as the QCD transition or the electroweak phase transition. During a phase transition bubbles of the new phase form within the previous phase, these bubbles grow and collide until the entire Universe reaches the lower phase. These phase transitions bring on non-equilibrium processes such as leptogenesis and baryogenesis, which may be responsible for producing some weak magnetic fields. Within a phase transition, a collision between bubbles will produce turbulence leading to dynamos which will serve to spin up the magnetic fields into the strengths required to match the field strengths observed today.
 
 \subsection{Effect of PMFs on the Cosmic Microwave Background}
-If PMFs have a field strength ~1nG then their signatures will be detectable in the CMB B-mode polarisation power spectrum. Just as extragalactic magnetic fields Farday rotate radio and X-ray signals, PMFs would induce Faraday rotation on CMB polarisation. The net effect is that a fraction of E-mode polarisation would be transformed into B-mode polarisation.
+If PMFs have a field strength ~1nG then their signatures will be detectable in the CMB B-mode polarisation power spectrum. Just as extragalactic magnetic fields Farday rotate radio and X-ray signals, PMFs would induce Faraday rotation within CMB polarisation. The net effect is that a fraction of E-mode polarisation would be transformed into B-mode polarisation.
+
+The PMF power spectrum is given by:
+\begin{equation}
+P(k) = A_{PMF}k^{n_B}
+\end{equation}
+Where $A_{PMF}$ is the PMF amplitude and $n_{B}$ is the PMF spectral index. Since the scale of the PMF power spectrum will depend on the age of the Universe when they first formed, the spectral index is sensitive to the mechanism that first produced PMFs. If $n_{B}$...
+In order to measure the strength of PMFs we focus our attention to the amplitude, $A_{PMF}$. The PMF amplitude is related to $B_{1Mpc}$, the strength of PMFs coherent over 1 megaparsec by the following relation:
+\begin{equation}
+A_{PMF} \propto B_{1Mpc}^4
+\end{equation}
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.75]{images/PMFpower.png} 
+\caption{}
+\end{figure}
+
 
 \begin{itemize}
-\item PMF polarisation power spectrum
-\item Measurable quantity, $A_pmf$ $\propto$ $B_1mpc^4$
-\item previous constraints from PLANCK and POLARBEAR (transplant from intro)
 \item How distinguish effects of pmfs from primordial gravity waves
 \item Neat.
 
 \end{itemize}
 
 \subsection{Other effects of PMFs}
-see lit review or talk for:
+
+\subsubsection*{Large Scale Structure}
+
 
 \begin{itemize}
 \item large scale structure: $\Omega_8$
@@ -62,13 +81,22 @@ see lit review or talk for:
 \item Weak constraints, Yamazaki in 2012 cites B_1mpc < 1.5 $\mu G$, which isn't very telling.
 \end{itemize}
 
-\subsection{Cosmic Birefringence}
-Measuring a conversion of E-mode power to B-mode power consistent with expected PMF effects doesn't strictly confirm the existence of PMFs. PMFs are not the only mechanism that could rotate the polarisation of 
-\begin{itemize}
-\item Birefrengent materials have different refractive indices for left and right circular polarisation - harkens back to faraday rotation
-\item Space may be intrinsically birefringent
-\item Hint of new physics: New pseudoscalar coupling between photons and dark energy: Quintessence models.
-\item Can be quantified in terms of an effective primordial magnetic field
-\end{itemize}
+
+
+\subsection{Other Sources of Cosmic Birefringence}
+The rotation of E-mode polarisation to B-mode polarisation is not a phenomenon unique to PMFs. Another mechanism for this effect may be quintessence. Quintessence is an alternative explanation to the cosmological constant for the accelerating expansion of the Universe. It argues that there may exist a long-range pseudoscalar field that can very weakly couple to baryons. The interaction is described by the Chern-Simmons term:
+\begin{equation}
+\mathcal{L} \propto \frac{\phi}{2M}F_{\mu \nu}\tilde{F}^{\mu \nu}
+\end{equation}
+\\
+Where $\phi$ is the pseudoscalar field and M is the mass of the field boson. If photons couple to this field, then their polarisation will be rotated, just as they would if there were a PMF. The rotation angle due to the pseudoscalar field is given by:
+\begin{equation}
+\alpha = \frac{1}{M} \int{d\eta \dot{\phi}}
+\end{equation}
+Where $\dot{\phi}$ is integrated over the conformal time $\eta$
+
+Currently we constrain the effects of cosmic birefringence with an equivalent effective PMF, however by comparing the two-point and four-point correlation functions it is possible to differentiate between effects due to PMFs and effects due to conjectured quintessence models. \cite{Ade:2015cao}
+
+
 
 

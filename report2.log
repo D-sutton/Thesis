@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.7.29)  23 SEP 2016 16:26
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.7.29)  27 SEP 2016 15:46
 entering extended mode
  %&-line parsing enabled.
 **report2.tex
@@ -691,10 +691,6 @@ or  <return>  to continue without it.
 
 ]
 
-LaTeX Warning: Citation `Giovannini:2003yn' on page 5 undefined on input line 2
-6.
-
-
 ! LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -730,14 +726,7 @@ or  <return>  to continue without it.
 <images/dynamos_beck.png, id=18, 375.65344pt x 228.10219pt>
 File: images/dynamos_beck.png Graphic file (type png)
 
-<use images/dynamos_beck.png>
-
-LaTeX Warning: Citation `Beck:1996' on page 5 undefined on input line 51.
-
-
-LaTeX Warning: Citation `Beck:1996' on page 5 undefined on input line 51.
-
-[5]
+<use images/dynamos_beck.png> [5]
 Underfull \hbox (badness 10000) in paragraph at lines 54--57
 
  []
@@ -762,14 +751,7 @@ File: images/thomson.png Graphic file (type png)
  <use images/thomson.png>
 <images/modes.png, id=34, 67.452pt x 62.634pt>
 File: images/modes.png Graphic file (type png)
- <use images/modes.png>
-
-LaTeX Warning: Citation `Ade:2015cva' on page 7 undefined on input line 84.
-
-
-LaTeX Warning: Citation `Ade:2015cao' on page 7 undefined on input line 84.
-
-[7 <./images/thomson.png (PNG copy)>]
+ <use images/modes.png> [7 <./images/thomson.png (PNG copy)>]
 ! Missing } inserted.
 <inserted text> 
                 }
@@ -787,21 +769,21 @@ File: images/experiments.png Graphic file (type png)
 <use images/experiments.png>
 
 LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 126.
+               Default added (so using `tbp') on input line 124.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.131 Experiment & Stage & N_
-                             {bolo} & Scan Area ($deg^{2}$)& Temperature Noi...
+l.129 Experiment & Stage & N_
+                             {bolo} & Scan Area ($deg^{2}$)& Polarisation No...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
 <template> \unskip \hfil }
                           \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.131 Experiment & Stage & N_{bolo} &
-                                      Scan Area ($deg^{2}$)& Temperature Noi...
+l.129 Experiment & Stage & N_{bolo} &
+                                      Scan Area ($deg^{2}$)& Polarisation No...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -811,48 +793,21 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.131 Experiment & Stage & N_{bolo} &
-                                      Scan Area ($deg^{2}$)& Temperature Noi...
+l.129 Experiment & Stage & N_{bolo} &
+                                      Scan Area ($deg^{2}$)& Polarisation No...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.131 Experiment & Stage & N_{bolo} &
-                                      Scan Area ($deg^{2}$)& Temperature Noi...
+l.129 Experiment & Stage & N_{bolo} &
+                                      Scan Area ($deg^{2}$)& Polarisation No...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
-
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.131 ...($deg^{2}$)& Temperature Noise ($\mu$K) &
-                                                   Noise(polarisation) ($\mu...
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-! Extra alignment tab has been changed to \cr.
-<template> \endtemplate 
-                        
-l.132 ...{1}{c|}{1536} & \multicolumn{1}{c|}{14} &
-                                                   \multicolumn{1}{c}{20} \\
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-! Extra alignment tab has been changed to \cr.
-<template> \endtemplate 
-                        
-l.133 ...1}{c|}{2500} & \multicolumn{1}{c|}{3.4} &
-                                                   \multicolumn{1}{c}{4.8} \\
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
 
 ) [8 <./images/modes.png>] [9 <./images/experiments.png>]
 \openout2 = `Theory.aux'.
@@ -869,10 +824,13 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 
 
 ]
+<images/PMFpower.png, id=50, 601.24625pt x 457.71pt>
+File: images/PMFpower.png Graphic file (type png)
+ <use images/PMFpower.png>
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.62 ...eak constraints, Yamazaki in 2012 cites B_
+l.78 ...eak constraints, Yamazaki in 2012 cites B_
                                                   1mpc < 1.5 $\mu G$, which ...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -880,12 +838,12 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.62 ..., Yamazaki in 2012 cites B_1mpc < 1.5 $\mu
+l.78 ..., Yamazaki in 2012 cites B_1mpc < 1.5 $\mu
                                                    G$, which isn't very tell...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-) [11]
+[11] [12 <./images/PMFpower.png (PNG copy)>]) [13]
 \openout2 = `Method.aux'.
 
  (./Method.tex
@@ -905,53 +863,48 @@ l.27 \end{enumerate}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-) [12
+) [14
 
 
-] [13]
+] [15]
 \openout2 = `Forecasts.aux'.
 
- (./Forecasts.tex) [14
+ (./Forecasts.tex) [16
 
 
 ]
 \openout2 = `Conclusion.aux'.
 
- (./Conclusion.tex) [15
+ (./Conclusion.tex) [17
 
 
 ] (./report2.bbl)
-[16
+[18
 
 ] (./report2.aux (./Abstract.aux) (./Introduction.aux) (./Theory.aux)
-(./Method.aux) (./Forecasts.aux) (./Conclusion.aux))
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+(./Method.aux) (./Forecasts.aux) (./Conclusion.aux)) ) 
 Here is how much of TeX's memory you used:
- 2512 strings out of 493848
- 31861 string characters out of 1152823
- 89116 words of memory out of 3000000
- 5716 multiletter control sequences out of 15000+50000
+ 2517 strings out of 493848
+ 31968 string characters out of 1152823
+ 89130 words of memory out of 3000000
+ 5720 multiletter control sequences out of 15000+50000
  12750 words of font info for 49 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  27i,9n,32p,813b,255s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sha
-re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-te
-xlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-texlive/fonts
-/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/publi
-c/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
-m/cmr17.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb><
-/usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/
-texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texliv
-e/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on report2.pdf (16 pages, 414851 bytes).
+</usr/share/texmf-texlive
+/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/type
+1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-texlive/fonts/type1/public/am
+sfonts/cm/cmmi12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/c
+mmi6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></u
+sr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/tex
+mf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/f
+onts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/pu
+blic/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfon
+ts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12
+.pfb>
+Output written on report2.pdf (18 pages, 473172 bytes).
 PDF statistics:
- 102 PDF objects out of 1000 (max. 8388607)
+ 113 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

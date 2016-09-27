@@ -8,44 +8,54 @@ A level-1 auxiliary file: Forecasts.aux
 A level-1 auxiliary file: Conclusion.aux
 The style file: ieeetr.bst
 Database file #1: references.bib
-You've used 3 entries,
+Unbalanced braces---line 192 of file references.bib
+ : 
+ : }
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--empty title in Beck:1996
+Warning--empty journal in Beck:1996
+Warning--empty year in Beck:1996
+Warning--empty journal in Ade:2015cva
+You've used 7 entries,
             1876 wiz_defined-function locations,
-            506 strings with 3926 characters,
-and the built_in function-call counts, 790 in all, are:
-= -- 79
-> -- 23
+            529 strings with 4410 characters,
+and the built_in function-call counts, 1706 in all, are:
+= -- 163
+> -- 60
 < -- 0
-+ -- 9
-- -- 6
-* -- 49
-:= -- 116
-add.period$ -- 3
-call.type$ -- 3
-change.case$ -- 3
++ -- 23
+- -- 16
+* -- 105
+:= -- 243
+add.period$ -- 6
+call.type$ -- 7
+change.case$ -- 6
 chr.to.int$ -- 0
-cite$ -- 3
-duplicate$ -- 47
-empty$ -- 73
-format.name$ -- 6
-if$ -- 199
+cite$ -- 11
+duplicate$ -- 103
+empty$ -- 161
+format.name$ -- 16
+if$ -- 425
 int.to.chr$ -- 0
-int.to.str$ -- 3
-missing$ -- 3
-newline$ -- 12
-num.names$ -- 3
-pop$ -- 8
+int.to.str$ -- 7
+missing$ -- 7
+newline$ -- 24
+num.names$ -- 7
+pop$ -- 27
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 35
+skip$ -- 73
 stack$ -- 0
-substring$ -- 40
-swap$ -- 23
+substring$ -- 80
+swap$ -- 45
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
-while$ -- 7
-width$ -- 4
-write$ -- 32
+warning$ -- 4
+while$ -- 14
+width$ -- 8
+write$ -- 64
+(There was 1 error message)
