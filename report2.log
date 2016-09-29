@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.7.29)  27 SEP 2016 15:46
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.7.29)  29 SEP 2016 15:28
 entering extended mode
  %&-line parsing enabled.
 **report2.tex
@@ -156,8 +156,11 @@ File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
 \Gin@req@height=\dimen120
 \Gin@req@width=\dimen121
 ) (./report2.aux
-(./Abstract.aux) (./Introduction.aux) (./Theory.aux) (./Method.aux)
-(./Forecasts.aux) (./Conclusion.aux))
+(./Abstract.aux) (./Introduction.aux) (./Theory.aux) (./Method.aux
+
+LaTeX Warning: Label `my-label' multiply defined.
+
+) (./Forecasts.aux) (./Conclusion.aux))
 \openout1 = `report2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
@@ -268,7 +271,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.27 \makeindex
+l.26 \makeindex
                
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -745,13 +748,17 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[6 <./images/dynamos_beck.png>]
-<images/thomson.png, id=33, 744.7825pt x 721.69624pt>
+<images/thomson.png, id=29, 744.7825pt x 721.69624pt>
 File: images/thomson.png Graphic file (type png)
  <use images/thomson.png>
-<images/modes.png, id=34, 67.452pt x 62.634pt>
+[6 <./images/dynamos_beck.png>] <images/modes.png, id=34, 67.452pt x 62.634pt>
 File: images/modes.png Graphic file (type png)
- <use images/modes.png> [7 <./images/thomson.png (PNG copy)>]
+
+<use images/modes.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[7 <./images/thomson.png (PNG copy)>]
 ! Missing } inserted.
 <inserted text> 
                 }
@@ -767,10 +774,6 @@ my insertion and my current dilemma will both disappear.
 File: images/experiments.png Graphic file (type png)
 
 <use images/experiments.png>
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 124.
-
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -813,98 +816,133 @@ my insertion and my current dilemma will both disappear.
 \openout2 = `Theory.aux'.
 
  (./Theory.tex
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 24.
-
-(/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
-File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 24.
- [10
-
-
-]
-<images/PMFpower.png, id=50, 601.24625pt x 457.71pt>
-File: images/PMFpower.png Graphic file (type png)
- <use images/PMFpower.png>
-! Missing $ inserted.
-<inserted text> 
-                $
-l.78 ...eak constraints, Yamazaki in 2012 cites B_
-                                                  1mpc < 1.5 $\mu G$, which ...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.78 ..., Yamazaki in 2012 cites B_1mpc < 1.5 $\mu
-                                                   G$, which isn't very tell...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-[11] [12 <./images/PMFpower.png (PNG copy)>]) [13]
-\openout2 = `Method.aux'.
-
- (./Method.tex
-Underfull \hbox (badness 10000) in paragraph at lines 6--10
+Underfull \hbox (badness 10000) in paragraph at lines 36--38
 
  []
 
+[10
 
-! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+]
+
+! LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.27 \end{enumerate}
-                    
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+l.56 \begin
+           {figure}[h]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
-) [14
+<images/PMFpower.png, id=50, 601.24625pt x 457.71pt>
+File: images/PMFpower.png Graphic file (type png)
+ <use images/PMFpower.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-] [15]
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<images/matterpower.png, id=51, 390.64865pt x 185.16747pt>
+File: images/matterpower.png Graphic file (type png)
+
+<use images/matterpower.png>
+Underfull \hbox (badness 10000) in paragraph at lines 70--78
+
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[11] [12 <./images/PMFpower.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 95--98
+
+ []
+
+) [13 <./images/matterpower.png>]
+\openout2 = `Method.aux'.
+
+ (./Method.tex
+Underfull \hbox (badness 10000) in paragraph at lines 9--13
+
+ []
+
+[14
+
+
+]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.86 I
+      n order to differentiate the power spectrum as required by (12) I diff...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[15]) [16]
 \openout2 = `Forecasts.aux'.
 
- (./Forecasts.tex) [16
+ (./Forecasts.tex) [17
 
 
 ]
 \openout2 = `Conclusion.aux'.
 
- (./Conclusion.tex) [17
+ (./Conclusion.tex) [18
 
 
 ] (./report2.bbl)
-[18
+[19
 
 ] (./report2.aux (./Abstract.aux) (./Introduction.aux) (./Theory.aux)
-(./Method.aux) (./Forecasts.aux) (./Conclusion.aux)) ) 
+(./Method.aux) (./Forecasts.aux) (./Conclusion.aux))
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 2517 strings out of 493848
- 31968 string characters out of 1152823
- 89130 words of memory out of 3000000
- 5720 multiletter control sequences out of 15000+50000
+ 2510 strings out of 493848
+ 31936 string characters out of 1152823
+ 92186 words of memory out of 3000000
+ 5715 multiletter control sequences out of 15000+50000
  12750 words of font info for 49 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 27i,9n,32p,813b,255s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive
-/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/type
-1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-texlive/fonts/type1/public/am
-sfonts/cm/cmmi12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/c
-mmi6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></u
-sr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/tex
-mf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/f
-onts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/pu
-blic/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfon
-ts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12
-.pfb>
-Output written on report2.pdf (18 pages, 473172 bytes).
+ 27i,9n,32p,840b,223s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sha
+re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-te
+xlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-texlive/fonts
+/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-texlive/fonts/type1/publi
+c/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
+m/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/t
+exmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texliv
+e/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type
+1/public/amsfonts/cm/cmti12.pfb>
+Output written on report2.pdf (19 pages, 725975 bytes).
 PDF statistics:
- 113 PDF objects out of 1000 (max. 8388607)
+ 119 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

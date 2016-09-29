@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{Robishaw:2008ti}
 T.~Robishaw, E.~Quataert, and C.~Heiles, ``{Extragalactic Zeeman Detections in
@@ -19,6 +19,32 @@ R.~Beck, A.~Brandenburg, D.~Moss, A.~Shukurov, and D.~Sokoloff
 W.~Hu and M.~J. White, ``{A CMB polarization primer},'' {\em New Astron.},
   vol.~2, p.~323, 1997.
 
+\bibitem{39087c288ce54d4bb9580169e1666880}
+L.~Krauss, S.~Dodelson, and S.~Meyer, ``Primordial gravitational waves and
+  cosmology,'' {\em Science}, vol.~328, pp.~989--992, 5 2010.
+
+\bibitem{Abazajian:2013oma}
+K.~N. Abazajian {\em et~al.}, ``{Neutrino Physics from the Cosmic Microwave
+  Background and Large Scale Structure},'' {\em Astropart. Phys.}, vol.~63,
+  pp.~66--80, 2015.
+
+\bibitem{Henderson:2015nzj}
+S.~W. Henderson {\em et~al.}, ``{Advanced ACTPol Cryogenic Detector Arrays and
+  Readout},'' {\em J. Low. Temp. Phys.}, vol.~184, no.~3-4, pp.~772--779, 2016.
+
+\bibitem{Benson:2014qhw}
+B.~A. Benson {\em et~al.}, ``{SPT-3G: A Next-Generation Cosmic Microwave
+  Background Polarization Experiment on the South Pole Telescope},'' {\em Proc.
+  SPIE Int. Soc. Opt. Eng.}, vol.~9153, p.~91531P, 2014.
+
+\bibitem{Suzuki:2015zzg}
+A.~Suzuki {\em et~al.}, ``{The POLARBEAR-2 and the Simons Array Experiment},''
+  {\em J. Low. Temp. Phys.}, vol.~184, no.~3-4, pp.~805--810, 2016.
+
+\bibitem{PhysRevD.37.2743}
+M.~S. Turner and L.~M. Widrow, ``Inflation-produced, large-scale magnetic
+  fields,'' {\em Phys. Rev. D}, vol.~37, pp.~2743--2754, May 1988.
+
 \bibitem{Ade:2015cva}
 P.~A.~R. Ade {\em et~al.}, ``{Planck 2015 results. XIX. Constraints on
   primordial magnetic fields},'' 2015.
@@ -26,5 +52,10 @@ P.~A.~R. Ade {\em et~al.}, ``{Planck 2015 results. XIX. Constraints on
 \bibitem{Ade:2015cao}
 P.~A.~R. Ade {\em et~al.}, ``{POLARBEAR Constraints on Cosmic Birefringence and
   Primordial Magnetic Fields},'' {\em Phys. Rev.}, vol.~D92, p.~123509, 2015.
+
+\bibitem{PhysRevD.86.063003}
+M.~Kawasaki and M.~Kusakabe, ``Updated constraint on a primordial magnetic
+  field during big bang nucleosynthesis and a formulation of field effects,''
+  {\em Phys. Rev. D}, vol.~86, p.~063003, Sep 2012.
 
 \end{thebibliography}
