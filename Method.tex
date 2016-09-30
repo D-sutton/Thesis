@@ -83,13 +83,38 @@ $r$ & \multicolumn{1}{c|}{0.01} & \multicolumn{1}{c}{$\pm 8 \times 10^{-4}$} \\
 \\This table shows the 6 $\Lambda CDM$ model parameters, as well as the running of the scalar index, the effective number of neutrinos and the tensor-to-scalar ratio. The 'Value' column shows the central value I entered into CAMB when producing the polarisation power spectrum and the 'Step Size' column indicates the magnitude of the perturbation around the central value I used for calculating the numerical derivatives.
 \end{table}
 \\
-In order to differentiate the power spectrum as required by (12) I differentiate using the following approximation:
+
+In order to differentiate the power spectrum as required by (12) I employ a numerical form of the derivative:
 
 \begin{equation}
 \frac{\partial C_{\ell}}{\partial p} \approx \frac{\Delta C_{\ell}}{\Delta p}
 \end{equation}
 \\
-Where $\Delta C_{\ell} = C^{upper}_{\ell} - C^{lower}_{\ell}$ and $\Delta p = p^{upper} - p^{lower}$. To calculate $\Delta C_{\ell}$ I call two instances of CAMB. The first instance
+Where $\Delta C_{\ell} = C^{upper}_{\ell} - C^{lower}_{\ell}$ and $\Delta p = p^{upper} - p^{lower}$. To calculate $\Delta C_{\ell}$ I call two instances of CAMB. In the first instance I add a small perturbation to the central value (see table 2). The output power spectrum is called $C^{upper}_{\ell}$. The second instance, $C^{lower}_{\ell}$ has a small perturbation subtracted from the central value. Finally, $\Delta p$ is equal to two times the perturbation value given in table 2.
+
+To ensure that the derivatives are accurate the stepsizes must be small, however if the step size is too small, the derivatives are subject to numerical artifacts. To ensure that I chose a well-conditioned step size I plotted $\Delta C_{\ell}$ for a variety of step-sizes. When looking for a good step size, I want to see:
+
+\begin{enumerate}
+\item Convergence: As the step size approaches the best value, $\Delta C_{\ell}$ will lose sensitivity to changes in step-size and the functions will converge to the same values for all $\ell$.
+
+\item Smoothness: If the step size is too small then $\Delta C_{\ell}$ will oscillate significantly over a short change in $\ell$. The resultant plot will look 'blocky' or have large spikes and won't resemble a well-conditioned derivative of the CMB power spectrum.
+\end{enumerate}
+For illustrative purposes I will show some examples of $\Delta C_{\ell}$ plots and explain how I chose my step sizes.
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.5]{images/H0.png}
+\caption{placeholder}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.5]{images/H0zoomed.png}
+\caption{placeholder}
+\end{figure}
+
+
+\end{enumerate}
 
 \subsection{extended datasets}
 \subsection{crosschecks}
