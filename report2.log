@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.7.29)  30 SEP 2016 11:47
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.7.29)  1 OCT 2016 14:02
 entering extended mode
  %&-line parsing enabled.
 **report2.tex
@@ -885,6 +885,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--13
 
 ]
 
+LaTeX Warning: Citation `Ade:2015xua' on page 15 undefined on input line 83.
+
+
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
@@ -900,62 +903,51 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[15] <images/H0.png, id=70, 642.4pt x 533.995pt>
-File: images/H0.png Graphic file (type png)
- <use images/H0.png>
-<images/H0zoomed.png, id=71, 642.4pt x 533.995pt>
-File: images/H0zoomed.png Graphic file (type png)
- <use images/H0zoomed.png>
+[15] [16] <images/diffs/H0bb.png, id=73, 578.16pt x 433.62pt>
+File: images/diffs/H0bb.png Graphic file (type png)
 
-! LaTeX Error: \begin{document} ended by \end{enumerate}.
+<use images/diffs/H0bb.png>
+<images/diffs/H0bbz.png, id=74, 578.16pt x 433.62pt>
+File: images/diffs/H0bbz.png Graphic file (type png)
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.117 \end{enumerate}
-                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+<use images/diffs/H0bbz.png>
+File: images/diffs/H0bb.png Graphic file (type png)
+ <use images/diffs/H0bb.png>
+File: images/diffs/H0bbz.png Graphic file (type png)
 
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.117 \end{enumerate}
-                     
-Things are pretty mixed up, but I think the worst is over.
-
-) [16] [17 <./images/H0.png (PNG copy)> <./images/H0zoomed.png (PNG copy)>]
+<use images/diffs/H0bbz.png>) [17] [18 <./images/diffs/H0bb.png> <./images/diff
+s/H0bbz.png>] [19]
 \openout2 = `Forecasts.aux'.
 
-
-(./Forecasts.tex) [18
+ (./Forecasts.tex) [20
 
 
 ]
 \openout2 = `Conclusion.aux'.
 
- (./Conclusion.tex) [19
+ (./Conclusion.tex) [21
 
-
-] (./report2.bbl) [20
 
 ]
-(./report2.aux (./Abstract.aux) (./Introduction.aux) (./Theory.aux)
-(./Method.aux) (./Forecasts.aux) (./Conclusion.aux))
+(./report2.bbl) [22
+
+] (./report2.aux (./Abstract.aux) (./Introduction.aux)
+(./Theory.aux) (./Method.aux) (./Forecasts.aux) (./Conclusion.aux))
+
+LaTeX Warning: There were undefined references.
+
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2521 strings out of 493848
- 32125 string characters out of 1152823
- 93186 words of memory out of 3000000
+ 2522 strings out of 493848
+ 32189 string characters out of 1152823
+ 94186 words of memory out of 3000000
  5724 multiletter control sequences out of 15000+50000
  12750 words of font info for 49 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 27i,9n,32p,840b,223s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,9n,32p,855b,223s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sha
 re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-te
 xlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-texlive/fonts
@@ -966,9 +958,9 @@ m/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb>
 exmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texliv
 e/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type
 1/public/amsfonts/cm/cmti12.pfb>
-Output written on report2.pdf (20 pages, 817393 bytes).
+Output written on report2.pdf (22 pages, 875588 bytes).
 PDF statistics:
- 124 PDF objects out of 1000 (max. 8388607)
+ 132 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
