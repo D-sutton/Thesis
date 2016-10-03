@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.7.29)  1 OCT 2016 14:02
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.7.29)  3 OCT 2016 10:33
 entering extended mode
  %&-line parsing enabled.
 **report2.tex
@@ -885,7 +885,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--13
 
 ]
 
-LaTeX Warning: Citation `Ade:2015xua' on page 15 undefined on input line 83.
+LaTeX Warning: Citation `Ade:2015xua' on page 15 undefined on input line 82.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -897,7 +897,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.86 
+l.85 
      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -911,12 +911,25 @@ File: images/diffs/H0bb.png Graphic file (type png)
 File: images/diffs/H0bbz.png Graphic file (type png)
 
 <use images/diffs/H0bbz.png>
-File: images/diffs/H0bb.png Graphic file (type png)
- <use images/diffs/H0bb.png>
-File: images/diffs/H0bbz.png Graphic file (type png)
 
-<use images/diffs/H0bbz.png>) [17] [18 <./images/diffs/H0bb.png> <./images/diff
-s/H0bbz.png>] [19]
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.113 A
+       n interesting second case is the difference plot for the tensor-to-sc...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<images/diffs/reez.png, id=75, 578.16pt x 433.62pt>
+File: images/diffs/reez.png Graphic file (type png)
+
+<use images/diffs/reez.png>) [17] [18 <./images/diffs/H0bb.png> <./images/diffs
+/H0bbz.png>] [19 <./images/diffs/reez.png>]
 \openout2 = `Forecasts.aux'.
 
  (./Forecasts.tex) [20
@@ -925,14 +938,15 @@ s/H0bbz.png>] [19]
 ]
 \openout2 = `Conclusion.aux'.
 
- (./Conclusion.tex) [21
+
+(./Conclusion.tex) [21
 
 
-]
-(./report2.bbl) [22
+] (./report2.bbl) [22
 
-] (./report2.aux (./Abstract.aux) (./Introduction.aux)
-(./Theory.aux) (./Method.aux) (./Forecasts.aux) (./Conclusion.aux))
+] (./report2.aux (./Abstract.aux)
+(./Introduction.aux) (./Theory.aux) (./Method.aux) (./Forecasts.aux)
+(./Conclusion.aux))
 
 LaTeX Warning: There were undefined references.
 
@@ -941,10 +955,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2522 strings out of 493848
- 32189 string characters out of 1152823
+ 2527 strings out of 493848
+ 32300 string characters out of 1152823
  94186 words of memory out of 3000000
- 5724 multiletter control sequences out of 15000+50000
+ 5728 multiletter control sequences out of 15000+50000
  12750 words of font info for 49 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  27i,9n,32p,855b,223s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -958,9 +972,9 @@ m/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb>
 exmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texliv
 e/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type
 1/public/amsfonts/cm/cmti12.pfb>
-Output written on report2.pdf (22 pages, 875588 bytes).
+Output written on report2.pdf (22 pages, 926915 bytes).
 PDF statistics:
- 132 PDF objects out of 1000 (max. 8388607)
+ 134 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

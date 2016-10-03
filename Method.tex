@@ -68,7 +68,6 @@ To call on CAMB one first needs to define parameters. A quick summary of the par
 \label{my-label}
 \begin{tabular}{l|l|l|l}
 Parameter & \multicolumn{1}{c|}{Value} & Uncertainty & Step Size \\ \hline
-& \multicolumn{1}{c|}{} & \multicolumn{1}{c|}{} & \multicolumn{1}{c}{} \\
 $\Omega_{b}h^{2}$ & \multicolumn{1}{c|}{0.02227716} & \multicolumn{1}{c|}{0.00023} & \multicolumn{1}{c}{$\pm 8 \times 10^{-5}$} \\
 $\Omega_{c}h^{2}$ & \multicolumn{1}{c|}{0.1184293} & \multicolumn{1}{c|}{0.022} & \multicolumn{1}{c}{$\pm 10^{-3}$} \\
 $H_0$ & \multicolumn{1}{c|}{67.86682} & \multicolumn{1}{c|}{0.96} & \multicolumn{1}{c}{$\pm 8 \times 10^{-2}$} \\
@@ -101,25 +100,29 @@ To ensure that the derivatives are accurate the step sizes must be small, howeve
 \end{enumerate}
 
 As a final sanity check on the value of the step sizes, I would like them to be less than the 2015 PLANCK best fit uncertainties (refer to table 2).
-
+\\
 Figure 7 shows a plot of $\Delta C_{\ell}$ for the BB polarisation power spectrum, varying Hubble's constant and holding all else fixed. The top panel shows the differences over $ 0 < \ell < 5000$. The lines all appear to be converging on the same function. The blue line, corresponding to a step size of 0.02 has significant artifacting, so by criterion one it can be ruled out. The second panel is zoomed in on the peak and trough over $\ell ~ 700$. Taking a closer look at the lines reveals that as the step size increases toward 0.1 the lines begin to converge. There isn't an ostensible difference between step sizes of 0.08 or 0.1, so the deciding factor is which one produces a better approximation of $\frac{\partial C_{\ell}}{\partial p}$. Smaller step sizes suit this purpose so for Hubble's constant I chose 0.08.
 
 \begin{figure}
 \centering
-\includegraphics[scale=0.5]{images/diffs/H0bb.png}
-\includegraphics[scale=0.5]{images/diffs/H0bbz.png}
+\includegraphics[scale=0.6]{images/diffs/H0bb.png}
+\includegraphics[scale=0.6]{images/diffs/H0bbz.png}
 \caption{placeholder}
 \end{figure}
-
-A second interesting case is is the difference plot for the tensor-to-scalar ratio. When $\ell < 500$ the difference plot is well behaved. It's convergent and there are little-to-no artifacts. When $\ell > 500$ the difference plots are dominated by artifact effects. This is OK however wait no it's not!! D:
+\\
+An interesting second case is the difference plot for the tensor-to-scalar ratio. When $\ell < 220$ the difference plot is well behaved with good convergence and few artifacts for larger step sizes. When $\ell > 220$ numerical effects begin to dominate.
 
 \begin{figure}
 \centering
-\includegraphics[scale=0.5]{images/diffs/H0bb.png}
-\includegraphics[scale=0.5]{images/diffs/H0bbz.png}
+\includegraphics[scale=0.75]{images/diffs/reez.png}
 \caption{placeholder}
 \end{figure}
 
 \subsection{Covariance Matrix}
+
+For the inverse covariance matrix in (12) I used mock stage-3 and stage-4-like covariance matrices. These covariance matrices were calculated as per Tegmark (1997) \cite{Tegmark:1997vs} and model five experimental parameters: Scan area, noise, $\ell_{knee}$, beam width and beam error. The values for these parameters match up with various stage-3 and stage-4 experimental designs.
+Scan area is the area of sky that these experiments will observe given in square degrees. For reference SPT-3G will observe a $2500 deg^{2}$ patch of sky whereas PLANCK observed the whole sky.
+Noise is the background/instrumental(?) noise level of the experiment. This parameter is directly related to the number of bolometers in the experiment.
+
 \subsection{Constructing the Fisher Matrix}
 \subsection{tests}
