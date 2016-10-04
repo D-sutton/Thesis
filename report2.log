@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.7.29)  3 OCT 2016 10:33
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.7.29)  4 OCT 2016 16:16
 entering extended mode
  %&-line parsing enabled.
 **report2.tex
@@ -928,25 +928,37 @@ or  <return>  to continue without it.
 <images/diffs/reez.png, id=75, 578.16pt x 433.62pt>
 File: images/diffs/reez.png Graphic file (type png)
 
-<use images/diffs/reez.png>) [17] [18 <./images/diffs/H0bb.png> <./images/diffs
-/H0bbz.png>] [19 <./images/diffs/reez.png>]
+<use images/diffs/reez.png>
+
+LaTeX Warning: Citation `Tegmark:1997vs' on page 17 undefined on input line 123
+.
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 125.
+
+(/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 125.
+) [17] [18 <./images/diffs/H0bb.png> <./images/diffs/H0bbz.png>] [19 <./images/
+diffs/reez.png>]
 \openout2 = `Forecasts.aux'.
 
- (./Forecasts.tex) [20
+
+(./Forecasts.tex) [20
 
 
 ]
 \openout2 = `Conclusion.aux'.
 
-
-(./Conclusion.tex) [21
+ (./Conclusion.tex) [21
 
 
 ] (./report2.bbl) [22
 
-] (./report2.aux (./Abstract.aux)
-(./Introduction.aux) (./Theory.aux) (./Method.aux) (./Forecasts.aux)
-(./Conclusion.aux))
+]
+(./report2.aux (./Abstract.aux) (./Introduction.aux) (./Theory.aux)
+(./Method.aux) (./Forecasts.aux) (./Conclusion.aux))
 
 LaTeX Warning: There were undefined references.
 
@@ -955,10 +967,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2527 strings out of 493848
- 32300 string characters out of 1152823
+ 2545 strings out of 493848
+ 32598 string characters out of 1152823
  94186 words of memory out of 3000000
- 5728 multiletter control sequences out of 15000+50000
+ 5743 multiletter control sequences out of 15000+50000
  12750 words of font info for 49 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  27i,9n,32p,855b,223s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -972,7 +984,7 @@ m/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb>
 exmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texliv
 e/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type
 1/public/amsfonts/cm/cmti12.pfb>
-Output written on report2.pdf (22 pages, 926915 bytes).
+Output written on report2.pdf (22 pages, 928525 bytes).
 PDF statistics:
  134 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

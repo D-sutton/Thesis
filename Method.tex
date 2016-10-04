@@ -120,9 +120,20 @@ An interesting second case is the difference plot for the tensor-to-scalar ratio
 
 \subsection{Covariance Matrix}
 
-For the inverse covariance matrix in (12) I used mock stage-3 and stage-4-like covariance matrices. These covariance matrices were calculated as per Tegmark (1997) \cite{Tegmark:1997vs} and model five experimental parameters: Scan area, noise, $\ell_{knee}$, beam width and beam error. The values for these parameters match up with various stage-3 and stage-4 experimental designs.
-Scan area is the area of sky that these experiments will observe given in square degrees. For reference SPT-3G will observe a $2500 deg^{2}$ patch of sky whereas PLANCK observed the whole sky.
-Noise is the background/instrumental(?) noise level of the experiment. This parameter is directly related to the number of bolometers in the experiment.
+For the inverse covariance matrix in (12) I used mock stage-3 and stage-4-like covariance matrices. These covariance matrices were calculated as per Tegmark (1997) \cite{Tegmark:1997vs} with five experimental parameters: Scan area, noise, $\ell_{knee}$, beam error and calibration error. The values for these parameters match up with various stage-3 and stage-4 experimental designs.
+\begin{itemize}
+\item Scan area is the area of sky that these experiments will observe given in square degrees. For reference SPT-3G will observe a $2500 deg^{2}$ patch of sky whereas PLANCK observed the whole sky.
+
+\item Noise is the background/instrumental(?) noise level of the experiment. This parameter is directly related to the number of bolometers in the experiment.
+
+\item $\ell_{knee}$ is the angular scale where $1/f$ noise starts dominating over the white noise. It is a measure of stability of the experiment and typically larger $\ell_{knee}$s equal lower precision on CMB experiments.
+
+\item Beam error is the percentage error on the width of the beam. The width of the beam is given by its fwhm.
+
+\item Calibration error is the percentage error on the detectors. 
+\end{itemize}
+
+
 
 \subsection{Constructing the Fisher Matrix}
 \subsection{tests}
