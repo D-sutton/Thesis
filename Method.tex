@@ -56,7 +56,7 @@ where $f$ is the function that relates the model parameters to each other, $C$ i
 F_{ij} = \frac{\partial C_{\ell}}{\partial p^i} C^{-1} \frac{\partial C_{\ell}}{\partial p^j}
 \end{equation}
 
-\subsection{CMB power spectra}
+\subsection{The CMB Power Spectra}
 
 To begin constructing the Fisher matrix in the form given by (12), I first used CAMB to build the CMB power spectrum. [describe CAMB] [also cite CAMB]
 
@@ -118,7 +118,7 @@ An interesting second case is the difference plot for the tensor-to-scalar ratio
 \caption{placeholder}
 \end{figure}
 
-\subsection{Covariance Matrix}
+\subsection{The Covariance Matrix}
 
 For the inverse covariance matrix in (12) I used mock stage-3 and stage-4-like covariance matrices. These covariance matrices were calculated as per Tegmark (1997) \cite{Tegmark:1997vs} with five experimental parameters: Scan area, noise, $\ell_{knee}$, beam error and calibration error. The values for these parameters match up with various stage-3 and stage-4 experimental designs.
 \begin{itemize}
@@ -133,7 +133,26 @@ For the inverse covariance matrix in (12) I used mock stage-3 and stage-4-like c
 \item Calibration error is the percentage error on the detectors. 
 \end{itemize}
 
+In addition to the parameters the covariance matrix also has a prescribed binning. This isn't already implemented so it must be added manually. In order to bin the covariance matrix - and also the templates, I construct a bin matrix. The components of the bin matrix are defined like so:
 
+\begin{equation}
+B_{ij} = 
+\begin{cases}
+    ($\Delta \ell$)^{-1},& \text{if } j$\Delta \ell$ \leq i \leq (j+1)$\Delta \ell$\\
+    0,              & \text{otherwise}
+\end{cases} 
+\end{equation}
+Where $\Delta \ell$ is the length of the bin matrix and $ j \leq N_{bin}$, the number of bins. This choice of binning takes the average of the derivative of the power spectrum over each bin.
 
-\subsection{Constructing the Fisher Matrix}
-\subsection{tests}
+The bin matrix is then applied to the inverse covariance matrix like so:
+\begin{equation}
+C^{-1}_{binned} = B^{T} C^{-1} B
+\end{equation}
+Where B is the binning matrix, defined above and $C^{-1}$ is the inverse covariance matrix. The templates are also binned like so:
+\begin{equation}
+(\frac{\partial C_{\ell}}{\partial p})_{binned} = B\frac{\partial C_{\ell}}{\partial p}
+\end{equation}
+
+These new binned definitions are then substituted into (12) to construct the Fisher matrix. The output is an $N \times N$ matrix, where N is the number of parameters in the template matrix.
+\subsection{Conditioning}
+\subsection{Manipulating the Fisher Matrix}
