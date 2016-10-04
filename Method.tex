@@ -154,5 +154,17 @@ Where B is the binning matrix, defined above and $C^{-1}$ is the inverse covaria
 \end{equation}
 
 These new binned definitions are then substituted into (12) to construct the Fisher matrix. The output is an $N \times N$ matrix, where N is the number of parameters in the template matrix.
+
 \subsection{Conditioning}
+
+The range of values along the main diagonal of the Fisher matrix is large, spanning from $\mathcal{O} (10^{22})$ to $\mathcal{O} (10^{-22})$. The large difference in values makes the Fisher matrix numerically unstable and approximately singular under inversion. In order to combat these effects, I use a matrix to bring all the diagonal terms to order unity:
+
+\begin{equation}
+M_{ii} = F^{(-1/2)}_{ii}
+\end{equation}
+
+\begin{equation}
+F_{conditioned} = M^{T} F M
+\end{equation}
+
 \subsection{Manipulating the Fisher Matrix}
