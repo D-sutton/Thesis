@@ -8,7 +8,7 @@ A level-1 auxiliary file: Forecasts.aux
 A level-1 auxiliary file: Conclusion.aux
 The style file: ieeetr.bst
 Database file #1: references.bib
-Unbalanced braces---line 267 of file references.bib
+Unbalanced braces---line 283 of file references.bib
  : 
  : }
 (Error may have been on previous line)
@@ -18,45 +18,45 @@ Warning--empty journal in Beck:1996
 Warning--empty year in Beck:1996
 Warning--empty journal in Ade:2015cva
 Warning--empty journal in Ade:2015xua
-You've used 15 entries,
+You've used 17 entries,
             1876 wiz_defined-function locations,
-            589 strings with 6021 characters,
-and the built_in function-call counts, 4046 in all, are:
-= -- 416
-> -- 127
+            603 strings with 6305 characters,
+and the built_in function-call counts, 4681 in all, are:
+= -- 486
+> -- 142
 < -- 0
-+ -- 48
-- -- 33
-* -- 250
-:= -- 551
-add.period$ -- 14
-call.type$ -- 15
-change.case$ -- 14
++ -- 54
+- -- 37
+* -- 288
+:= -- 630
+add.period$ -- 16
+call.type$ -- 17
+change.case$ -- 16
 chr.to.int$ -- 0
-cite$ -- 20
-duplicate$ -- 236
-empty$ -- 370
-format.name$ -- 33
-if$ -- 1021
+cite$ -- 22
+duplicate$ -- 275
+empty$ -- 425
+format.name$ -- 37
+if$ -- 1186
 int.to.chr$ -- 0
-int.to.str$ -- 15
-missing$ -- 15
-newline$ -- 48
-num.names$ -- 15
-pop$ -- 44
+int.to.str$ -- 17
+missing$ -- 17
+newline$ -- 54
+num.names$ -- 17
+pop$ -- 48
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 191
+skip$ -- 228
 stack$ -- 0
-substring$ -- 252
-swap$ -- 116
+substring$ -- 300
+swap$ -- 140
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 5
-while$ -- 36
-width$ -- 17
-write$ -- 143
+while$ -- 41
+width$ -- 19
+write$ -- 163
 (There was 1 error message)

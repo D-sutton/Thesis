@@ -76,7 +76,7 @@ $n_s$ & \multicolumn{1}{c|}{0.9682903} & \multicolumn{1}{c|}{0.0062} & \multicol
 $A_s$ & \multicolumn{1}{c|}{2.140509e-09} & \multicolumn{1}{c|}{0.118} & \multicolumn{1}{c}{$\pm 9 \times 10^{-12}$} \\
 $n_{run}$ & \multicolumn{1}{c|}{0.0} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c}{$\pm 2 \times 10^{-3}$} \\
 $N_{eff}$ & \multicolumn{1}{c|}{3.03066666667} & \multicolumn{1}{c|}{0.23} & \multicolumn{1}{c}{$\pm 4 \times 10^{-3}$} \\
-$r$ & \multicolumn{1}{c|}{0.01} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c}{$\pm 8 \times 10^{-4}$} \\
+$r$ & \multicolumn{1}{c|}{0.01} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c}{$\pm 8 \times 10^{-3}$} \\
 \end{tabular}
 \bigskip
 \\This table shows the 6 $\Lambda CDM$ model parameters, as well as the running of the scalar index, the effective number of neutrinos and the tensor-to-scalar ratio. The 'Value' column shows the central value I entered into CAMB when producing the polarisation power spectrum and the 'Step Size' column indicates the magnitude of the perturbation around the central value I used for calculating the numerical derivatives. Finally, the 'Uncertianty' column gives the PLANCK best fit (2015) \cite{Ade:2015xua} $\Lambda CDM$ uncertainties, which were used as an upper bound for step sizes.
@@ -102,21 +102,25 @@ To ensure that the derivatives are accurate the step sizes must be small, howeve
 As a final sanity check on the value of the step sizes, I would like them to be less than the 2015 PLANCK best fit uncertainties (refer to table 2).
 \\
 Figure 7 shows a plot of $\Delta C_{\ell}$ for the BB polarisation power spectrum, varying Hubble's constant and holding all else fixed. The top panel shows the differences over $ 0 < \ell < 5000$. The lines all appear to be converging on the same function. The blue line, corresponding to a step size of 0.02 has significant artifacting, so by criterion one it can be ruled out. The second panel is zoomed in on the peak and trough over $\ell ~ 700$. Taking a closer look at the lines reveals that as the step size increases toward 0.1 the lines begin to converge. There isn't an ostensible difference between step sizes of 0.08 or 0.1, so the deciding factor is which one produces a better approximation of $\frac{\partial C_{\ell}}{\partial p}$. Smaller step sizes suit this purpose so for Hubble's constant I chose 0.08.
-
+\\
 \begin{figure}
 \centering
 \includegraphics[scale=0.6]{images/diffs/H0bb.png}
 \includegraphics[scale=0.6]{images/diffs/H0bbz.png}
-\caption{placeholder}
+\caption{Plot of CMB BB power spectrum difference when $H_{0}$ is varied for different step sizes. Top panel: Power spectrum over the range $0 \leq \ell \leq 5000$. This plot shows that $\Delta C_{\ell}$ converges within this range. Smaller step sizes show less stability, as shown by the blue and green lines. Bottom panel: A zoomed in version of the above graph, taken over $500 \leq \ell \leq 900$. The larger of the step sizes, given by the cyan and magenta lines have a lot of overlap, which indicates that the derivatives will converge on a step-size within the range 0.08 to 0.1}
 \end{figure}
 \\
-An interesting second case is the difference plot for the tensor-to-scalar ratio. When $\ell < 220$ the difference plot is well behaved with good convergence and few artifacts for larger step sizes. When $\ell > 220$ numerical effects begin to dominate.
+An interesting second case is the difference plot for the tensor-to-scalar ratio. When $\ell < 220$ the difference plot is well behaved with good convergence and few artifacts for larger step sizes. When $\ell > 220$ numerical effects begin to dominate. This occurs since CAMB isn't programmed to handle variations in the tensor-to-scalar ratio as cleanly as the more standard parameters. This will likely be addressed in the future, once the value for r is found and its effects can be properly studied. For now, one can easily remedy this adding a low pass filter, keeping $\ell < 220$ and discarding the rest, since we expect that r is only significant at low $\ell$. However this might be a drastic response. Since the effects of r are small, it is safe to ignore these artifacts without any significant change in the result. Indeed, perturbing around my chosen step size in r yields negligble variations in the Fisher matrix.
 
 \begin{figure}
 \centering
 \includegraphics[scale=0.75]{images/diffs/reez.png}
-\caption{placeholder}
+\caption{Plot of CMB BB power spectrum difference when r is varied for different step sizes. The plot is convergent and stable for a step size of at least 0.008. After $\ell \approx 220$ numerical effects dominate. These can be ignored due to the low overall contribution of r to the power spectrum.}
 \end{figure}
+\\
+\\
+In addition to the CAMB power spectra I also PMF templates which were generated using the method from \cite{Ade:2015cao} and \cite{PhysRevD.80.023510}. These templates are the PMF power spectrum, differentiated with respect to the PMF amplitude: $\frac{\partial C_{\ell}}{\partial A_{pmf}}$.
+These templates assume that the PMF strength is $B_{1Mpc} = 2.5nG$ when $A_{pmf} = 1$
 
 \subsection{The Covariance Matrix}
 
@@ -152,19 +156,38 @@ Where B is the binning matrix, defined above and $C^{-1}$ is the inverse covaria
 \begin{equation}
 (\frac{\partial C_{\ell}}{\partial p})_{binned} = B\frac{\partial C_{\ell}}{\partial p}
 \end{equation}
-
+\\
 These new binned definitions are then substituted into (12) to construct the Fisher matrix. The output is an $N \times N$ matrix, where N is the number of parameters in the template matrix.
 
-\subsection{Conditioning}
+\subsection{Conditioning and Forecasting}
 
 The range of values along the main diagonal of the Fisher matrix is large, spanning from $\mathcal{O} (10^{22})$ to $\mathcal{O} (10^{-22})$. The large difference in values makes the Fisher matrix numerically unstable and approximately singular under inversion. In order to combat these effects, I use a matrix to bring all the diagonal terms to order unity:
 
 \begin{equation}
 M_{ii} = F^{(-1/2)}_{ii}
 \end{equation}
+\\
+This conditioning matrix is applied to the Fisher matrix as per below:
 
 \begin{equation}
-F_{conditioned} = M^{T} F M
+F' = M^{T} F M
 \end{equation}
+\\
+Once the Fisher matrix is well-conditioned I can then invert it and insert it back into equation (19) to retrieve the covariance matrix for its corresponding mock CMB experiment. The variances for each model parameter are found along the main diagonal and to forecast the experimental uncertainties all I need to do is take the square root of each term.
 
 \subsection{Manipulating the Fisher Matrix}
+
+Since the PMF templates are given in terms of $A_{PMF}$ to forecast for $B_{1Mpc}$ I need to perform a change of variables. Differentiating equation (6) with respect to $B_{1Mpc}$ we have:
+
+$$
+\frac{\partial A_{pmf}}{\partial B_{1Mpc}} = 4(2.5nG)^{-4}B_{1Mpc}^3
+$$
+\\
+Which can be applied to the Fisher matrix as a transformation in the form of (19).
+For the PMF template we take $B_{1Mpc} = 2.5nG$ when $A_{PMF} = 1$, so
+the variance of $B_{1Mpc}$, $\sigma(B_{1Mpc})$ can be expressed as:
+
+\begin{equation}
+\sigma(B_{1Mpc}) = 2.5nG\frac{\sigma(A_{PMF})}{4}
+\end{equation}
+
