@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.7.29)  5 OCT 2016 14:45
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.7.29)  10 OCT 2016 14:30
 entering extended mode
  %&-line parsing enabled.
 **report2.tex
@@ -163,18 +163,18 @@ LaTeX Warning: Label `my-label' multiply defined.
 ) (./Forecasts.aux) (./Conclusion.aux))
 \openout1 = `report2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
 
 *geometry auto-detecting driver*
 *geometry detected driver: pdftex*
@@ -254,12 +254,12 @@ LaTeX Info: Redefining \selectfont on input line 125.
 ) <images/UOM.png, id=1, 113.7048pt x 115.1502pt>
 File: images/UOM.png Graphic file (type png)
  <use images/UOM.png>
-LaTeX Font Info:    Try loading font information for U+msa on input line 25.
+LaTeX Font Info:    Try loading font information for U+msa on input line 27.
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 25.
+LaTeX Font Info:    Try loading font information for U+msb on input line 27.
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
@@ -271,7 +271,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.26 \makeindex
+l.28 \makeindex
                
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -652,109 +652,19 @@ p): fontmap entry for `wttro8r' already exists, duplicates ignored
 \openout2 = `Introduction.aux'.
 
 
-(./Introduction.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--9
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 3--9
-
- []
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.15 I
-      n the presence of magnetic fields, electronic energy levels in molecul...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.18 A
-      s electrons and ions spiral around magnetic fields in galaxies and the...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[4
+(./Introduction.tex [4
 
 ]
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.29 A
-      s a polarised photon travels through a magnetised plasma it undergoes ...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 39--44
-
- []
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.47 O
-      n their own, seed magnetic fields such as PMFs are too weak (of order ...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
 <images/dynamos_beck.png, id=18, 375.65344pt x 228.10219pt>
 File: images/dynamos_beck.png Graphic file (type png)
 
-<use images/dynamos_beck.png> [5]
-Underfull \hbox (badness 10000) in paragraph at lines 54--57
-
- []
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.58 \\T
-        he polarisation of the CMB first arose due to quadrupolar temperatur...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-<images/thomson.png, id=29, 744.7825pt x 721.69624pt>
+<use images/dynamos_beck.png> [5] [6 <./images/dynamos_beck.png>]
+<images/thomson.png, id=33, 744.7825pt x 721.69624pt>
 File: images/thomson.png Graphic file (type png)
  <use images/thomson.png>
-[6 <./images/dynamos_beck.png>] <images/modes.png, id=34, 67.452pt x 62.634pt>
+<images/modes.png, id=34, 67.452pt x 62.634pt>
 File: images/modes.png Graphic file (type png)
-
-<use images/modes.png>
+ <use images/modes.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -762,7 +672,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.89 ...oise \propto ({\sqrt{n_{detectors}})^{-1}$
+l.83 ...oise \propto ({\sqrt{n_{detectors}})^{-1}$
                                                   $ Each stage of CMB experi...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -777,16 +687,16 @@ File: images/experiments.png Graphic file (type png)
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.129 Experiment & Stage & N_
-                             {bolo} & Scan Area ($deg^{2}$)& Polarisation No...
+l.96 Experiment & Stage & N_
+                            {bolo} & Scan Area ($deg^{2}$)& Polarisation Noi...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
 <template> \unskip \hfil }
                           \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.129 Experiment & Stage & N_{bolo} &
-                                      Scan Area ($deg^{2}$)& Polarisation No...
+l.96 Experiment & Stage & N_{bolo} &
+                                     Scan Area ($deg^{2}$)& Polarisation Noi...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -796,16 +706,16 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.129 Experiment & Stage & N_{bolo} &
-                                      Scan Area ($deg^{2}$)& Polarisation No...
+l.96 Experiment & Stage & N_{bolo} &
+                                     Scan Area ($deg^{2}$)& Polarisation Noi...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.129 Experiment & Stage & N_{bolo} &
-                                      Scan Area ($deg^{2}$)& Polarisation No...
+l.96 Experiment & Stage & N_{bolo} &
+                                     Scan Area ($deg^{2}$)& Polarisation Noi...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -816,149 +726,99 @@ my insertion and my current dilemma will both disappear.
 \openout2 = `Theory.aux'.
 
  (./Theory.tex
-Underfull \hbox (badness 10000) in paragraph at lines 36--38
+Underfull \hbox (badness 10000) in paragraph at lines 21--23
 
  []
 
 [10
 
 
-]
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.56 \begin
-           {figure}[h]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-<images/PMFpower.png, id=50, 601.24625pt x 457.71pt>
+] <images/PMFpower.png, id=50, 601.24625pt x 457.71pt>
 File: images/PMFpower.png Graphic file (type png)
- <use images/PMFpower.png>
+
+<use images/PMFpower.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.62 
-     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-<images/matterpower.png, id=51, 390.64865pt x 185.16747pt>
+[11] <images/matterpower.png, id=55, 390.64865pt x 185.16747pt>
 File: images/matterpower.png Graphic file (type png)
 
 <use images/matterpower.png>
-Underfull \hbox (badness 10000) in paragraph at lines 70--78
-
- []
-
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[11] [12 <./images/PMFpower.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 95--98
-
- []
-
-) [13 <./images/matterpower.png>]
+[12 <./images/PMFpower.png (PNG copy)>] [13 <./images/matterpower.png>])
+[14]
 \openout2 = `Method.aux'.
 
- (./Method.tex
-Underfull \hbox (badness 10000) in paragraph at lines 9--13
-
- []
-
-[14
+ (./Method.tex [15
 
 
-]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.85 
-     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[15] <images/diffs/H0bb.png, id=70, 578.16pt x 433.62pt>
+] <images/diffs/H0bb.png, id=70, 578.16pt x 433.62pt>
 File: images/diffs/H0bb.png Graphic file (type png)
 
 <use images/diffs/H0bb.png>
 <images/diffs/H0bbz.png, id=71, 578.16pt x 433.62pt>
 File: images/diffs/H0bbz.png Graphic file (type png)
 
-<use images/diffs/H0bbz.png> [16]
-<images/diffs/reez.png, id=75, 578.16pt x 433.62pt>
+<use images/diffs/H0bbz.png> [16] [17 <./images/diffs/H0bb.png> <./images/diffs
+/H0bbz.png>]
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.80 ...}{Value} & Uncertainty & Step Size  \hline
+                                                   \\
+I expect to see \noalign only after the \cr of
+an alignment. Proceed, and I'll ignore this case.
+
+! You can't use `\hrule' here except with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.80 ...}{Value} & Uncertainty & Step Size  \hline
+                                                   \\
+To put a horizontal rule in an hbox or an alignment,
+you should use \leaders or \hrulefill (see The TeXbook).
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.80 ...}{Value} & Uncertainty & Step Size  \hline
+                                                   \\
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \futurelet 
+l.80 ...}{Value} & Uncertainty & Step Size  \hline
+                                                   \\
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+[18] <images/diffs/reez.png, id=83, 578.16pt x 433.62pt>
 File: images/diffs/reez.png Graphic file (type png)
 
 <use images/diffs/reez.png>
 
-! LaTeX Error: There's no line here to end.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.121 \\
-        
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.122 I
-       n addition to the CAMB power spectra I also PMF templates which were ...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-LaTeX Warning: Citation `PhysRevD.80.023510' on page 17 undefined on input line
- 122.
-
-
-LaTeX Warning: Citation `Tegmark:1997vs' on page 17 undefined on input line 127
-.
-
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 129.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 135.
 
 (/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 129.
-
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 135.
+ [19]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.145     ($\Delta
+l.151     ($\Delta
                    \ell$)^{-1},& \text{if } j$\Delta \ell$ \leq i \leq (j+1)...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -966,7 +826,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.145     ($\Delta \ell$)^
+l.151     ($\Delta \ell$)^
                           {-1},& \text{if } j$\Delta \ell$ \leq i \leq (j+1)...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -974,7 +834,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.145 ...$\Delta \ell$)^{-1},& \text{if } j$\Delta
+l.151 ...$\Delta \ell$)^{-1},& \text{if } j$\Delta
                                                    \ell$ \leq i \leq (j+1)$\...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -982,48 +842,54 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.145 ...l$)^{-1},& \text{if } j$\Delta \ell$ \leq
-                                                   i \leq (j+1)$\Delta \ell$\\
+l.151 ...l$)^{-1},& \text{if } j$\Delta \ell$ \leq
+                                                   i \leq (j+1)$\Delta \ell$
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.145 ...} j$\Delta \ell$ \leq i \leq (j+1)$\Delta
-                                                   \ell$\\
+l.151 ...} j$\Delta \ell$ \leq i \leq (j+1)$\Delta
+                                                   \ell$
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.145 ...ta \ell$ \leq i \leq (j+1)$\Delta \ell$\\
-                                                  
+l.152     0,              &
+                            \text{otherwise}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-[17] [18 <./images/diffs/H0bb.png> <./images/diffs/H0bbz.png>] [19 <./images/di
-ffs/reez.png>] [20]) [21]
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.152     0,              &
+                            \text{otherwise}
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+[20 <./images/diffs/reez.png>] [21]) [22]
 \openout2 = `Forecasts.aux'.
 
- (./Forecasts.tex) [22
+ (./Forecasts.tex) [23
 
 
 ]
 \openout2 = `Conclusion.aux'.
 
- (./Conclusion.tex) [23
+
+(./Conclusion.tex) [24
 
 
-]
-(./report2.bbl [24
+] (./report2.bbl [25
 
-]) [25] (./report2.aux (./Abstract.aux) (./Introduction.aux)
-(./Theory.aux) (./Method.aux) (./Forecasts.aux) (./Conclusion.aux))
-
-LaTeX Warning: There were undefined references.
-
+]) [26] (./report2.aux
+(./Abstract.aux) (./Introduction.aux) (./Theory.aux) (./Method.aux)
+(./Forecasts.aux) (./Conclusion.aux))
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -1031,11 +897,11 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  2546 strings out of 493848
  32618 string characters out of 1152823
- 94190 words of memory out of 3000000
+ 91198 words of memory out of 3000000
  5744 multiletter control sequences out of 15000+50000
  12750 words of font info for 49 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 27i,9n,32p,961b,223s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,9n,32p,961b,221s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sha
 re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-te
 xlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-texlive/fonts
@@ -1046,9 +912,9 @@ m/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb>
 exmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texliv
 e/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type
 1/public/amsfonts/cm/cmti12.pfb>
-Output written on report2.pdf (25 pages, 936988 bytes).
+Output written on report2.pdf (26 pages, 938533 bytes).
 PDF statistics:
- 144 PDF objects out of 1000 (max. 8388607)
+ 147 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

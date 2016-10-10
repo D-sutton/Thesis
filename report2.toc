@@ -1,23 +1,26 @@
 \contentsline {section}{\numberline {1}Introduction}{4}
-\contentsline {subsection}{\numberline {1.1}Large Scale Magnetic Fields}{4}
-\contentsline {subsection}{\numberline {1.2}CMB Polarisation}{6}
+\contentsline {subsection}{\numberline {1.1}Observational Evidence for Large Scale Magnetic Fields}{4}
+\contentsline {subsubsection}{\numberline {1.1.1}Zeeman Splitting}{4}
+\contentsline {subsubsection}{\numberline {1.1.2}Synchrotron Emissions}{5}
+\contentsline {subsubsection}{\numberline {1.1.3}Faraday Rotation}{5}
+\contentsline {subsection}{\numberline {1.2}Cosmic Microwave Background Polarisation}{6}
 \contentsline {subsection}{\numberline {1.3}Future CMB experiments}{8}
-\contentsline {section}{\numberline {2}PMF Theory}{10}
+\contentsline {section}{\numberline {2}Primordial Magnetic Field Theory}{10}
 \contentsline {subsection}{\numberline {2.1}Biermann Batteries}{10}
 \contentsline {subsection}{\numberline {2.2}Other Methods of PMF Generation}{10}
 \contentsline {subsection}{\numberline {2.3}Effect of PMFs on the Cosmic Microwave Background}{11}
 \contentsline {subsection}{\numberline {2.4}Other effects of PMFs}{11}
-\contentsline {subsection}{\numberline {2.5}Other Sources of Cosmic Birefringence}{12}
-\contentsline {section}{\numberline {3}Method}{14}
-\contentsline {subsection}{\numberline {3.1}Introduction to Fisher Matrices}{14}
-\contentsline {subsection}{\numberline {3.2}The CMB Power Spectra}{15}
-\contentsline {subsection}{\numberline {3.3}The Covariance Matrix}{17}
-\contentsline {subsection}{\numberline {3.4}Conditioning and Forecasting}{20}
-\contentsline {subsection}{\numberline {3.5}Manipulating the Fisher Matrix}{20}
-\contentsline {section}{\numberline {4}Forecasts}{22}
-\contentsline {subsection}{\numberline {4.1}$\Lambda $CDM forecasts}{22}
-\contentsline {subsection}{\numberline {4.2}extended models}{22}
-\contentsline {section}{\numberline {5}Discussion and Future Work}{23}
-\contentsline {subsection}{\numberline {5.1}Discussion}{23}
-\contentsline {subsection}{\numberline {5.2}Applications}{23}
-\contentsline {subsection}{\numberline {5.3}Future Work}{23}
+\contentsline {subsection}{\numberline {2.5}Other Sources of Cosmic Birefringence}{13}
+\contentsline {section}{\numberline {3}Method}{15}
+\contentsline {subsection}{\numberline {3.1}Introduction to Fisher Matrices}{15}
+\contentsline {subsection}{\numberline {3.2}The CMB Power Spectra}{16}
+\contentsline {subsection}{\numberline {3.3}The Covariance Matrix}{19}
+\contentsline {subsection}{\numberline {3.4}Conditioning and Forecasting}{21}
+\contentsline {subsection}{\numberline {3.5}Manipulating the Fisher Matrix}{21}
+\contentsline {section}{\numberline {4}Forecasts}{23}
+\contentsline {subsection}{\numberline {4.1}$\Lambda $CDM forecasts}{23}
+\contentsline {subsection}{\numberline {4.2}extended models}{23}
+\contentsline {section}{\numberline {5}Discussion and Future Work}{24}
+\contentsline {subsection}{\numberline {5.1}Discussion}{24}
+\contentsline {subsection}{\numberline {5.2}Applications}{24}
+\contentsline {subsection}{\numberline {5.3}Future Work}{24}
