@@ -13,15 +13,24 @@ The final term, $\nabla n_e \times \nabla T$ is the source term describing the B
 
 \subsection{Other Methods of PMF Generation}
 
-\subsubsection*{Inflation}
+\subsubsection{Inflation}
 Cosmic inflation is an attactive model for PMF generation. During inflation the Universe isn't yet an ionised plasma. This means that the Universe is not a good conductor. In this state magnetic flux need not be conserved so it's possible for a seed field to emerge spontaneously.
 
 The rapid expansion of the Universe in this epoch stretches out modes. Inflation stretches out quantum fluctuations into large scale density perturbations which seed the structure of the Universe. Similarly, inflation could stretch out small, weak magnetic fields to megaparsec scales as required.
 
-A problem for this model is that it requires inflation to break conformal symmetry to produce this weak seed field initially. Turner and Widrow (1988) present one such model for conformal symmetry breaking leading to PMF generation in \cite{PhysRevD.37.2743}.
+A problem for this model is that it requires inflation to break conformal symmetry to produce this weak seed field initially. Turner and Widrow (1988) \cite{PhysRevD.37.2743} present one such model for conformal symmetry breaking leading to PMF generation in .
 \\
-\subsubsection*{Phase Transitions}
+\subsubsection{Phase Transitions}
 PMFs may have also been produced by early phase transitions, such as the QCD transition or the electroweak phase transition. During a phase transition bubbles of the new phase form within the previous phase, these bubbles grow and collide until the entire Universe reaches the lower phase. These phase transitions bring on non-equilibrium processes such as leptogenesis and baryogenesis, which may be responsible for producing some weak magnetic fields. Within a phase transition, a collision between bubbles will produce turbulence leading to dynamos which will serve to spin up the magnetic fields into the strengths required to match the field strengths observed today.
+
+\subsection{Galactic Dynamos as Amplifiers}
+On their own, seed magnetic fields such as PMFs are too weak (of order nanoguass) to give rise to the magnetic fields we see in the cosmos today. There must be a process for amplifying the seed magnetic fields. \\Galactic dynamos are good candidates for seed magnetic field amplifiers. Dynamos are systems that convert kinetic energy into electromagnetic energy. Hot ionised gas rotates around the galactic centre of a galaxy. The ions drag the magnetic field lines along with them, tangling them up and increasing the magnetic flux density, and in addition the magnetic field strength. Hence galactic dynamos are able to amplify a weak seed magnetic field into a stronger magnetic field that we observe today.
+
+\begin{figure}[ht]
+\centering
+\includegraphics[scale=1]{images/dynamos_beck.png}
+\caption{Spin up of magnetic fields in the presence of a galactic dynamo. In the first panel, at t = 0.1 Gyr, the seed magnetic field is picked up by a dynamo. Over the next two panels the dynamo spins up the magnetic field, increasing flux density. The bottom panel is a side-on view of the galactic dynamo at 8.1 Gyr. Figure from Beck et al., (1996) \cite{Beck:1996}.}
+\end{figure}
 
 \subsection{Effect of PMFs on the Cosmic Microwave Background}
 If PMFs have a field strength ~1nG then their signatures will be detectable in the CMB B-mode polarisation power spectrum. Just as extragalactic magnetic fields Farday rotate radio and X-ray signals, PMFs would induce Faraday rotation within CMB polarisation. The net effect is that a fraction of E-mode polarisation would be transformed into B-mode polarisation. 
@@ -31,11 +40,7 @@ The PMF power spectrum is given by:
 P(k) = A_{PMF}k^{n_B}
 \end{equation}
 
-Where $A_{PMF}$ is the PMF amplitude and $n_{B}$ is the PMF spectral index. Since the scale of the PMF power spectrum will depend on the age of the Universe when they first formed, the spectral index is sensitive to the mechanism that first produced PMFs. If $n_{B}$...
-In order to measure the strength of PMFs we focus our attention to the amplitude, $A_{PMF}$. The PMF amplitude is related to $B_{1Mpc}$, the strength of PMFs coherent over 1 megaparsec by the following relation:
-\begin{equation}
-A_{PMF} = (\frac{B_{1Mpc}}{2.5nG})^4
-\end{equation}
+Where $A_{PMF}$ is the PMF amplitude and $n_{B}$ is the PMF spectral index. Since the scale of the PMF power spectrum will depend on the age of the Universe when they first formed, the spectral index is sensitive to the mechanism that first produced PMFs.
 
 \begin{figure}[h]
 \centering
@@ -43,16 +48,22 @@ A_{PMF} = (\frac{B_{1Mpc}}{2.5nG})^4
 \caption{Plot of the CMB power spectrum. The dotted green and yellow lines show the power spectrum for vector and tensor PMFs. Vector PMFs have more power on smaller scales (larger $\ell$) and tensor PMFs have more power on larger scales (smaller $\ell$). The purple line shows the expected combined PMF plus lensing effects on the CMB. Compared to the blue dotted line for lensing alone, a PMF-influenced CMB power spectrum may be detectable on smaller scales than on larger scales.}
 \end{figure}
 
+In order to measure the strength of PMFs we focus our attention to the amplitude, $A_{PMF}$. The PMF amplitude is related to $B_{1Mpc}$, the strength of PMFs coherent over 1 megaparsec by the following relation:
+
+\begin{equation}
+A_{PMF} = (\frac{B_{1Mpc}}{2.5nG})^4
+\end{equation}
+
 Recent work from PLANCK (2015) has constrained the primordial magnetic field strength coherent over 1 Mpc to $B_{1Mpc}$ $<$ 4.4nG \cite{Ade:2015cva}. In 2016 POLARBEAR modestly improved this constraint to $B_{1Mpc}$ $<$ 3.9nG \cite{Ade:2015cao}.
 \subsection{Other effects of PMFs}
 
 In addition to CMB polarisation, PMFs will affect the have effects on large scale structure and Big Bang Nucleosynthesis (BBN).
 
-\subsubsection*{Large Scale Structure}
+\subsubsection{Large Scale Structure}
 
 PMFs can indirectly shape the the structure of the cosmos. At early times a PMF can exert a Lorentz force on baryonic matter. Since baryonic matter interacts gravitationally with dark matter, it follows that PMFs have an influence on matter distribution. This effect can be observed in the density perturbation amplitude over 8 Mpc, $\sigma_8$. One can also observe its effects by looking for changes in the matter power spectrum. Figure X shows the impact of PMFs on the matter power spectrum for Universes with either massless or massive neutrinos.
 
-\begin{figure}[h]
+\begin{figure}[ht]
 \centering
 \includegraphics[scale=1.1]{images/matterpower.png} 
 \caption{Plot of the matter power spectrum. Here $B_{\lambda}$ is equal to $B_{1Mpc}$ The left panel gives the power spectrum in the range $0.01 Mpc^{-1} < k/h < 0.2 Mpc^{-1}$. At small scales (small k/h) all models fall within the experimental error, however the Universe without massive neutrinos or PMFs has more power at these scales. The right panel gives the power spectrum in the range $0.1 Mpc^{-1} < k/h < 0.2 Mpc^{-1}$. At larger scales, the matter power spectrum is significantly affected by the presence and strength of PMFs.}
@@ -61,7 +72,7 @@ PMFs can indirectly shape the the structure of the cosmos. At early times a PMF 
 So far, there are no constraints on the PMF amplitude from large scale structure as the interactions happen in the non-linear regime, making measurements of its effects diffucult at the current time.
 
 
-\subsubsection*{Big Bang Nucleosynthesis}
+\subsubsection{Big Bang Nucleosynthesis}
 
 If PMFs existed prior to BBN then we expect to see its signature in nuclear abundances. Primordial magnetic fields contribute to the overall energy density of the Universe and therefore vary the rate of expansion. If the rates of expansion in the Universe differ then so does the rate at which the Universe cools. If PMFs were indeed formed prior to BBN then the freeze-out times of reactions during BBN would differ from standard model values and hence so would primordial abundances of Helium and Hydrogen.
 
