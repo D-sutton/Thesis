@@ -63,10 +63,7 @@ F_{ij} = \frac{\partial C_{\ell}}{\partial p^i} C^{-1} \frac{\partial C_{\ell}}{
 \caption{Plot of CMB BB power spectrum difference when $H_{0}$ is varied for different step sizes. Top panel: Power spectrum over the range $0 \leq \ell \leq 5000$. This plot shows that $\Delta C_{\ell}$ converges within this range. Smaller step sizes show less stability, as shown by the blue and green lines. Bottom panel: A zoomed in version of the above graph, taken over $500 \leq \ell \leq 900$. The larger of the step sizes, given by the cyan and magenta lines have a lot of overlap, which indicates that the derivatives will converge on a step-size within the range 0.08 to 0.1}
 \end{figure}
 
-
 \subsection{The CMB Power Spectra}
-
-
 
 To begin constructing the Fisher matrix in the form given by (12), I first used CAMB to build the CMB power spectrum. [describe CAMB] [also cite CAMB]
 
@@ -77,7 +74,7 @@ To call on CAMB one first needs to define parameters. A quick summary of the par
 \caption{CAMB Parameters and Values}
 \label{my-label}
 \begin{tabular}{l|l|l|l}
-Parameter & \multicolumn{1}{c|}{Value} & Uncertainty & Step Size  \hline \\
+Parameter & \multicolumn{1}{c|}{Value} & Uncertainty & Step Size \\ \hline
 $\Omega_{b}h^{2}$ & \multicolumn{1}{c|}{0.02227716} & \multicolumn{1}{c|}{0.00023} & \multicolumn{1}{c}{$\pm 8 \times 10^{-5}$}  \\
 $\Omega_{c}h^{2}$ & \multicolumn{1}{c|}{0.1184293} & \multicolumn{1}{c|}{0.022} & \multicolumn{1}{c}{$\pm 10^{-3}$}  \\
 $H_0$ & \multicolumn{1}{c|}{67.86682} & \multicolumn{1}{c|}{0.96} & \multicolumn{1}{c}{$\pm 8 \times 10^{-2}$}  \\
@@ -90,7 +87,7 @@ $r$ & \multicolumn{1}{c|}{0.01} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c}{$\
 \end{tabular}
 
 \bigskip
- This table shows the 6 $\Lambda CDM$ model parameters, as well as the running of the scalar index, the effective number of neutrinos and the tensor-to-scalar ratio. The 'Value' column shows the central value I entered into CAMB when producing the polarisation power spectrum and the 'Step Size' column indicates the magnitude of the perturbation around the central value I used for calculating the numerical derivatives. Finally, the 'Uncertianty' column gives the PLANCK best fit (2015) \cite{Ade:2015xua} $\Lambda CDM$ uncertainties, which were used as an upper bound for step sizes.
+This table shows the 6 $\Lambda CDM$ model parameters, as well as the running of the scalar index, the effective number of neutrinos and the tensor-to-scalar ratio. The 'Value' column shows the central value I entered into CAMB when producing the polarisation power spectrum and the 'Step Size' column indicates the magnitude of the perturbation around the central value I used for calculating the numerical derivatives. Finally, the 'Uncertianty' column gives the PLANCK best fit (2015) \cite{Ade:2015xua} $\Lambda CDM$ uncertainties, which were used as an upper bound for step sizes.
 \end{table}
  
 
@@ -130,9 +127,9 @@ These templates assume that the PMF strength is $B_{1Mpc} = 2.5nG$ when $A_{pmf}
 
 \subsection{The Covariance Matrix}
 
-For the inverse covariance matrix in (12) I used mock stage-3 and stage-4-like covariance matrices. These covariance matrices were calculated as per Tegmark (1997) \cite{Tegmark:1997vs} with five experimental parameters: Scan area, noise, $\ell_{knee}$, beam error and calibration error. The values for these parameters match up with various stage-3 and stage-4 experimental designs.
+For the inverse covariance matrix in (12) I used mock stage-3 and stage-4-like covariance matrices. These covariance matrices were calculated as per Tegmark (1997) \cite{Tegmark:1997vs} with five experimental parameters: survey area, noise, $\ell_{knee}$, beam error and calibration error. The values for these parameters match up with various stage-3 and stage-4 experimental designs.
 \begin{itemize}
-\item Scan area is the area of sky that these experiments will observe given in square degrees. For reference SPT-3G will observe a $2500 deg^{2}$ patch of sky whereas PLANCK observed the whole sky.
+\item Survey area is the area of sky that these experiments will observe given in square degrees. For reference SPT-3G will observe a $2500 deg^{2}$ patch of sky whereas PLANCK observed the whole sky.
 
 \item Noise is the background/instrumental(?) noise level of the experiment. This parameter is directly related to the number of bolometers in the experiment.
 

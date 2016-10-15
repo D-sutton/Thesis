@@ -50,9 +50,7 @@ The CMB is the light from the Big Bang, however the CMB itself didn't form until
 At the time of last scattering the Universe was composed of a hot, ionised plasma, consisting of protons and electrons. The temperature anisotropies in this plasma gave rise to the net polarisation of the CMB that we see today \cite{Hu:1997hv}.
 Electrons in the plasma are surrounded by hot and cold patches. Those that are surrounded by quadrupolar temperature anisotropies - two hotter patches either side and then two cooler patches either side on an axis perpendicular to the hotter patches produce a net polarisation through Thomson scattering.
 
-Figure 1 shows how a net linear polarisation arises from Thomson scattering about a quadrupolar temperature anisotropy. What happens is two photons approach the electron from perpendicular directions. One from the cool patch and one from the hot patch. The two photons scatter off the electron perpendicular to the plane of incidence for both photons. The resultant photon has a net linear polarisation oriented in the plane of incidence...
-
-The polarisation of the CMB first arose due to quadrupolar temperature anisotropies at last scattering \cite{Hu:1997hv}.  Thomson scattering of photons in the electron-photon plasma linearly polarises out-going photons, however without anisotropies or only dipolar anisotropies, the net polarisation of the CMB is cancelled out. An electron in the plasma is surrounded by two hot regions and two cool regions oriented perpendicular to one another. Photons approaching from the hotter region impart their polarisation more strongly than those from cooler regions, producing net polarisations over patches of the sky. Figure 1 shows a diagram of Thomson scattering in a region with quadrupolar anisotropy.
+Figure 1 shows how a net linear polarisation arises from Thomson scattering about a quadrupolar temperature anisotropy. Two photons approach the electron from perpendicular directions, one from the cool patch (shown in red) and one from the hot patch (shown in blue). The two photons scatter off the electron perpendicular to the plane of incidence for both photons. The resultant photon has a net linear polarisation oriented in the plane of incidence with an angle of polarisation proportional to the difference in temperature of the two photons. 
 
 \begin{figure}[h]
 \centering
@@ -72,12 +70,12 @@ In order to describe the effects of perturbations on CMB polarisation we introdu
 \label{fig:modes}
 \end{figure}
 
-The causes of B-mode CMB polarisation are new frontiers in physics. There is a strong case to study CMB polarisation, in the hopes that we may shed some light on the exotic nature of the early Universe.
-
 \subsection{Future CMB experiments}
 This year stage-3 CMB experiments will commence operation and before the end of the next decade, stage-4 CMB experiments will have also collected their data. The next generation of CMB experiments aim to obtain tighter constraints on cosmological parameters such as the tensor-to-scalar ratio as well as map the CMB in higher detail than ever before. Though PMF detection is not the main science goal of these experiments, they will be able to tighten constraints on the primordial magnetic field strength and perhaps make a detection.
 
-The key limitation in detecting PMFs will be the experimental senstivity, measured in noise ($\mu$K). To improve sensitivity one must decrease the noise, which is done by adding more detectors. The noise level and the number of detectors obey the relation: $$ noise \propto ({\sqrt{n_{detectors}})^{-1}$$ Each stage of CMB experiments adds a factor of 10 more detectors, bringing the noise level down by a factor of $\sqrt{10}$.
+Since CMB polarisation has such a faint signal, it is essential that all CMB experiments aim to reduce their level of noise as much as possible. There are many ways to do this - making better detectors or perhaps adding more. In the case of CMB experiments one can produce better detectors by reducing the temperature of the detector. This however has diminishing returns at low temperatures since firstly, lower temperatures are progressively harder to reach and sustain the lower they are. Secondly, current CMB detectors are already well below the temperature of the incoming CMB photons, so the improvement from reducing the temperature any further is negligible.
+
+Instead, the standard approach to lowering noise is to simply add more detectors. This works since photon detection is a Poisson process, that is only discrete numbers of photons can be detected, the rate at which they hit the detector is constant and independent of previous photon detection events and a detector can only detect a single photon at a time. For a Poisson process, the noise level scales with the number of the detectors like: $$ Noise \propto \frac{1}{\sqrt{N_{detectors}}}$$ So far, each stage of CMB experiments have added a factor of 10 more detectors, bringing the noise level down by a factor of $\sqrt{10}$.
 
 \begin{figure}[t]
 \centering
@@ -90,15 +88,15 @@ The key limitation in detecting PMFs will be the experimental senstivity, measur
 \caption{Properties of Present and Future CMB experiments}
 \label{my-label}
 \begin{tabular}{l|l|l|l|l}
-Experiment & \multicolumn{1}{c|}{Stage} & \multicolumn{1}{c|}{N_{bolo}} & Scan Area ($deg^{2}$)& Polarisation Noise ($\mu$K) \\ \hline
-SPT-pol & \multicolumn{1}{c|}{2} & \multicolumn{1}{c|}{1536} & \multicolumn{1}{c|}{100} & \multicolumn{1}{c}{20} \\
-PLANCK & \multicolumn{1}{c|}{Space-based} & \multicolumn{1}{c|}{32} & \multicolumn{1}{c|}{Full Sky} & \multicolumn{1}{c}{noise} \\
-SPT-3G & \multicolumn{1}{c|}{3} & \multicolumn{1}{c|}{15234} & \multicolumn{1}{c|}{2500} & \multicolumn{1}{c}{4.8} \\
-Adv-ACTpol & \multicolumn{1}{c|}{3} & \multicolumn{1}{c|}{2718} & \multicolumn{1}{c|}{20 000} & \multicolumn{1}{c}{9.9} \\
-POLARBEAR2 & \multicolumn{1}{c|}{3} & \multicolumn{1}{c|}{7588} & \multicolumn{1}{c|}{} & \multicolumn{1}{c}{8.2} \\
-Simons Array & \multicolumn{1}{c|}{3} & \multicolumn{1}{c|}{22764} & \multicolumn{1}{c|}{} & \multicolumn{1}{c}{4.8} \\ 
+Experiment & \multicolumn{1}{c|}{Stage} & \multicolumn{1}{c|}{N_{bolo}} & Survey Area ($deg^{2}$)& Polarisation Noise ($\mu$K) \\ \hline
+SPT-pol & \multicolumn{1}{c|}{2} & \multicolumn{1}{c|}{1 536} & \multicolumn{1}{c|}{100} & \multicolumn{1}{c}{20} \\
+PLANCK & \multicolumn{1}{c|}{Space-based} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{41 253} & \multicolumn{1}{c}{52} \\
+Adv-ACTpol & \multicolumn{1}{c|}{3} & \multicolumn{1}{c|}{2 718} & \multicolumn{1}{c|}{20 000} & \multicolumn{1}{c}{9.9} \\
+%POLARBEAR2 & \multicolumn{1}{c|}{3} & \multicolumn{1}{c|}{7 588} & \multicolumn{1}{c|}{33 000} & \multicolumn{1}{c}{8.2} \\
+SPT-3G & \multicolumn{1}{c|}{3} & \multicolumn{1}{c|}{15 234} & \multicolumn{1}{c|}{2 500} & \multicolumn{1}{c}{4.8} \\
+Simons Array & \multicolumn{1}{c|}{3} & \multicolumn{1}{c|}{22 764} & \multicolumn{1}{c|}{33 000} & \multicolumn{1}{c}{4.8} \\ 
 Stage 4 Expected & \multicolumn{1}{c|}{4} & \multicolumn{1}{c|}{500 000} & \multicolumn{1}{c|}{20 000} & \multicolumn{1}{c}{1.4} \\
 \end{tabular}
 \bigskip
-\\This table shows a short (and by no means comprehensive) list of current and upcoming CMB experiments and their key design features useful for detecting PMFs. \cite{Henderson:2015nzj} \cite{Benson:2014qhw} \cite{Suzuki:2015zzg}. Note: PLANCK
+\\This table shows a short (and by no means comprehensive) list of current and upcoming CMB experiments and their key design features useful for detecting PMFs. \cite{Henderson:2015nzj} \cite{Benson:2014qhw} \cite{Suzuki:2015zzg} \cite{Adam:2015vua}. The PLANCK telescope is the only space-based experiment listed on this table. I have included it because I will use its data release in my analysis. The number of detectors has been left out since the number of detectors on ground and space-based experiment can't be directly compared. For reference PLANCK has 32 polarisation detectors on its High Frequency Instrument (HFI) and carries out full-sky observations \cite{Lamarre:2003zh}.
 \end{table}
