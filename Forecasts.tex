@@ -20,14 +20,30 @@ While varying the experimental design, the fixed values need to be chosen with c
 \multicolumn{1}{c}{calibration error (\% error)} & \multicolumn{1}{|c}{0.01} \\
 \multicolumn{1}{c}{beam uncertainty (\% error)} & \multicolumn{1}{|c}{0.05}
 \end{tabular}
-
-\bigskip
 \begin{flushleft}
 This table shows the values I chose for each independent variable when they were held fixed. The variables shown are all generous estimates for the range of capabilities the stage-3 experiments will have, but very conservative for stage-4. As a result, the forecasts will underestimate the strengths for the best-case scenario stage-4 experiments.
 \end{flushleft}
 \end{table}
 
+The optimal experimental design for detecting PMFs maximises the survey area and minimises the beam width and $\ell_{knee}$. The sensitivity is independent of the beam and calibration uncertainties. 
 
+The forecasts for the next stages of CMB experiments are promising. Our current best limits from Planck are $\sigma(B_{1Mpc}) \geq 0.38nG$. In comparison, the limits from stage-3 and stage-4-like covariances fall within the range of $\sim$ 0.01nG to $\sim$ 0.001nG. In the most optimistic cases, measurements will have 100 times more sensitivity to PMFs than current experiments.
+
+As shown in figure 9, $\sigma(B_{1Mpc})$ decreases as the survey area increases. If we combine the mock covariances with PLANCK data our best constraints range from $\sigma(B_{1Mpc}) \geq 0.0075nG$ for a survey area of 4125 deg$^2$ to $\sigma(B_{1Mpc}) \geq 0.0036nG$ for a survey area of 28877 deg$^2$. Roughly a factor of two improvment.
+
+
+
+\iffalse
+			planck						no planck
+			worst, best					worst, best
+noise	0.00474501/0.00600522		0.00717233/0.00558406
+area 	0.00359934/0.00747452		0.00490593/0.00930977
+knee		0.00956846/0.00486999		0.01191336/0.00608756
+fwhm	  	0.00517385/0.00353918  		0.00783416/0.00371174
+
+PLANCK = 0.38\sqrt{•}
+
+\fi
 
 \begin{figure}[h]
 \centering
