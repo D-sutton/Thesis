@@ -3,6 +3,9 @@
 In this section I outline the method I used to forecast upper limits for PMF detection using mock stage-3 and stage-4 covariance matrices and simulated CMB power spectra. In section 3.1 I will introduce the Fisher matrix, its properties and discuss how it is useful for experimental design. In section 3.2 I will discuss how I obtained CMB power spectra and how they are used to construct the Fisher matrix. Next, in section 3.3 I will describe the properties of the mock covariances and how I processed them into a useable format. Finally in section 3.4 will bring all the pieces together and explain how to obtain a Fisher matrix, apply conditioning to secure it against numerical instabilities and apply a change of variables to recieve forecasts for the upper limits on $B_{1Mpc}$.
 
 \subsection{Introduction to Fisher Matrices}
+
+The Fisher matrix is a powerful tool in experimental design, allowing us to forecast the theoretical maximum precision for a planned experiment. In my research I constructed Fisher matrices for future CMB experiments and inverted them into covariance matrices over the many model parameters a CMB experiment can measure with the aim of finding the theoretical maximum precision for an experiment aiming to measure or constrain the field strength of PMFs.
+
 The elements of the Fisher matrix are defined as:
 \begin{equation}
 \mathcal{F}_{ij} = - \left \langle \frac{\partial^{2}ln{\mathcal{L}}}{\partial p^i\partial p^j } \right \rangle
@@ -15,16 +18,14 @@ If the Fisher matrix is non-singular then it can be inverted into a covariance m
 F = - \langle \frac{\partial^{2}ln{\mathcal{L}}}{{\partial p}^2} \rangle
 \end{equation}
 
-Since the Fisher matrix can be inverted into a covariance matrix over the model parameters, it is a powerful tool in experimental design used for forecasting the upper limits on the precision of an experiment. The Fisher matrix has a number of useful properties:
+Since the Fisher matrix can be inverted into a covariance matrix over the model parameters, it is a powerful tool in experimental design used for forecasting the upper limits on the precision of an experiment. The Fisher matrix has a number of useful properties.
 
-Firstly, it is linear under addition: Adding n Fisher matrices returns a new Fisher matrix which can be inverted into a new covariance matrix with tighter constraints. This result is especially useful when you wish to know the total accuracy of many combined experiments.
+Suppose I would like to know not only how well one CMB experiment will do, but rather the whole set of CMB experiments within a generation. If I had the covariance matrices for each individual experiment the solution is simple. I can just invert each covariance matrix into a Fisher matrix and use the fact that Fisher matrices are linear under addition. Adding the many Fisher matrices together returns a new Fisher matrix which can be inverted into a new covariance matrix with tighter constraints accounting for the net precision of all the CMB experiments. In general, if I have n Fisher matrices I can add them together and invert like so:
 \begin{equation}
 (\mathcal{F}_{1} + \mathcal{F}_{2} + ... + \mathcal{F}_{n})^{-1} = \mathcal{F}^{-1}_{1+2+...+n}
 \end{equation}
 
-As a corollary, the Fisher matrix can be multiplied by a scalar, which is useful when you want to know the effect of repeating your experiment or adding more instances of the same design.
-
-Furthermore, one can use this property to add priors to your design: suppose we know that one model parameter has been well-constrained in the past and our experiment isn't set to improve upon this result. We can combine the prior result with our current Fisher matrix to provide tighter constraints, like so:
+As a corollary, the Fisher matrix can be multiplied by a scalar, which is useful when you want to know the effect of repeating your experiment or adding more instances of the same design. Furthermore, one can use this property to add priors to your design: suppose we know that one model parameter has been well-constrained in the past and our experiment isn't set to improve upon this result. We can combine the prior result with our current Fisher matrix to provide tighter constraints, like so:
 
 $$ \begin{bmatrix}
 F_{aa} & F_{ab} & F_{ac}\\  
@@ -38,13 +39,13 @@ F_{ca} & F_{cb} & F_{cc}\\
 0 & 0 & P\\
 \end{bmatrix} $$
 
-Here, we have a prior, P on variable c. All we need to do is add P to the corresponding diagonal term. However, if the prior is too big the Fisher matrix becomes singular. To combat this we employ the second useful property of Fisher matrices, marginalisation.
+Here, I have a prior, P on a variable, c. All I need to do is add P to the corresponding diagonal term. However, if the prior is too big the Fisher matrix becomes numerically singular. This is a nuisance when dealing with large data sets and many model parameters however there are ways to combat this. I employ the second useful property of Fisher matrices, marginalisation.
 
-If we have a Fisher matrix with more variables than we're interested in, we can just throw away the rows and columns associated with the variables that we don't care about. The resultant matrix is a Fisher matrix that is valid for the remaining variables - there's no need to recalculate the Fisher matrix with fewer variables!
+If I have a Fisher matrix with more variables than we're interested in, I can just remove the rows and columns associated with the variables that I don't care about. The resultant matrix is a Fisher matrix that is valid for the remaining variables - there's no need to recalculate the Fisher matrix with fewer variables!
 
 Returning to the case where P $>>$ $F_{cc}$, we can marginalise over the variable c by removing its associated rows and columns from the Fisher matrix. In this case the information lost is negligible, since the variance from our experiment was much larger than P's experiment anyway. In return, we now find we can forecast for the remaining variables.
 
-Usually, the Fisher matrix is found by calculating the log-likelihood for the model parameters. This is done by making likelihood chains in Markov-chain-Monte-Carlo simulations however this is not the only approach. If your model parameters are unbiased and Gaussian distributed then the following definition for the Fisher matrix holds:
+Equation 9 defines a case where one must know the log-likelihoods over the model parameters. There are special cases where this need not be done. If the model parameters are unbiased and Gaussian distributed then the following definition for the Fisher matrix holds:
 
 \begin{equation}
 F_{ij} = \frac{\partial f}{\partial p^i} C^{-1} \frac{\partial f}{\partial p^j}
@@ -61,6 +62,7 @@ F_{ij} = \frac{\partial C_{\ell}}{\partial p^i} C^{-1} \frac{\partial C_{\ell}}{
 \includegraphics[scale=0.6]{images/diffs/H0bb.png}
 \includegraphics[scale=0.6]{images/diffs/H0bbz.png}
 \caption{Plot of CMB BB power spectrum difference when $H_{0}$ is varied for different step sizes. Top panel: Power spectrum over the range $0 \leq \ell \leq 5000$. This plot shows that $\Delta C_{\ell}$ converges within this range. Smaller step sizes show less stability, as shown by the blue and green lines. Bottom panel: A zoomed in version of the above graph, taken over $500 \leq \ell \leq 900$. The larger of the step sizes, given by the cyan and magenta lines have a lot of overlap, which indicates that the derivatives will converge on a step-size within the range 0.08 to 0.1}
+\label{fig:diffH0}
 \end{figure}
 
 \subsection{The CMB Power Spectra}
@@ -109,7 +111,7 @@ To ensure that the derivatives are accurate the step sizes must be small, howeve
 
 As a final sanity check on the value of the step sizes, I would like them to be less than the 2015 PLANCK best fit uncertainties (refer to table 2).
  
-Figure 7 shows a plot of $\Delta C_{\ell}$ for the BB polarisation power spectrum, varying Hubble's constant and holding all else fixed. The top panel shows the differences over $ 0 < \ell < 5000$. The lines all appear to be converging on the same function. The blue line, corresponding to a step size of 0.02 has significant artifacting, so by criterion one it can be ruled out. The second panel is zoomed in on the peak and trough over $\ell ~ 700$. Taking a closer look at the lines reveals that as the step size increases toward 0.1 the lines begin to converge. There isn't an ostensible difference between step sizes of 0.08 or 0.1, so the deciding factor is which one produces a better approximation of $\frac{\partial C_{\ell}}{\partial p}$. Smaller step sizes suit this purpose so for Hubble's constant I chose 0.08.
+Figure~\ref{fig:diffH0} shows a plot of $\Delta C_{\ell}$ for the BB polarisation power spectrum, varying Hubble's constant and holding all else fixed. The top panel shows the differences over $ 0 < \ell < 5000$. The lines all appear to be converging on the same function. The blue line, corresponding to a step size of 0.02 has significant artifacting, so by criterion one it can be ruled out. The second panel is zoomed in on the peak and trough over $\ell ~ 700$. Taking a closer look at the lines reveals that as the step size increases toward 0.1 the lines begin to converge. There isn't an ostensible difference between step sizes of 0.08 or 0.1, so the deciding factor is which one produces a better approximation of $\frac{\partial C_{\ell}}{\partial p}$. Smaller step sizes suit this purpose so for Hubble's constant I chose 0.08.
  
 
  
@@ -119,6 +121,7 @@ An interesting second case is the difference plot for the tensor-to-scalar ratio
 \centering
 \includegraphics[scale=0.75]{images/diffs/reez.png}
 \caption{Plot of CMB BB power spectrum difference when r is varied for different step sizes. The plot is convergent and stable for a step size of at least 0.008. After $\ell \approx 220$ numerical effects dominate. These can be ignored due to the low overall contribution of r to the power spectrum.}
+\label{fig:diffr}
 \end{figure}
  
  

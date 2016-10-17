@@ -8,7 +8,12 @@ A level-1 auxiliary file: Forecasts.aux
 A level-1 auxiliary file: Conclusion.aux
 The style file: ieeetr.bst
 Database file #1: references.bib
-Unbalanced braces---line 330 of file references.bib
+I was expecting a `,' or a `}'---line 200 of file references.bib
+ : 
+ : @article{39087c288ce54d4bb9580169e1666880,
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Unbalanced braces---line 356 of file references.bib
  : 
  : }
 (Error may have been on previous line)
@@ -59,4 +64,4 @@ warning$ -- 5
 while$ -- 48
 width$ -- 22
 write$ -- 193
-(There was 1 error message)
+(There were 2 error messages)

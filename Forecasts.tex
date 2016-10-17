@@ -25,40 +25,6 @@ This table shows the values I chose for each independent variable when they were
 \end{flushleft}
 \end{table}
 
-The optimal experimental design for detecting PMFs maximises the survey area and minimises the beam width, noise and $\ell_{knee}$. The sensitivity is independent of the beam and calibration uncertainties. 
-
-The forecasts for the next stages of CMB experiments are promising. Our current best limits from Planck are $\sigma(B_{1Mpc}) \geq 0.38nG$. In comparison, the limits from stage-3 and stage-4-like covariances fall within the range of $\sim$ 0.01nG to $\sim$ 0.001nG. In the most optimistic cases, measurements will have 100 times more sensitivity to PMFs than current experiments.
-
-As shown in figure 9, $\sigma(B_{1Mpc})$ decreases as the survey area increases. If we combine the mock covariances with PLANCK data our best constraints range from $\sigma(B_{1Mpc}) \geq 0.0075nG$ for a survey area of 4125 deg$^2$ to $\sigma(B_{1Mpc}) \geq 0.0036nG$ for a survey area of 28877 deg$^2$, improving by a factor of 2.08. We also see a factor of 1.28 improvement, when the noise decreases from 4.3 $\mu$K arcmin to 0.9 $\mu$K arcmin, yielding  $\sigma(B_{1Mpc}) \geq 0.0060nG$ and $\sigma(B_{1Mpc}) \geq 0.0048nG$ respectively, as seen in figure 10. Decreasing the beam width from 10 arcmin to 1 arcmin improves sensitivity by a factor of 1.46 by reducing the uncertainty from $\sigma(B_{1Mpc}) \geq 0.0052nG$ to $\sigma(B_{1Mpc}) \geq 0.0035nG$ as per figure 11. In figure 12, we see that a lower $\ell_{knee}$ improves sensitivity. At $\ell_{knee} = 50$, $\sigma(B_{1Mpc}) \geq 0.0049nG$ and in the worst-case scenario, when $\ell_{knee} = 400$, we have $\sigma(B_{1Mpc}) \geq 0.0096nG$ - a factor of 1.96 improvement.
-
-
-
-\iffalse
-			planck						no planck
-			worst, best					worst, best
-noise	0.00474501/0.00600522		0.00717233/0.00558406
-area 	0.00359934/0.00747452		0.00490593/0.00930977
-knee		0.00956846/0.00486999		0.01191336/0.00608756
-fwhm	  	0.00517385/0.00353918  		0.00783416/0.00371174
-
-PLANCK = 0.38\sqrt{•}
-
-\fi
-
-\begin{figure}[h]
-\centering
-\includegraphics[scale=0.8]{images/area.png}
-\caption{Plot of survey area vs the experimental uncertainty on $B_{1Mpc}$ with all other independent experimental variables held fixed. This plot shows that as the survey area of an experiment increases, the precision on $B_{1Mpc}$ improves, thus the ideal experiment for detecting PMFs will increase the survey area. The blue line shows the precision for Future CMB experiments on their own and the green line shows the same precisions when combined with the PLANCK data set.}
-\label{fig:area}
-\end{figure}
-
-\begin{figure}[h]
-\centering
-\includegraphics[scale=0.8]{images/knee.png}
-\caption{Plot of $\ell_{knee}$ vs experimental uncertainty on $B_{1Mpc}$ with all other variables held fixed. This plot shows that precision on $B_{1Mpc}$ decreases as $\ell_{knee}$ increases, so it is best to reduce $\ell_{knee}$.}
-\label{fig:knee}
-\end{figure}
-
 \begin{figure}[h]
 \centering
 \includegraphics[scale=0.8]{images/noise.png}
@@ -72,6 +38,26 @@ PLANCK = 0.38\sqrt{•}
 \caption{Plot of beam width vs the experimental uncertainty on $B_{1Mpc}$. This plot shows that refining the width of the beam reudces the uncertainty on $B_{1Mpc}$.}
 \label{fig:width}
 \end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.8]{images/knee.png}
+\caption{Plot of $\ell_{knee}$ vs experimental uncertainty on $B_{1Mpc}$ with all other variables held fixed. This plot shows that precision on $B_{1Mpc}$ decreases as $\ell_{knee}$ increases, so it is best to reduce $\ell_{knee}$.}
+\label{fig:knee}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.8]{images/area.png}
+\caption{Plot of survey area vs the experimental uncertainty on $B_{1Mpc}$ with all other independent experimental variables held fixed. This plot shows that as the survey area of an experiment increases, the precision on $B_{1Mpc}$ improves, thus the ideal experiment for detecting PMFs will increase the survey area. The blue line shows the precision for Future CMB experiments on their own and the green line shows the same precisions when combined with the PLANCK data set.}
+\label{fig:area}
+\end{figure}
+
+The forecasts for the next stages of CMB experiments are promising. Our current best limits from Planck are $\sigma(B_{1Mpc}) \geq 0.38nG$. In comparison, the limits from stage-3 and stage-4-like covariances fall within the range of $\sim$ 0.01nG to $\sim$ 0.001nG. In the most optimistic cases, measurements will have 100 times more sensitivity to PMFs than current experiments.
+
+The optimal experimental design for detecting PMFs maximises the survey area and minimises the beam width, noise and $\ell_{knee}$. The sensitivity is independent of the beam and calibration uncertainties. 
+
+As shown in figure~\ref{fig:area}, $\sigma(B_{1Mpc})$ decreases as the survey area increases. If we combine the mock covariances with PLANCK data our best constraints range from $\sigma(B_{1Mpc}) \geq 0.0075nG$ for a survey area of 4125 deg$^2$ to $\sigma(B_{1Mpc}) \geq 0.0036nG$ for a survey area of 28877 deg$^2$, improving by a factor of 2.08. We also see a factor of 1.28 improvement, when the noise decreases from 4.3 $\mu$K arcmin to 0.9 $\mu$K arcmin, yielding  $\sigma(B_{1Mpc}) \geq 0.0060nG$ and $\sigma(B_{1Mpc}) \geq 0.0048nG$ respectively, as seen in figure~\ref{fig:noise}. Decreasing the beam width from 10 arcmin to 1 arcmin improves sensitivity by a factor of 1.46 by reducing the uncertainty from $\sigma(B_{1Mpc}) \geq 0.0052nG$ to $\sigma(B_{1Mpc}) \geq 0.0035nG$ as per figure~\ref{fig:width}. In figure~\ref{fig:knee}, we see that a lower $\ell_{knee}$ improves sensitivity. At $\ell_{knee} = 50$, $\sigma(B_{1Mpc}) \geq 0.0049nG$ and in the worst-case scenario, when $\ell_{knee} = 400$, we have $\sigma(B_{1Mpc}) \geq 0.0096nG$ - a factor of 1.96 improvement. In contrast, changes to calibration and beam uncertainty have negligible effects on improving detection limits. For all values of beam and calibration uncertainties the sensitivity to the PMF strength is $\sigma(B_{1Mpc}) \geq 0.0051nG$.
 
 \subsection{Parameter Constraints}
 
@@ -96,3 +82,23 @@ This table shows the values for each variable for both the mock covariance matri
 \end{flushleft}
 \end{table}
 
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.8]{images/contours/ombh.png}
+\caption{}
+\label{fig:ombh}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.8]{images/contours/omch.png}
+\caption{}
+\label{fig:omch}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.8]{images/contours/r.png}
+\caption{}
+\label{fig:r}
+\end{figure}
