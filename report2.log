@@ -1,17 +1,11 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.7.29)  18 OCT 2016 15:49
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2015.3.21)  18 OCT 2016 20:40
 entering extended mode
  %&-line parsing enabled.
 **report2.tex
 (./report2.tex
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
-yphenation, farsi, arabic, croatian, bulgarian, ukrainian, russian, czech, slov
-ak, danish, dutch, finnish, french, basque, ngerman, german, german-x-2009-06-1
-9, ngerman-x-2009-06-19, ibycus, monogreek, greek, ancientgreek, hungarian, san
-skrit, italian, latin, latvian, lithuanian, mongolian2a, mongolian, bokmal, nyn
-orsk, romanian, irish, coptic, serbian, turkish, welsh, esperanto, uppersorbian
-, estonian, indonesian, interlingua, icelandic, kurmanji, slovenian, polish, po
-rtuguese, spanish, galician, catalan, swedish, ukenglish, pinyin, loaded.
+yphenation, loaded.
 (/usr/share/texmf-texlive/tex/latex/base/article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
 (/usr/share/texmf-texlive/tex/latex/base/size12.clo
@@ -52,8 +46,7 @@ Package ifvtex Info: VTeX not detected.
 \Gm@odd@mp=\dimen105
 \Gm@even@mp=\dimen106
 \Gm@dimlist=\toks15
-
-(/usr/share/texmf-texlive/tex/xelatex/xetexconfig/geometry.cfg))
+)
 (/usr/share/texmf-texlive/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2000/07/18 v2.13 AMS math features
 \@mathmargin=\skip43
@@ -299,365 +292,8 @@ or  <return>  to continue without it.
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `Math1' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `Math1-Bold' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `Math1Mono' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `Math1Mono-Bold' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `Math2' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `Math2-Bold' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `Math2Mono' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `Math2Mono-Bold' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `Math3' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `Math3-Bold' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `Math3Mono' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `Math3Mono-Bold' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `Math4' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `Math4-Bold' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `Math4Mono' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `Math4Mono-Bold' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `Math5' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `Math5-Bold' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `Math5Mono' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `Math5Mono-Bold' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `Mathematica1' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `Mathematica1-Bold' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `Mathematica1CMTT' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `Mathematica1CMTT-Bold' already exists, duplicates ignore
-d
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `Mathematica1Mono' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `Mathematica1Mono-Bold' already exists, duplicates ignore
-d
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `Mathematica2' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `Mathematica2-Bold' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `Mathematica2CMTT' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `Mathematica2CMTT-Bold' already exists, duplicates ignore
-d
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `Mathematica2Mono' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `Mathematica2Mono-Bold' already exists, duplicates ignore
-d
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `Mathematica3' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `Mathematica3-Bold' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `Mathematica3CMTT' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `Mathematica3CMTT-Bold' already exists, duplicates ignore
-d
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `Mathematica3Mono' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `Mathematica3Mono-Bold' already exists, duplicates ignore
-d
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `Mathematica4' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `Mathematica4-Bold' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `Mathematica4CMTT' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `Mathematica4CMTT-Bold' already exists, duplicates ignore
-d
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `Mathematica4Mono' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `Mathematica4Mono-Bold' already exists, duplicates ignore
-d
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `Mathematica5' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `Mathematica5-Bold' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `Mathematica5CMTT' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `Mathematica5CMTT-Bold' already exists, duplicates ignore
-d
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `Mathematica5Mono' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `Mathematica5Mono-Bold' already exists, duplicates ignore
-d
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `Mathematica6' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `Mathematica6-Bold' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `Mathematica6CMTT' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `Mathematica6CMTT-Bold' already exists, duplicates ignore
-d
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `Mathematica6Mono' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `Mathematica6Mono-Bold' already exists, duplicates ignore
-d
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `Mathematica7' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `Mathematica7-Bold' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `Mathematica7CMTT' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `Mathematica7CMTT-Bold' already exists, duplicates ignore
-d
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `Mathematica7Mono' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `Mathematica7Mono-Bold' already exists, duplicates ignore
-d
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `lopb8r' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `lopbi8r' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `lopr8r' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `lopri8r' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `padb8r' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `padbi8r' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `padr8r' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `padri8r' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `pfub8r' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `pfubo8r' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `pfur8r' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `pfuro8r' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `pjnb8r' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `pjnbi8r' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `pjnr8r' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `pjnri8r' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `wttb8a' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `wttb8r' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `wttbo8a' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `wttbo8r' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `wttr8a' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `wttr8r' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `wttro8a' already exists, duplicates ignored
-
-
-pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
-p): fontmap entry for `wttro8r' already exists, duplicates ignored
-} <./images/UOM.png (PNG copy)>]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/UOM.png (PNG copy
+)>]
 \openout2 = `Abstract.aux'.
 
  (./Abstract.tex) [2
@@ -668,8 +304,7 @@ p): fontmap entry for `wttro8r' already exists, duplicates ignored
 \tf@toc=\write3
 \openout3 = `report2.toc'.
 
-
-[4]
+ [4]
 \openout2 = `Introduction.aux'.
 
  (./Introduction.tex [5
@@ -945,7 +580,19 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [34 <./images/contours/r.png>]
 \openout2 = `Conclusion.aux'.
 
- (./Conclusion.tex) [35
+ (./Conclusion.tex
+! Undefined control sequence.
+<recently read> \Lamda 
+                       
+l.6 ...nts with extra data and adding more $\Lamda
+                                                   CDM$ extension parameters...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+) [35
 
 
 ] (./report2.bbl
@@ -963,12 +610,12 @@ and I'll forget about whatever was undefined.
 ]) [37] (./report2.aux (./Abstract.aux) (./Introduction.aux) (./Theory.aux)
 (./Method.aux) (./Forecasts.aux) (./Conclusion.aux)) ) 
 Here is how much of TeX's memory you used:
- 2990 strings out of 493848
- 38817 string characters out of 1152823
- 98617 words of memory out of 3000000
- 6177 multiletter control sequences out of 15000+50000
+ 2988 strings out of 495061
+ 38651 string characters out of 1182621
+ 97624 words of memory out of 3000000
+ 6079 multiletter control sequences out of 15000+50000
  12750 words of font info for 49 fonts, out of 3000000 for 9000
- 714 hyphenation exceptions out of 8191
+ 28 hyphenation exceptions out of 8191
  27i,9n,32p,1372b,267s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive
 /fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/type
@@ -981,7 +628,7 @@ onts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/pu
 blic/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfon
 ts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12
 .pfb>
-Output written on report2.pdf (37 pages, 1196911 bytes).
+Output written on report2.pdf (37 pages, 1198967 bytes).
 PDF statistics:
  198 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
