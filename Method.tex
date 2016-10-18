@@ -8,6 +8,7 @@ The Fisher matrix is a powerful tool in experimental design, allowing us to fore
 
 The elements of the Fisher matrix are defined as:
 \begin{equation}
+\label{eqn:likelihoodfisher}
 \mathcal{F}_{ij} = - \left \langle \frac{\partial^{2}ln{\mathcal{L}}}{\partial p^i\partial p^j } \right \rangle
 \end{equation}
 where $\mathcal{L}$ is the likelihood and $p^{i}$, $p^{j}$ are the $i^{th}$ and $j^{th}$ model parameters.
@@ -15,6 +16,7 @@ where $\mathcal{L}$ is the likelihood and $p^{i}$, $p^{j}$ are the $i^{th}$ and 
 If the Fisher matrix is non-singular then it can be inverted into a covariance matrix for the model parameters. This result follows from the Cram\`{e}r-Rao theorem, which states that the variance of some unbiased estimator, p is greater than or equal to the inverse of its Fisher information. The Fisher information of a model parameter is given by:
 
 \begin{equation}
+\label{eqn:fisherinfo}
 F = - \langle \frac{\partial^{2}ln{\mathcal{L}}}{{\partial p}^2} \rangle
 \end{equation}
 
@@ -27,7 +29,9 @@ Suppose I would like to know not only how well one CMB experiment will do, but r
 
 As a corollary, the Fisher matrix can be multiplied by a scalar, which is useful when you want to know the effect of repeating your experiment or adding more instances of the same design. Furthermore, one can use this property to add priors to your design: suppose we know that one model parameter has been well-constrained in the past and our experiment isn't set to improve upon this result. We can combine the prior result with our current Fisher matrix to provide tighter constraints, like so:
 
-$$ \begin{bmatrix}
+\begin{equation}
+\label{eqn:prior}
+\begin{bmatrix}
 F_{aa} & F_{ab} & F_{ac}\\  
 F_{ba} & F_{bb} & F_{bc}\\   
 F_{ca} & F_{cb} & F_{cc}\\
@@ -37,7 +41,8 @@ F_{ca} & F_{cb} & F_{cc}\\
 0 & 0 & 0  \\
 0 & 0 & 0   \\
 0 & 0 & P\\
-\end{bmatrix} $$
+\end{bmatrix}
+\end{equation}
 
 Here, I have a prior, P on a variable, c. All I need to do is add P to the corresponding diagonal term. However, if the prior is too big the Fisher matrix becomes numerically singular. This is a nuisance when dealing with large data sets and many model parameters however there are ways to combat this. I employ the second useful property of Fisher matrices, marginalisation.
 
@@ -48,12 +53,14 @@ Returning to the case where P $>>$ $F_{cc}$, we can marginalise over the variabl
 Equation 9 defines a case where one must know the log-likelihoods over the model parameters. There are special cases where this need not be done. If the model parameters are unbiased and Gaussian distributed then the following definition for the Fisher matrix holds:
 
 \begin{equation}
+\label{eqn:fishermatrix}
 F_{ij} = \frac{\partial f}{\partial p^i} C^{-1} \frac{\partial f}{\partial p^j}
 \end{equation}
 
-where $f$ is the function that relates the model parameters to each other, $C$ is the covariance matrix for(???) and $p^{i}$ are the model parameters. In this thesis I will take $f$ to be the CMB polarisation power spectrum, $C_{\ell}$. Next, ${p}$ will be the $\Lambda CDM$ parameters as well as some additional parameters (see 3.X) and finally $C$ are mock covariance matrices associated with CMB-S3-like and CMB-S4-like experiments. Equation (12) then becomes:
+where $f$ is the function that relates the model parameters to each other, $C$ is the covariance matrix for the experimental design and $p^{i}$ are the model parameters. In this thesis I will take $f$ to be the CMB polarisation power spectrum, $C_{\ell}$. Next, ${p}$ will be the $\Lambda CDM$ parameters as well as some additional parameters (see table ~\ref{table:camb}) and finally $C$ are mock covariance matrices associated with CMB-S3-like and CMB-S4-like experiments. Equation (12) then becomes:
 
 \begin{equation}
+\label{eqn:clfisher}
 F_{ij} = \frac{\partial C_{\ell}}{\partial p^i} C^{-1} \frac{\partial C_{\ell}}{\partial p^j}
 \end{equation}
 
@@ -67,14 +74,14 @@ F_{ij} = \frac{\partial C_{\ell}}{\partial p^i} C^{-1} \frac{\partial C_{\ell}}{
 
 \subsection{The CMB Power Spectra}
 
-To begin constructing the Fisher matrix in the form given by (12), I first used CAMB to build the CMB power spectrum. ????????????????????????????????
+To begin constructing the Fisher matrix in the form given by ~\ref{eqn:clfisher}, I first used CAMB to build the CMB power spectrum. ????????????????????????????????
 
 To call on CAMB one first needs to define parameters. A quick summary of the parameters and their central values is given in table 2. The parameters I varied were the six $\Lambda CDM$ model parameters: $\Omega_{b}h^{2}$, the baryonic density. $\Omega_{c}h^{2}$, the cold dark matter density. $H_0$, Hubble's constant. $\tau$, the optical depth of reionisation. $\tau$ is a measure of approximately when reionisation occurred. $n_s$, the scalar spectral index for the primordial power spectrum, given by $P(k) = A_s k^{n_s - 1}$. $A_s$ is the amplitude of the primordial power spectrum. In addition we also have: The running of the scalar index, $n_{run}$. The effective number of neutrinos, $N_{eff}$ and the tensor-to-scalar ratio, $r$, which is used in constraining the effects of primordial gravity waves.
 
 \begin{table}[h]
 \centering
 \caption{CAMB Parameters and Values}
-\label{my-label}
+\label{table:camb}
 \begin{tabular}{l|l|l|l}
 Parameter & \multicolumn{1}{c|}{Value} & Uncertainty & Step Size \\ \hline
 $\Omega_{b}h^{2}$ & \multicolumn{1}{c|}{0.02227716} & \multicolumn{1}{c|}{0.00023} & \multicolumn{1}{c}{$\pm 8 \times 10^{-5}$}  \\
@@ -93,9 +100,10 @@ This table shows the 6 $\Lambda CDM$ model parameters, as well as the running of
 \end{table}
  
 
-In order to differentiate the power spectrum as required by (12) I employ a numerical form of the derivative:
+In order to differentiate the power spectrum as required by ~\ref{eqn:clfisher} I employ a numerical form of the derivative:
 
 \begin{equation}
+\label{eqn:dcl}
 \frac{\partial C_{\ell}}{\partial p} \approx \frac{\Delta C_{\ell}}{\Delta p}
 \end{equation}
  
@@ -112,9 +120,7 @@ To ensure that the derivatives are accurate the step sizes must be small, howeve
 As a final sanity check on the value of the step sizes, I would like them to be less than the 2015 PLANCK best fit uncertainties (refer to table 2).
  
 Figure~\ref{fig:diffH0} shows a plot of $\Delta C_{\ell}$ for the BB polarisation power spectrum, varying Hubble's constant and holding all else fixed. The top panel shows the differences over $ 0 < \ell < 5000$. The lines all appear to be converging on the same function. The blue line, corresponding to a step size of 0.02 has significant artifacting, so by criterion one it can be ruled out. The second panel is zoomed in on the peak and trough over $\ell ~ 700$. Taking a closer look at the lines reveals that as the step size increases toward 0.1 the lines begin to converge. There isn't an ostensible difference between step sizes of 0.08 or 0.1, so the deciding factor is which one produces a better approximation of $\frac{\partial C_{\ell}}{\partial p}$. Smaller step sizes suit this purpose so for Hubble's constant I chose 0.08.
- 
-
- 
+  
 An interesting second case is the difference plot for the tensor-to-scalar ratio. When $\ell < 220$ the difference plot is well behaved with good convergence and few artifacts for larger step sizes. When $\ell > 220$ numerical effects begin to dominate. This occurs since CAMB isn't programmed to handle variations in the tensor-to-scalar ratio as cleanly as the more standard parameters. This will likely be addressed in the future, once the value for r is found and its effects can be properly studied. For now, one can easily remedy this adding a low pass filter, keeping $\ell < 220$ and discarding the rest, since we expect that r is only significant at low $\ell$. However this might be a drastic response. Since the effects of r are small, it is safe to ignore these artifacts without any significant change in the result. Indeed, perturbing around my chosen step size in r yields negligble variations in the Fisher matrix.
 
 \begin{figure}[h]
@@ -130,7 +136,7 @@ These templates assume that the PMF strength is $B_{1Mpc} = 2.5nG$ when $A_{pmf}
 
 \subsection{The Covariance Matrix}
 
-For the inverse covariance matrix in (12) I used mock stage-3 and stage-4-like covariance matrices. These covariance matrices were calculated as per Tegmark (1997) \cite{Tegmark:1997vs} with five experimental parameters: survey area, noise, $\ell_{knee}$, beam error and calibration error. The values for these parameters match up with various stage-3 and stage-4 experimental designs.
+For the inverse covariance matrix in ~\ref{eqn:clfisher} I used mock stage-3 and stage-4-like covariance matrices. These covariance matrices were calculated as per Tegmark (1997) \cite{Tegmark:1997vs} with five experimental parameters: survey area, noise, $\ell_{knee}$, beam error and calibration error. The values for these parameters match up with various stage-3 and stage-4 experimental designs.
 \begin{itemize}
 \item Survey area is the area of sky that these experiments will observe given in square degrees. For reference SPT-3G will observe a $2500 deg^{2}$ patch of sky whereas PLANCK observed the whole sky.
 
@@ -146,6 +152,7 @@ For the inverse covariance matrix in (12) I used mock stage-3 and stage-4-like c
 In addition to the parameters the covariance matrix also has a prescribed binning. This isn't already implemented so it must be added manually. In order to bin the covariance matrix - and also the templates, I construct a bin matrix. The components of the bin matrix are defined like so:
 
 \begin{equation}
+\label{eqn:boxcar}
 B_{ij} = 
 \begin{cases}
     ($\Delta \ell$)^{-1},& \text{if } j$\Delta \ell$ \leq i \leq (j+1)$\Delta \ell$ 
@@ -156,6 +163,7 @@ Where $\Delta \ell$ is the length of the bin matrix and $ j \leq N_{bin}$, the n
 
 The bin matrix is then applied to the inverse covariance matrix like so:
 \begin{equation}
+\label{eqn:bintransform}
 C^{-1}_{binned} = B^{T} C^{-1} B
 \end{equation}
 Where B is the binning matrix, defined above and $C^{-1}$ is the inverse covariance matrix. The templates are also binned like so:
@@ -163,37 +171,40 @@ Where B is the binning matrix, defined above and $C^{-1}$ is the inverse covaria
 (\frac{\partial C_{\ell}}{\partial p})_{binned} = B\frac{\partial C_{\ell}}{\partial p}
 \end{equation}
  
-These new binned definitions are then substituted into (12) to construct the Fisher matrix. The output is an $N \times N$ matrix, where N is the number of parameters in the template matrix.
+These new binned definitions are then substituted into ~\ref{eqn:clfisher} to construct the Fisher matrix. The output is an $N \times N$ matrix, where N is the number of parameters in the template matrix.
 
 \subsection{Conditioning and Forecasting}
 
-The range of values along the main diagonal of the Fisher matrix is large, spanning from $\mathcal{O} (10^{22})$ to $\mathcal{O} (10^{-22})$. The large difference in values makes the Fisher matrix numerically unstable and approximately singular under inversion. In order to combat these effects, I use a matrix to bring all the diagonal terms to order unity:
+The range of values along the main diagonal of the Fisher matrix is large, spanning from $\mathcal{O} (10^{24})$ to $\mathcal{O} (10^{5})$. The large difference in values makes the Fisher matrix numerically singular under inversion. In order to combat these effects, I use a matrix to bring all the diagonal terms to order unity:
 
 \begin{equation}
+\label{eqn:condition}
 M_{ii} = F^{(-1/2)}_{ii}
 \end{equation}
  
 This conditioning matrix is applied to the Fisher matrix as per below:
 
 \begin{equation}
+\label{eqn:fishertransform}
 F' = M^{T} F M
 \end{equation}
  
-Once the Fisher matrix is well-conditioned I can then invert it and insert it back into equation (19) to retrieve the covariance matrix for its corresponding mock CMB experiment. The variances for each model parameter are found along the main diagonal and to forecast the experimental uncertainties all I need to do is take the square root of each term.
+Once the Fisher matrix is well-conditioned I can then invert it and insert it back into equation ~\ref{eqn:fishertransform} to retrieve the covariance matrix for its corresponding mock CMB experiment. The variances for each model parameter are found along the main diagonal and to forecast the experimental uncertainties all I need to do is take the square root of each term.
 
-\subsection{Manipulating the Fisher Matrix}
+Since the PMF templates are given in terms of $A_{PMF}$ to forecast for $B_{1Mpc}$ I need to perform a change of variables. Differentiating equation ~\ref{eqn:ab} with respect to $B_{1Mpc}$ we have:
 
-Since the PMF templates are given in terms of $A_{PMF}$ to forecast for $B_{1Mpc}$ I need to perform a change of variables. Differentiating equation (6) with respect to $B_{1Mpc}$ we have:
-
-$$
+\begin{equation}
+\label{eqn:diffapmf}
 \frac{\partial A_{pmf}}{\partial B_{1Mpc}} = 4(2.5nG)^{-4}B_{1Mpc}^3
-$$
+\end{equation}
  
-Which can be applied to the Fisher matrix as a transformation in the form of (19).
+Which can be applied to the Fisher matrix as a transformation in the form of equation ~\ref{eqn:fishertransform}.
 For the PMF template we take $B_{1Mpc} = 2.5nG$ when $A_{PMF} = 1$, so
 the variance of $B_{1Mpc}$, $\sigma(B_{1Mpc})$ can be expressed as:
 
 \begin{equation}
+\label{eqn:sigmab1mpc}
 \sigma(B_{1Mpc}) = 2.5nG\frac{\sigma(A_{PMF})}{4}
 \end{equation}
 
+where $\sigma(A_{PMF})$ is the variance of the PMF amplitude. This relation assumes that the PMF is detected with a field strength of $B_{1Mpc} = 2.5nG$ and all results discussed in section 4 will use this assumption.

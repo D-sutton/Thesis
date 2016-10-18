@@ -20,6 +20,7 @@ As electrons and ions spiral around magnetic fields in galaxies and the intraclu
 
 The emissivity of synchrotron radiation is given by:
 \begin{equation}
+\label{eqn:synchrotron}
 j(B_{\bot},\nu) \propto n_0 B_{\bot}^{(1+\alpha)/2} \nu ^{(1-\alpha)/2}
 \end{equation}
 where $\nu$ is the frequency of the electron's circular motion, $B_{\bot}$ is the magnetic field component perpendicular to the line of sight and $n_0$ is the normalised electron density, given by $n_e dE = n_0 E^{-\alpha} dE$ where E is the energy of the electron and $\alpha$ is the spectral index, the value for which varies from galaxy to galaxy. \citet{1991A&A...241...47B} measured synchrotron emissions to measure the magnetic field strength of nearby galaxies and found the average magnetic field strength to be $9 \pm 3 \mu G$ \citep{1991A&A...241...47B}.
@@ -29,12 +30,14 @@ where $\nu$ is the frequency of the electron's circular motion, $B_{\bot}$ is th
 As photons travel through a magnetised plasma they undergo Faraday Rotation. Magnetised plasmas such as the intracluster medium exhibit different refractive indices for left and right circularly polarised light. Hence, as linearly polarised light propagates through the plasma, its plane of polarisation is rotated by some some angle, $\beta$, given by:
 
 \begin{equation}
+\label{eqn:beta}
 \beta = RM\lambda^2
 \end{equation}
 
 where $\lambda$ is the wavelength of the photon and $RM$ is the rotation measure, given by:
 
 \begin{equation}
+\label{eqn:RM}
 RM = \frac{e^3}{2\pi ^2 \epsilon_0 m^2 c^3}\int_{0}^{d} n_e(s) B_{\|}(s) ds
 \end{equation}
 
@@ -75,7 +78,12 @@ This year stage-3 CMB experiments will commence operation and before the end of 
 
 Since CMB polarisation has such a faint signal, it is essential that all CMB experiments aim to reduce their level of noise as much as possible. There are many ways to do this - making better detectors or perhaps adding more. In the case of CMB experiments one can produce better detectors by reducing the temperature of the detector. This however has diminishing returns at low temperatures since firstly, lower temperatures are progressively harder to reach and sustain the lower they are. Secondly, current CMB detectors are already well below the temperature of the incoming CMB photons, so the improvement from reducing the temperature any further is negligible.
 
-Instead, the standard approach to lowering noise is to simply add more detectors. This works since photon detection is a Poisson process, that is only discrete numbers of photons can be detected, the rate at which they hit the detector is constant and independent of previous photon detection events and a detector can only detect a single photon at a time. For a Poisson process, the noise level scales with the number of the detectors like: $$ Noise \propto \frac{1}{\sqrt{N_{detectors}}}$$ So far, each stage of CMB experiments have added a factor of 10 more detectors, bringing the noise level down by a factor of $\sqrt{10}$.
+Instead, the standard approach to lowering noise is to simply add more detectors. This works since photon detection is a Poisson process, that is only discrete numbers of photons can be detected, the rate at which they hit the detector is constant and independent of previous photon detection events and a detector can only detect a single photon at a time. For a Poisson process, the noise level scales with the number of the detectors like: 
+\begin{equation}
+\label{eqn:noisescaling}
+Noise \propto \frac{1}{\sqrt{N_{detectors}}}
+\end{equation}
+so far, each stage of CMB experiments have added a factor of 10 more detectors, bringing the noise level down by a factor of $\sqrt{10}$.
 
 \begin{figure}[t]
 \centering
@@ -86,13 +94,12 @@ Instead, the standard approach to lowering noise is to simply add more detectors
 \begin{table}[b]
 \centering
 \caption{Properties of Present and Future CMB experiments}
-\label{my-label}
+\label{table:future cmb}
 \begin{tabular}{l|l|l|l|l}
 Experiment & \multicolumn{1}{c|}{Stage} & \multicolumn{1}{c|}{N_{bolo}} & Survey Area ($deg^{2}$)& Polarisation Noise ($\mu$K) \\ \hline
 SPT-pol & \multicolumn{1}{c|}{2} & \multicolumn{1}{c|}{1 536} & \multicolumn{1}{c|}{100} & \multicolumn{1}{c}{20} \\
 PLANCK & \multicolumn{1}{c|}{Space-based} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c|}{41 253} & \multicolumn{1}{c}{52} \\
 Adv-ACTpol & \multicolumn{1}{c|}{3} & \multicolumn{1}{c|}{2 718} & \multicolumn{1}{c|}{20 000} & \multicolumn{1}{c}{9.9} \\
-%POLARBEAR2 & \multicolumn{1}{c|}{3} & \multicolumn{1}{c|}{7 588} & \multicolumn{1}{c|}{33 000} & \multicolumn{1}{c}{8.2} \\
 SPT-3G & \multicolumn{1}{c|}{3} & \multicolumn{1}{c|}{15 234} & \multicolumn{1}{c|}{2 500} & \multicolumn{1}{c}{4.8} \\
 Simons Array & \multicolumn{1}{c|}{3} & \multicolumn{1}{c|}{22 764} & \multicolumn{1}{c|}{33 000} & \multicolumn{1}{c}{4.8} \\ 
 Stage 4 Expected & \multicolumn{1}{c|}{4} & \multicolumn{1}{c|}{500 000} & \multicolumn{1}{c|}{20 000} & \multicolumn{1}{c}{1.4} \\

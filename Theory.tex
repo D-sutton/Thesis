@@ -6,6 +6,7 @@ The large-scale magnetic fields we see need to have had some initial seed field,
 
 The magnetic field produced by the Biermann battery is described by:
 \begin{equation}
+\label{eqn:biermann}
 \frac{\partial \vec{B}}{\partial t} = \nabla\times(\vec{U}\times\vec{B}-\eta\nabla \times\vec{B}) - \frac{c k_{b}}{e}\frac{\nabla n_e}{n_e} \times \nabla T
 \end{equation}
 
@@ -37,6 +38,7 @@ If PMFs have a field strength ~1nG then their signatures will be detectable in t
 The PMF power spectrum is given by:
 
 \begin{equation}
+\label{eqn:pmfpower}
 P(k) = A_{PMF}k^{n_B}
 \end{equation}
 
@@ -51,6 +53,7 @@ Where $A_{PMF}$ is the PMF amplitude and $n_{B}$ is the PMF spectral index. Sinc
 In order to measure the strength of PMFs we focus our attention to the amplitude, $A_{PMF}$. The PMF amplitude is related to $B_{1Mpc}$, the strength of PMFs coherent over 1 megaparsec by the following relation:
 
 \begin{equation}
+\label{eqn:ab}
 A_{PMF} = (\frac{B_{1Mpc}}{2.5nG})^4
 \end{equation}
 
@@ -82,11 +85,13 @@ The strongest constraints from BBN have $B_{1Mpc}$ $<$ 1.5 $\mu G$ \cite{PhysRev
 \subsection{Other Sources of Cosmic Birefringence}
 The rotation of E-mode polarisation to B-mode polarisation is not a phenomenon unique to PMFs. Another mechanism for this effect may be quintessence. Quintessence is an alternative explanation to the cosmological constant for the accelerating expansion of the Universe. It argues that there may exist a long-range pseudoscalar field that can very weakly couple to baryons. The interaction is described by the Chern-Simmons term:
 \begin{equation}
+\label{eqn:chern}
 \mathcal{L} \propto \frac{\phi}{2M}F_{\mu \nu}\tilde{F}^{\mu \nu}
 \end{equation}
 
 Where $\phi$ is the pseudoscalar field and M is the mass of the field boson. If photons couple to this field, then their polarisation will be rotated, just as they would if there were a PMF. The rotation angle due to the pseudoscalar field is given by:
 \begin{equation}
+\label{eqn:rotation}
 \alpha = \frac{1}{M} \int{d\eta \dot{\phi}}
 \end{equation}
 Where $\dot{\phi}$ is integrated over the conformal time $\eta$
