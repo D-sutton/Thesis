@@ -1,89 +1,108 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{}
 
-\bibitem{Robishaw:2008ti}
-T.~Robishaw, E.~Quataert, and C.~Heiles, ``{Extragalactic Zeeman Detections in
-  OH Megamasers},'' {\em Astrophys. J.}, vol.~680, p.~981, 2008.
+\bibitem[Abazajian et~al., 2015]{Abazajian:2013oma}
+Abazajian, K.~N. et~al. (2015).
+\newblock {Neutrino Physics from the Cosmic Microwave Background and Large
+  Scale Structure}.
+\newblock {\em Astropart. Phys.}, 63:66--80.
 
-\bibitem{Giovannini:2003yn}
-M.~Giovannini, ``{The Magnetized universe},'' {\em Int. J. Mod. Phys.},
-  vol.~D13, pp.~391--502, 2004.
+\bibitem[Adam et~al., 2016]{Adam:2015vua}
+Adam, R. et~al. (2016).
+\newblock {Planck 2015 results. VIII. High Frequency Instrument data
+  processing: Calibration and maps}.
+\newblock {\em Astron. Astrophys.}, 594:A8.
 
-\bibitem{1991A&A...241...47B}
-U.~R. {Buczilowski} and R.~{Beck}, ``{A multifrequency radio continuum survey
-  of M33. III - The magnetic field},'' {\em \aap}, vol.~241, pp.~47--56, Jan.
-  1991.
+\bibitem[Ade et~al., 2015a]{Ade:2015xua}
+Ade, P. A.~R. et~al. (2015a).
+\newblock {Planck 2015 results. XIII. Cosmological parameters}.
 
-\bibitem{Widrow:2002ud}
-L.~M. Widrow, ``{Origin of galactic and extragalactic magnetic fields},'' {\em
-  Rev. Mod. Phys.}, vol.~74, pp.~775--823, 2002.
+\bibitem[Ade et~al., 2015b]{Ade:2015cva}
+Ade, P. A.~R. et~al. (2015b).
+\newblock {Planck 2015 results. XIX. Constraints on primordial magnetic
+  fields}.
 
-\bibitem{Hu:1997hv}
-W.~Hu and M.~J. White, ``{A CMB polarization primer},'' {\em New Astron.},
-  vol.~2, p.~323, 1997.
+\bibitem[Ade et~al., 2015c]{Ade:2015cao}
+Ade, P. A.~R. et~al. (2015c).
+\newblock {POLARBEAR Constraints on Cosmic Birefringence and Primordial
+  Magnetic Fields}.
+\newblock {\em Phys. Rev.}, D92:123509.
 
-\bibitem{39087c288ce54d4bb9580169e1666880}
-L.~Krauss, S.~Dodelson, and S.~Meyer, ``Primordial gravitational waves and
-  cosmology,'' {\em Science}, vol.~328, pp.~989--992, 5 2010.
+\bibitem[Beck et~al., ]{Beck:1996}
+Beck, R., Brandenburg, A., Moss, D., Shukurov, A., and Sokoloff, D.
 
-\bibitem{Abazajian:2013oma}
-K.~N. Abazajian {\em et~al.}, ``{Neutrino Physics from the Cosmic Microwave
-  Background and Large Scale Structure},'' {\em Astropart. Phys.}, vol.~63,
-  pp.~66--80, 2015.
+\bibitem[Benson et~al., 2014]{Benson:2014qhw}
+Benson, B.~A. et~al. (2014).
+\newblock {SPT-3G: A Next-Generation Cosmic Microwave Background Polarization
+  Experiment on the South Pole Telescope}.
+\newblock {\em Proc. SPIE Int. Soc. Opt. Eng.}, 9153:91531P.
 
-\bibitem{Henderson:2015nzj}
-S.~W. Henderson {\em et~al.}, ``{Advanced ACTPol Cryogenic Detector Arrays and
-  Readout},'' {\em J. Low. Temp. Phys.}, vol.~184, no.~3-4, pp.~772--779, 2016.
+\bibitem[{Buczilowski} and {Beck}, 1991]{1991A&A...241...47B}
+{Buczilowski}, U.~R. and {Beck}, R. (1991).
+\newblock {A multifrequency radio continuum survey of M33. III - The magnetic
+  field}.
+\newblock {\em \aap}, 241:47--56.
 
-\bibitem{Benson:2014qhw}
-B.~A. Benson {\em et~al.}, ``{SPT-3G: A Next-Generation Cosmic Microwave
-  Background Polarization Experiment on the South Pole Telescope},'' {\em Proc.
-  SPIE Int. Soc. Opt. Eng.}, vol.~9153, p.~91531P, 2014.
+\bibitem[Giovannini, 2004]{Giovannini:2003yn}
+Giovannini, M. (2004).
+\newblock {The Magnetized universe}.
+\newblock {\em Int. J. Mod. Phys.}, D13:391--502.
 
-\bibitem{Suzuki:2015zzg}
-A.~Suzuki {\em et~al.}, ``{The POLARBEAR-2 and the Simons Array Experiment},''
-  {\em J. Low. Temp. Phys.}, vol.~184, no.~3-4, pp.~805--810, 2016.
+\bibitem[Gluscevic et~al., 2009]{PhysRevD.80.023510}
+Gluscevic, V., Kamionkowski, M., and Cooray, A. (2009).
+\newblock Derotation of the cosmic microwave background polarization: Full-sky
+  formalism.
+\newblock {\em Phys. Rev. D}, 80:023510.
 
-\bibitem{Adam:2015vua}
-R.~Adam {\em et~al.}, ``{Planck 2015 results. VIII. High Frequency Instrument
-  data processing: Calibration and maps},'' {\em Astron. Astrophys.}, vol.~594,
-  p.~A8, 2016.
+\bibitem[Henderson et~al., 2016]{Henderson:2015nzj}
+Henderson, S.~W. et~al. (2016).
+\newblock {Advanced ACTPol Cryogenic Detector Arrays and Readout}.
+\newblock {\em J. Low. Temp. Phys.}, 184(3-4):772--779.
 
-\bibitem{Lamarre:2003zh}
-J.-M. Lamarre {\em et~al.}, ``{The planck high frequency instrument, a 3rd
-  generation cmb experiment, and a full sky submillimeter survey},'' {\em New
-  Astron. Rev.}, vol.~47, p.~1017, 2003.
+\bibitem[Hu and White, 1997]{Hu:1997hv}
+Hu, W. and White, M.~J. (1997).
+\newblock {A CMB polarization primer}.
+\newblock {\em New Astron.}, 2:323.
 
-\bibitem{PhysRevD.37.2743}
-M.~S. Turner and L.~M. Widrow, ``Inflation-produced, large-scale magnetic
-  fields,'' {\em Phys. Rev. D}, vol.~37, pp.~2743--2754, May 1988.
+\bibitem[Kawasaki and Kusakabe, 2012]{PhysRevD.86.063003}
+Kawasaki, M. and Kusakabe, M. (2012).
+\newblock Updated constraint on a primordial magnetic field during big bang
+  nucleosynthesis and a formulation of field effects.
+\newblock {\em Phys. Rev. D}, 86:063003.
 
-\bibitem{Beck:1996}
-R.~Beck, A.~Brandenburg, D.~Moss, A.~Shukurov, and D.~Sokoloff
+\bibitem[Krauss et~al., 2010]{39087c288ce54d4bb9580169e1666880}
+Krauss, L., Dodelson, S., and Meyer, S. (2010).
+\newblock Primordial gravitational waves and cosmology.
+\newblock {\em Science}, 328(5981):989--992.
 
-\bibitem{Ade:2015cva}
-P.~A.~R. Ade {\em et~al.}, ``{Planck 2015 results. XIX. Constraints on
-  primordial magnetic fields},'' 2015.
+\bibitem[Lamarre et~al., 2003]{Lamarre:2003zh}
+Lamarre, J.-M. et~al. (2003).
+\newblock {The planck high frequency instrument, a 3rd generation cmb
+  experiment, and a full sky submillimeter survey}.
+\newblock {\em New Astron. Rev.}, 47:1017.
 
-\bibitem{Ade:2015cao}
-P.~A.~R. Ade {\em et~al.}, ``{POLARBEAR Constraints on Cosmic Birefringence and
-  Primordial Magnetic Fields},'' {\em Phys. Rev.}, vol.~D92, p.~123509, 2015.
+\bibitem[Robishaw et~al., 2008]{Robishaw:2008ti}
+Robishaw, T., Quataert, E., and Heiles, C. (2008).
+\newblock {Extragalactic Zeeman Detections in OH Megamasers}.
+\newblock {\em Astrophys. J.}, 680:981.
 
-\bibitem{PhysRevD.86.063003}
-M.~Kawasaki and M.~Kusakabe, ``Updated constraint on a primordial magnetic
-  field during big bang nucleosynthesis and a formulation of field effects,''
-  {\em Phys. Rev. D}, vol.~86, p.~063003, Sep 2012.
+\bibitem[Suzuki et~al., 2016]{Suzuki:2015zzg}
+Suzuki, A. et~al. (2016).
+\newblock {The POLARBEAR-2 and the Simons Array Experiment}.
+\newblock {\em J. Low. Temp. Phys.}, 184(3-4):805--810.
 
-\bibitem{Ade:2015xua}
-P.~A.~R. Ade {\em et~al.}, ``{Planck 2015 results. XIII. Cosmological
-  parameters},'' 2015.
+\bibitem[Tegmark, 1997]{Tegmark:1997vs}
+Tegmark, M. (1997).
+\newblock {CMB mapping experiments: A Designer's guide}.
+\newblock {\em Phys. Rev.}, D56:4514--4529.
 
-\bibitem{PhysRevD.80.023510}
-V.~Gluscevic, M.~Kamionkowski, and A.~Cooray, ``Derotation of the cosmic
-  microwave background polarization: Full-sky formalism,'' {\em Phys. Rev. D},
-  vol.~80, p.~023510, Jul 2009.
+\bibitem[Turner and Widrow, 1988]{PhysRevD.37.2743}
+Turner, M.~S. and Widrow, L.~M. (1988).
+\newblock Inflation-produced, large-scale magnetic fields.
+\newblock {\em Phys. Rev. D}, 37:2743--2754.
 
-\bibitem{Tegmark:1997vs}
-M.~Tegmark, ``{CMB mapping experiments: A Designer's guide},'' {\em Phys.
-  Rev.}, vol.~D56, pp.~4514--4529, 1997.
+\bibitem[Widrow, 2002]{Widrow:2002ud}
+Widrow, L.~M. (2002).
+\newblock {Origin of galactic and extragalactic magnetic fields}.
+\newblock {\em Rev. Mod. Phys.}, 74:775--823.
 
 \end{thebibliography}

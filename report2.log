@@ -1,11 +1,17 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2015.3.21)  18 OCT 2016 20:40
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.7.29)  19 OCT 2016 16:36
 entering extended mode
  %&-line parsing enabled.
 **report2.tex
 (./report2.tex
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
-yphenation, loaded.
+yphenation, farsi, arabic, croatian, bulgarian, ukrainian, russian, czech, slov
+ak, danish, dutch, finnish, french, basque, ngerman, german, german-x-2009-06-1
+9, ngerman-x-2009-06-19, ibycus, monogreek, greek, ancientgreek, hungarian, san
+skrit, italian, latin, latvian, lithuanian, mongolian2a, mongolian, bokmal, nyn
+orsk, romanian, irish, coptic, serbian, turkish, welsh, esperanto, uppersorbian
+, estonian, indonesian, interlingua, icelandic, kurmanji, slovenian, polish, po
+rtuguese, spanish, galician, catalan, swedish, ukenglish, pinyin, loaded.
 (/usr/share/texmf-texlive/tex/latex/base/article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
 (/usr/share/texmf-texlive/tex/latex/base/size12.clo
@@ -46,7 +52,8 @@ Package ifvtex Info: VTeX not detected.
 \Gm@odd@mp=\dimen105
 \Gm@even@mp=\dimen106
 \Gm@dimlist=\toks15
-)
+
+(/usr/share/texmf-texlive/tex/xelatex/xetexconfig/geometry.cfg))
 (/usr/share/texmf-texlive/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2000/07/18 v2.13 AMS math features
 \@mathmargin=\skip43
@@ -148,32 +155,9 @@ File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
 ))
 \Gin@req@height=\dimen120
 \Gin@req@width=\dimen121
-)
-(/usr/share/texmf-texlive/tex/latex/natbib/natbib.sty
-Package: natbib 2009/07/16 8.31 (PWD, AO)
-\bibhang=\skip46
-\bibsep=\skip47
-LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count104
 ) (./report2.aux
 (./Abstract.aux) (./Introduction.aux) (./Theory.aux) (./Method.aux)
-(./Forecasts.aux) (./Conclusion.aux)
-
-! Package natbib Error: Bibliography not compatible with author-year citations.
-
-(natbib)                Press <return> to continue in numerical citation style.
-
-
-See the natbib package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.30 ...mand\NAT@force@numbers{}\NAT@force@numbers
-                                                  
-Check the bibliography entries for non-compliant syntax,
-or select author-year BibTeX style, e.g. plainnat
-
-)
+(./Forecasts.aux) (./Conclusion.aux))
 \openout1 = `report2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
@@ -237,32 +221,32 @@ Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
 Package: everysel 1999/06/08 v1.03 EverySelectfont Package (MS)
 LaTeX Info: Redefining \selectfont on input line 125.
 )
-\CenteringLeftskip=\skip48
-\RaggedLeftLeftskip=\skip49
-\RaggedRightLeftskip=\skip50
-\CenteringRightskip=\skip51
-\RaggedLeftRightskip=\skip52
-\RaggedRightRightskip=\skip53
-\CenteringParfillskip=\skip54
-\RaggedLeftParfillskip=\skip55
-\RaggedRightParfillskip=\skip56
-\JustifyingParfillskip=\skip57
-\CenteringParindent=\skip58
-\RaggedLeftParindent=\skip59
-\RaggedRightParindent=\skip60
-\JustifyingParindent=\skip61
+\CenteringLeftskip=\skip46
+\RaggedLeftLeftskip=\skip47
+\RaggedRightLeftskip=\skip48
+\CenteringRightskip=\skip49
+\RaggedLeftRightskip=\skip50
+\RaggedRightRightskip=\skip51
+\CenteringParfillskip=\skip52
+\RaggedLeftParfillskip=\skip53
+\RaggedRightParfillskip=\skip54
+\JustifyingParfillskip=\skip55
+\CenteringParindent=\skip56
+\RaggedLeftParindent=\skip57
+\RaggedRightParindent=\skip58
+\JustifyingParindent=\skip59
 )
 (/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count105
+\scratchcounter=\count104
 \scratchdimen=\dimen122
 \scratchbox=\box29
-\nofMPsegments=\count106
-\nofMParguments=\count107
+\nofMPsegments=\count105
+\nofMParguments=\count106
 \everyMPshowfont=\toks21
-\MPscratchCnt=\count108
+\MPscratchCnt=\count107
 \MPscratchDim=\dimen123
-\MPnumerator=\count109
+\MPnumerator=\count108
 \everyMPtoPDFconversion=\toks22
 ) <images/UOM.png, id=1, 113.7048pt x 115.1502pt>
 File: images/UOM.png Graphic file (type png)
@@ -292,8 +276,365 @@ or  <return>  to continue without it.
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/UOM.png (PNG copy
-)>]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `Math1' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `Math1-Bold' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `Math1Mono' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `Math1Mono-Bold' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `Math2' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `Math2-Bold' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `Math2Mono' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `Math2Mono-Bold' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `Math3' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `Math3-Bold' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `Math3Mono' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `Math3Mono-Bold' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `Math4' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `Math4-Bold' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `Math4Mono' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `Math4Mono-Bold' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `Math5' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `Math5-Bold' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `Math5Mono' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `Math5Mono-Bold' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `Mathematica1' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `Mathematica1-Bold' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `Mathematica1CMTT' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `Mathematica1CMTT-Bold' already exists, duplicates ignore
+d
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `Mathematica1Mono' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `Mathematica1Mono-Bold' already exists, duplicates ignore
+d
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `Mathematica2' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `Mathematica2-Bold' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `Mathematica2CMTT' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `Mathematica2CMTT-Bold' already exists, duplicates ignore
+d
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `Mathematica2Mono' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `Mathematica2Mono-Bold' already exists, duplicates ignore
+d
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `Mathematica3' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `Mathematica3-Bold' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `Mathematica3CMTT' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `Mathematica3CMTT-Bold' already exists, duplicates ignore
+d
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `Mathematica3Mono' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `Mathematica3Mono-Bold' already exists, duplicates ignore
+d
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `Mathematica4' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `Mathematica4-Bold' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `Mathematica4CMTT' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `Mathematica4CMTT-Bold' already exists, duplicates ignore
+d
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `Mathematica4Mono' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `Mathematica4Mono-Bold' already exists, duplicates ignore
+d
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `Mathematica5' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `Mathematica5-Bold' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `Mathematica5CMTT' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `Mathematica5CMTT-Bold' already exists, duplicates ignore
+d
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `Mathematica5Mono' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `Mathematica5Mono-Bold' already exists, duplicates ignore
+d
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `Mathematica6' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `Mathematica6-Bold' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `Mathematica6CMTT' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `Mathematica6CMTT-Bold' already exists, duplicates ignore
+d
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `Mathematica6Mono' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `Mathematica6Mono-Bold' already exists, duplicates ignore
+d
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `Mathematica7' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `Mathematica7-Bold' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `Mathematica7CMTT' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `Mathematica7CMTT-Bold' already exists, duplicates ignore
+d
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `Mathematica7Mono' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `Mathematica7Mono-Bold' already exists, duplicates ignore
+d
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `lopb8r' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `lopbi8r' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `lopr8r' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `lopri8r' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `padb8r' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `padbi8r' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `padr8r' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `padri8r' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `pfub8r' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `pfubo8r' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `pfur8r' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `pfuro8r' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `pjnb8r' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `pjnbi8r' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `pjnr8r' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `pjnri8r' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `wttb8a' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `wttb8r' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `wttbo8a' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `wttbo8r' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `wttr8a' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `wttr8r' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `wttro8a' already exists, duplicates ignored
+
+
+pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
+p): fontmap entry for `wttro8r' already exists, duplicates ignored
+} <./images/UOM.png (PNG copy)>]
 \openout2 = `Abstract.aux'.
 
  (./Abstract.tex) [2
@@ -304,28 +645,21 @@ or  <return>  to continue without it.
 \tf@toc=\write3
 \openout3 = `report2.toc'.
 
- [4]
+
+[4]
 \openout2 = `Introduction.aux'.
 
  (./Introduction.tex [5
 
-]
+] [6]
+Overfull \hbox (3.80411pt too wide) in paragraph at lines 65--66
+[]\OT1/cmr/m/n/12 Figure 1[] shows how a net lin-ear po-lar-i-sa-tion arises fr
+om Thom-son scat-ter-ing about a quadrupo-
+ []
 
-Package natbib Warning: Author undefined for citation`1991A&A...241...47B' 
-(natbib)                on page 6 on input line 26.
-
-[6] <images/thomson.png, id=29, 744.7825pt x 721.69624pt>
+<images/thomson.png, id=29, 744.7825pt x 721.69624pt>
 File: images/thomson.png Graphic file (type png)
-
-<use images/thomson.png>
-
-Package natbib Warning: Author undefined for citation`Hu:1997hv' 
-(natbib)                on page 7 on input line 61.
-
-
-Package natbib Warning: Author undefined for citation`Hu:1997hv' 
-(natbib)                on page 7 on input line 61.
-
+ <use images/thomson.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -333,36 +667,17 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: images/modes.png Graphic file (type png)
  <use images/modes.png>
 
-Package natbib Warning: Author undefined for citation`39087c288ce54d4bb9580169e
-1666880' 
-(natbib)                on page 8 on input line 72.
-
-
-Package natbib Warning: Author undefined for citation`39087c288ce54d4bb9580169e
-1666880' 
-(natbib)                on page 8 on input line 72.
-
-
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [8 <./images/thomson.png (PNG copy)>]
 <images/experiments.png, id=40, 509.905pt x 401.5pt>
 File: images/experiments.png Graphic file (type png)
 
-<use images/experiments.png>
-
-Package natbib Warning: Author undefined for citation`Abazajian:2013oma' 
-(natbib)                on page 9 on input line 91.
-
-
-Package natbib Warning: Author undefined for citation`Abazajian:2013oma' 
-(natbib)                on page 9 on input line 91.
-
-[9 <./images/modes.png>]
+<use images/experiments.png> [9 <./images/modes.png>]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.99 ...c|}{Stage} & \multicolumn{1}{c|}{N_{bolo}}
+l.108 ...|}{Stage} & \multicolumn{1}{c|}{N_{bolo}}
                                                    & Survey Area ($deg^{2}$)...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -370,7 +685,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 \@preamble ...ignorespaces \@sharp \unskip \hfil }
                                                   \hskip \tabcolsep \hskip -...
-l.99 ...c|}{Stage} & \multicolumn{1}{c|}{N_{bolo}}
+l.108 ...|}{Stage} & \multicolumn{1}{c|}{N_{bolo}}
                                                    & Survey Area ($deg^{2}$)...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -381,7 +696,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.99 ...c|}{Stage} & \multicolumn{1}{c|}{N_{bolo}}
+l.108 ...|}{Stage} & \multicolumn{1}{c|}{N_{bolo}}
                                                    & Survey Area ($deg^{2}$)...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -392,7 +707,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.99 ...c|}{Stage} & \multicolumn{1}{c|}{N_{bolo}}
+l.108 ...|}{Stage} & \multicolumn{1}{c|}{N_{bolo}}
                                                    & Survey Area ($deg^{2}$)...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -400,14 +715,18 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-! Undefined control sequence.
-l.108 ...n:2015nzj} \citep{Benson:2014qhw} \citetp
-                                                  {Suzuki:2015zzg} \citep{Ad...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.117 \\
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 ) [10 <./images/experiments.png>] [11]
 \openout2 = `Theory.aux'.
@@ -430,18 +749,19 @@ File: images/PMFpower.png Graphic file (type png)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[13] <images/matterpower.png, id=61, 390.64865pt x 185.16747pt>
+[13] [14 <./images/dynamos_beck.png>]
+<images/matterpower.png, id=65, 390.64865pt x 185.16747pt>
 File: images/matterpower.png Graphic file (type png)
 
-<use images/matterpower.png> [14 <./images/dynamos_beck.png>] [15 <./images/PMF
-power.png (PNG copy)>] [16 <./images/matterpower.png>]) [17]
+<use images/matterpower.png> [15 <./images/PMFpower.png (PNG copy)>] [16 <./ima
+ges/matterpower.png>]) [17]
 \openout2 = `Method.aux'.
 
- (./Method.tex
-[18
+ (./Method.tex [18
 
 
-] [19] <images/diffs/H0bb.png, id=83, 578.16pt x 433.62pt>
+] [19]
+<images/diffs/H0bb.png, id=83, 578.16pt x 433.62pt>
 File: images/diffs/H0bb.png Graphic file (type png)
 
 <use images/diffs/H0bb.png>
@@ -569,22 +889,25 @@ File: images/contours/neff.png Graphic file (type png)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/contours/r.png, id=133, 578.16pt x 433.62pt>
-File: images/contours/r.png Graphic file (type png)
+<images/contours/52.png, id=133, 578.16pt x 433.62pt>
+File: images/contours/52.png Graphic file (type png)
 
-<use images/contours/r.png>
+<use images/contours/52.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 ) [31] [32 <./images/contours/nrun.png>] [33 <./images/contours/neff.png>]
-[34 <./images/contours/r.png>]
+[34 <./images/contours/52.png>]
 \openout2 = `Conclusion.aux'.
 
- (./Conclusion.tex
+ (./Conclusion.tex [35
+
+
+]
 ! Undefined control sequence.
 <recently read> \Lamda 
                        
-l.6 ...nts with extra data and adding more $\Lamda
+l.14 ...ts with extra data and adding more $\Lamda
                                                    CDM$ extension parameters...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -592,31 +915,28 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-) [35
-
-
-] (./report2.bbl
+) [36] (./report2.bbl
 ! Undefined control sequence.
-l.13 ...33. III - The magnetic field},'' {\em \aap
-                                                  }, vol.~241, pp.~47--56, Jan.
+l.43 \newblock {\em \aap
+                        }, 241:47--56.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[36
+[37
 
-]) [37] (./report2.aux (./Abstract.aux) (./Introduction.aux) (./Theory.aux)
+]) [38] (./report2.aux (./Abstract.aux) (./Introduction.aux) (./Theory.aux)
 (./Method.aux) (./Forecasts.aux) (./Conclusion.aux)) ) 
 Here is how much of TeX's memory you used:
- 2988 strings out of 495061
- 38651 string characters out of 1182621
- 97624 words of memory out of 3000000
- 6079 multiletter control sequences out of 15000+50000
+ 2619 strings out of 493848
+ 33871 string characters out of 1152823
+ 92823 words of memory out of 3000000
+ 5810 multiletter control sequences out of 15000+50000
  12750 words of font info for 49 fonts, out of 3000000 for 9000
- 28 hyphenation exceptions out of 8191
- 27i,9n,32p,1372b,267s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 714 hyphenation exceptions out of 8191
+ 27i,9n,32p,1372b,225s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive
 /fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/type
 1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-texlive/fonts/type1/public/am
@@ -628,9 +948,9 @@ onts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/pu
 blic/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfon
 ts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12
 .pfb>
-Output written on report2.pdf (37 pages, 1198967 bytes).
+Output written on report2.pdf (38 pages, 1196765 bytes).
 PDF statistics:
- 198 PDF objects out of 1000 (max. 8388607)
+ 201 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  86 words of extra memory for PDF output out of 10000 (max. 10000000)
 

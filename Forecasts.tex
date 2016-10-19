@@ -84,8 +84,6 @@ where $\sigma{xy}$ are the covariances for the $x^{th}$ and $y^{th}$ model param
 
 For each contour plot, there are 3 ellipses. The red ellipse represents the present day constraints on the extended model parameters from PLANCK. The blue ellipse represents the forecasted constraints from a typical stage-3 CMB experiment plus PLANCK data. The green ellipse represents the forecasted constraints from a typical stage-4 CMB experiment plus PLANCK data. For this analysis I set the typical stage-3 experiment as having a survey area of 10313 square degrees, a noise level of 2.7$\mu$K arcmin and $\ell_{knee} = 100$. The typical stage-4 experiment improves on these variables with approximately two times the survey area, 22689 square degrees, half the noise, at 1.3$\mu$K arcmin and $\ell_{knee} = 50$. Table ~\ref{table: stage-stats} shows the full set of 'typical' values I chose for the experimental variables of stage-3 and stage-4 experiments.
 
-Figures ~\ref{fig:nrun} - ~\ref{fig:r} show the 1$\sigma$ confidence ellipses for $n_{run}$, $N_{eff}$ and $r$.
-
 \begin{table}[h]
 \centering
 \caption{Mock Stage-3 and Stage-4 Variables}
@@ -100,12 +98,15 @@ Figures ~\ref{fig:nrun} - ~\ref{fig:r} show the 1$\sigma$ confidence ellipses fo
 \multicolumn{1}{c}{calibration error (\% error)} & \multicolumn{1}{|c}{0.01} & \multicolumn{1}{|c}{0.01} \\
 \multicolumn{1}{c}{beam uncertainty (\% error)} & \multicolumn{1}{|c}{0.05} & \multicolumn{1}{|c}{0.05}
 \end{tabular}
-
-\bigskip
+\\
 \begin{flushleft}
 This table shows the values for each variable for both the mock covariance matrices used to construct the confidence ellipses. We see that from stage-3 to stage-4, the survey area will more than double from 10313 square degrees to 22689 square degrees, the noise will halve from 2.7$\mu$K arcmin to 1.3$\mu$K arcmin as will $\ell_{knee}$ - from 100 to 50. On the other hand, beam width will remains fixed at 4.0 arcmin and both beam and calibration errors stay at 0.05$\%$ and 0.01$\%$ respectively.
 \end{flushleft}
 \end{table}
+
+As shown in figure ~\ref{fig:nrun}, stage-3 and stage-4 experiments make major improvements on $B_{1Mpc}$ and moderate improvements over $n_{run}$ from PLANCK results. The gains in precision in $n_{run}$ are significant from stage-3 to stage-4 in contrast to the gains in $B_{1Mpc}$. This relationship between $\sigma{B_{1Mpc})$ and $\sigma{n_{run})$ indicates that the same experimental design is not necessarily as effective for constraining $n_{run}$ as it is for $B_{1Mpc}$. There is a very weak degeneracy between the two parameters according to the PLANCK contour which seems to be broken by the contours from stage-3 and stage-4.
+
+Figure ~\ref{fig:neff} shows stage-3 and stage-4 experiments make strong improvements on the constraints of $B_{1Mpc}$ and smaller improvements on $N_{eff}$
 
 \begin{figure}[h]
 \centering
@@ -123,7 +124,7 @@ This table shows the values for each variable for both the mock covariance matri
 
 \begin{figure}[h]
 \centering
-\includegraphics[scale=0.8]{images/contours/r.png}
+\includegraphics[scale=0.8]{images/contours/52.png}
 \caption{This is a plot of the 1$\sigma$ contours for $r$ vs. $B_{1Mpc}$. The red line shows the confidence contour for previous PLANCK data. The blue contour shows the confidence contour for stage-3 CMB experiments plus PLANCK data. The green contour shows the confidence contour for stage-4 CMB experiments plus PLANCK data. There is a large forecasted improvement in both the constraints on $B_{1Mpc}$ and $r$ over previous PLANCK data, however neither stage-3 or stage-4 are expected to break the degeneracy between $B_{1Mpc}$ and $r$.}
 \label{fig:r}
 \end{figure}

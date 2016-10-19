@@ -1,12 +1,12 @@
 This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: report2.aux
+The style file: apalike.bst
 A level-1 auxiliary file: Abstract.aux
 A level-1 auxiliary file: Introduction.aux
 A level-1 auxiliary file: Theory.aux
 A level-1 auxiliary file: Method.aux
 A level-1 auxiliary file: Forecasts.aux
 A level-1 auxiliary file: Conclusion.aux
-The style file: ieeetr.bst
 Database file #1: references.bib
 I was expecting a `,' or a `}'---line 200 of file references.bib
  : 
@@ -18,50 +18,50 @@ Unbalanced braces---line 356 of file references.bib
  : }
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+Warning--empty journal in Ade:2015xua
+Warning--empty journal in Ade:2015cva
+Warning--empty year in Beck:1996
 Warning--empty title in Beck:1996
 Warning--empty journal in Beck:1996
-Warning--empty year in Beck:1996
-Warning--empty journal in Ade:2015cva
-Warning--empty journal in Ade:2015xua
 You've used 20 entries,
-            1876 wiz_defined-function locations,
-            627 strings with 6937 characters,
-and the built_in function-call counts, 5411 in all, are:
-= -- 561
-> -- 166
-< -- 0
-+ -- 63
-- -- 43
-* -- 332
-:= -- 732
-add.period$ -- 19
+            1935 wiz_defined-function locations,
+            619 strings with 7133 characters,
+and the built_in function-call counts, 7363 in all, are:
+= -- 719
+> -- 272
+< -- 16
++ -- 88
+- -- 86
+* -- 613
+:= -- 1310
+add.period$ -- 56
 call.type$ -- 20
-change.case$ -- 19
-chr.to.int$ -- 0
+change.case$ -- 133
+chr.to.int$ -- 18
 cite$ -- 25
-duplicate$ -- 319
-empty$ -- 492
-format.name$ -- 43
-if$ -- 1374
-int.to.chr$ -- 0
-int.to.str$ -- 20
+duplicate$ -- 277
+empty$ -- 537
+format.name$ -- 123
+if$ -- 1441
+int.to.chr$ -- 3
+int.to.str$ -- 0
 missing$ -- 20
-newline$ -- 63
-num.names$ -- 20
-pop$ -- 55
+newline$ -- 99
+num.names$ -- 60
+pop$ -- 95
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 134
 quote$ -- 0
-skip$ -- 263
+skip$ -- 221
 stack$ -- 0
-substring$ -- 332
-swap$ -- 161
+substring$ -- 545
+swap$ -- 17
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
+type$ -- 120
 warning$ -- 5
-while$ -- 48
-width$ -- 22
-write$ -- 193
+while$ -- 59
+width$ -- 0
+write$ -- 250
 (There were 2 error messages)
