@@ -74,9 +74,7 @@ F_{ij} = \frac{\partial C_{\ell}}{\partial p^i} C^{-1} \frac{\partial C_{\ell}}{
 
 \subsection{The CMB Power Spectra}
 
-To begin constructing the Fisher matrix in the form given by ~\ref{eqn:clfisher}, I first used CAMB to build the CMB power spectrum. ????????????????????????????????
-
-To call on CAMB one first needs to define parameters. A quick summary of the parameters and their central values is given in table 2. The parameters I varied were the six $\Lambda CDM$ model parameters: $\Omega_{b}h^{2}$, the baryonic density. $\Omega_{c}h^{2}$, the cold dark matter density. $H_0$, Hubble's constant. $\tau$, the optical depth of reionisation. $\tau$ is a measure of approximately when reionisation occurred. $n_s$, the scalar spectral index for the primordial power spectrum, given by $P(k) = A_s k^{n_s - 1}$. $A_s$ is the amplitude of the primordial power spectrum. In addition we also have: The running of the scalar index, $n_{run}$. The effective number of neutrinos, $N_{eff}$ and the tensor-to-scalar ratio, $r$, which is used in constraining the effects of primordial gravity waves.
+To begin constructing the Fisher matrix in the form given by ~\ref{eqn:clfisher} I used CAMB \cite{Challinor:2005jy} to build the CMB power spectrum. CAMB numerically computes the lensed CMB power spectrum and returns the coefficients of the spherical harmonic decomposition of the CMB power spectrum, $C_{\ell}$. To call on CAMB one first needs to define cosmological parameters parameters. A quick list of the parameters and their central values is given in table 2. The parameters I varied were the six $\Lambda CDM$ model parameters: $\Omega_{b}h^{2}$, the baryonic density. $\Omega_{c}h^{2}$, the cold dark matter density. $H_0$, Hubble's constant. $\tau$, the optical depth of reionisation. $\tau$ is a measure of approximately when reionisation occurred. $n_s$, the scalar spectral index for the primordial power spectrum, given by $P(k) = A_s k^{n_s - 1}$. $A_s$ is the amplitude of the primordial power spectrum. In addition we also have: The running of the scalar index, $n_{run}$. The effective number of neutrinos, $N_{eff}$ and the tensor-to-scalar ratio, $r$, which is used in constraining the effects of primordial gravity waves.
 
 \begin{table}[h]
 \centering
@@ -84,14 +82,14 @@ To call on CAMB one first needs to define parameters. A quick summary of the par
 \label{table:camb}
 \begin{tabular}{l|l|l|l}
 Parameter & \multicolumn{1}{c|}{Value} & Uncertainty & Step Size \\ \hline
-$\Omega_{b}h^{2}$ & \multicolumn{1}{c|}{0.02227716} & \multicolumn{1}{c|}{0.00023} & \multicolumn{1}{c}{$\pm 8 \times 10^{-5}$}  \\
-$\Omega_{c}h^{2}$ & \multicolumn{1}{c|}{0.1184293} & \multicolumn{1}{c|}{0.022} & \multicolumn{1}{c}{$\pm 10^{-3}$}  \\
-$H_0$ & \multicolumn{1}{c|}{67.86682} & \multicolumn{1}{c|}{0.96} & \multicolumn{1}{c}{$\pm 8 \times 10^{-2}$}  \\
-$\tau$ & \multicolumn{1}{c|}{0.06664549} & \multicolumn{1}{c|}{0.019} & \multicolumn{1}{c}{$\pm 10^{-3}$}  \\
-$n_s$ & \multicolumn{1}{c|}{0.9682903} & \multicolumn{1}{c|}{0.0062} & \multicolumn{1}{c}{$\pm 10^{-3}$}  \\
-$A_s$ & \multicolumn{1}{c|}{2.140509e-09} & \multicolumn{1}{c|}{0.118} & \multicolumn{1}{c}{$\pm 9 \times 10^{-12}$}  \\
+$\Omega_{b}h^{2}$ & \multicolumn{1}{c|}{0.02222} & \multicolumn{1}{c|}{0.00023} & \multicolumn{1}{c}{$\pm 8 \times 10^{-5}$}  \\
+$\Omega_{c}h^{2}$ & \multicolumn{1}{c|}{0.1197} & \multicolumn{1}{c|}{0.022} & \multicolumn{1}{c}{$\pm 10^{-3}$}  \\
+$H_0$ & \multicolumn{1}{c|}{67.74} & \multicolumn{1}{c|}{0.96} & \multicolumn{1}{c}{$\pm 8 \times 10^{-2}$}  \\
+$\tau$ & \multicolumn{1}{c|}{0.078} & \multicolumn{1}{c|}{0.019} & \multicolumn{1}{c}{$\pm 10^{-3}$}  \\
+$n_s$ & \multicolumn{1}{c|}{0.9655} & \multicolumn{1}{c|}{0.0062} & \multicolumn{1}{c}{$\pm 10^{-3}$}  \\
+$A_s$ & \multicolumn{1}{c|}{2.196e-09} & \multicolumn{1}{c|}{0.118} & \multicolumn{1}{c}{$\pm 9 \times 10^{-12}$}  \\
 $n_{run}$ & \multicolumn{1}{c|}{0.0} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c}{$\pm 2 \times 10^{-3}$}  \\
-$N_{eff}$ & \multicolumn{1}{c|}{3.03066666667} & \multicolumn{1}{c|}{0.23} & \multicolumn{1}{c}{$\pm 4 \times 10^{-3}$}  \\
+$N_{eff}$ & \multicolumn{1}{c|}{3.03} & \multicolumn{1}{c|}{0.23} & \multicolumn{1}{c}{$\pm 4 \times 10^{-3}$}  \\
 $r$ & \multicolumn{1}{c|}{0.01} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c}{$\pm 8 \times 10^{-3}$} 
 \end{tabular}
 

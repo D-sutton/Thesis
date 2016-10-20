@@ -1,29 +1,29 @@
-\contentsline {section}{\numberline {1}Introduction}{5}
-\contentsline {subsection}{\numberline {1.1}Observational Evidence for Large Scale Magnetic Fields}{5}
-\contentsline {subsubsection}{\numberline {1.1.1}Zeeman Splitting}{6}
-\contentsline {subsubsection}{\numberline {1.1.2}Synchrotron Emissions}{6}
-\contentsline {subsubsection}{\numberline {1.1.3}Faraday Rotation}{6}
-\contentsline {subsection}{\numberline {1.2}Cosmic Microwave Background Polarisation}{7}
-\contentsline {subsection}{\numberline {1.3}Future CMB experiments}{9}
-\contentsline {section}{\numberline {2}Primordial Magnetic Field Theory}{12}
-\contentsline {subsection}{\numberline {2.1}Biermann Batteries}{12}
-\contentsline {subsection}{\numberline {2.2}Other Methods of PMF Generation}{12}
-\contentsline {subsubsection}{\numberline {2.2.1}Inflation}{12}
-\contentsline {subsubsection}{\numberline {2.2.2}Phase Transitions}{13}
-\contentsline {subsection}{\numberline {2.3}Galactic Dynamos as Amplifiers}{13}
-\contentsline {subsection}{\numberline {2.4}Effect of PMFs on the Cosmic Microwave Background}{13}
-\contentsline {subsection}{\numberline {2.5}Other effects of PMFs}{14}
-\contentsline {subsubsection}{\numberline {2.5.1}Large Scale Structure}{14}
-\contentsline {subsubsection}{\numberline {2.5.2}Big Bang Nucleosynthesis}{15}
-\contentsline {subsection}{\numberline {2.6}Other Sources of Cosmic Birefringence}{16}
-\contentsline {section}{\numberline {3}Method}{18}
-\contentsline {subsection}{\numberline {3.1}Introduction to Fisher Matrices}{18}
-\contentsline {subsection}{\numberline {3.2}The CMB Power Spectra}{20}
-\contentsline {subsection}{\numberline {3.3}The Covariance Matrix}{23}
-\contentsline {subsection}{\numberline {3.4}Conditioning and Forecasting}{24}
-\contentsline {section}{\numberline {4}Forecasts}{26}
-\contentsline {subsection}{\numberline {4.1}Optimising Design Variables}{26}
-\contentsline {subsection}{\numberline {4.2}Parameter Constraints}{30}
-\contentsline {section}{\numberline {5}Discussion and Future Work}{35}
-\contentsline {subsection}{\numberline {5.1}Discussion}{35}
-\contentsline {subsection}{\numberline {5.2}Future Work}{36}
+\contentsline {section}{\numberline {1}Introduction}{6}
+\contentsline {subsection}{\numberline {1.1}Observational Evidence for Large Scale Magnetic Fields}{6}
+\contentsline {subsubsection}{\numberline {1.1.1}Zeeman Splitting}{7}
+\contentsline {subsubsection}{\numberline {1.1.2}Synchrotron Emissions}{7}
+\contentsline {subsubsection}{\numberline {1.1.3}Faraday Rotation}{7}
+\contentsline {subsection}{\numberline {1.2}Cosmic Microwave Background Polarisation}{8}
+\contentsline {subsection}{\numberline {1.3}Future CMB experiments}{10}
+\contentsline {section}{\numberline {2}Primordial Magnetic Field Theory}{13}
+\contentsline {subsection}{\numberline {2.1}Biermann Batteries}{13}
+\contentsline {subsection}{\numberline {2.2}Other Methods of PMF Generation}{13}
+\contentsline {subsubsection}{\numberline {2.2.1}Inflation}{13}
+\contentsline {subsubsection}{\numberline {2.2.2}Phase Transitions}{14}
+\contentsline {subsection}{\numberline {2.3}Galactic Dynamos as Amplifiers}{14}
+\contentsline {subsection}{\numberline {2.4}Effect of PMFs on the Cosmic Microwave Background}{14}
+\contentsline {subsection}{\numberline {2.5}Other effects of PMFs}{15}
+\contentsline {subsubsection}{\numberline {2.5.1}Large Scale Structure}{15}
+\contentsline {subsubsection}{\numberline {2.5.2}Big Bang Nucleosynthesis}{16}
+\contentsline {subsection}{\numberline {2.6}Other Sources of Cosmic Birefringence}{17}
+\contentsline {section}{\numberline {3}Method}{19}
+\contentsline {subsection}{\numberline {3.1}Introduction to Fisher Matrices}{19}
+\contentsline {subsection}{\numberline {3.2}The CMB Power Spectra}{21}
+\contentsline {subsection}{\numberline {3.3}The Covariance Matrix}{24}
+\contentsline {subsection}{\numberline {3.4}Conditioning and Forecasting}{25}
+\contentsline {section}{\numberline {4}Forecasts}{27}
+\contentsline {subsection}{\numberline {4.1}Optimising Design Variables}{27}
+\contentsline {subsection}{\numberline {4.2}Parameter Constraints}{32}
+\contentsline {section}{\numberline {5}Discussion and Future Work}{37}
+\contentsline {subsection}{\numberline {5.1}Discussion}{37}
+\contentsline {subsection}{\numberline {5.2}Future Work}{38}

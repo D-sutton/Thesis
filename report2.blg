@@ -1,19 +1,20 @@
 This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: report2.aux
-The style file: apalike.bst
+A level-1 auxiliary file: acknowledgements.aux
 A level-1 auxiliary file: Abstract.aux
 A level-1 auxiliary file: Introduction.aux
 A level-1 auxiliary file: Theory.aux
 A level-1 auxiliary file: Method.aux
 A level-1 auxiliary file: Forecasts.aux
 A level-1 auxiliary file: Conclusion.aux
+The style file: apalike.bst
 Database file #1: references.bib
 I was expecting a `,' or a `}'---line 200 of file references.bib
  : 
  : @article{39087c288ce54d4bb9580169e1666880,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Unbalanced braces---line 356 of file references.bib
+Unbalanced braces---line 372 of file references.bib
  : 
  : }
 (Error may have been on previous line)
@@ -25,7 +26,7 @@ Warning--empty title in Beck:1996
 Warning--empty journal in Beck:1996
 You've used 20 entries,
             1935 wiz_defined-function locations,
-            619 strings with 7133 characters,
+            620 strings with 7153 characters,
 and the built_in function-call counts, 7363 in all, are:
 = -- 719
 > -- 272

@@ -50,17 +50,15 @@ In the last few years CMB polarisation has proven a powerful tool for studying l
 
 The CMB is the light from the Big Bang, however the CMB itself didn't form until 300,000 years after the Big Bang. At this point in time the Universe was cool enough to allow photons to decouple from baryons. This event is known as last scattering. From there on the photons were able to free stream through the cosmos. Over the intervening 13 billion years the CMB photons have been cosmologically redshifted into the microwave frequency band. The CMB is a blackbody spectrum corresponding to a temperature of ~2.73K.
 
-\iffalse
 \begin{figure}[h]
 \centering
 \includegraphics[scale=0.5]{images/quadrupole.png}
 \caption{Depiction of a quadrupolar temperature anisotropy that gives rise to CMB polarisation around an electron at recombination. The red regions are the cooler regions, where cool photons approach the electron from and the blue regions are the hotter regions where hotter electrons approach from.}
 \label{fig:quadrupole}
 \end{figure}
-\fi
 
 At the time of last scattering the Universe was composed of a hot, ionised plasma, consisting of protons and electrons. The temperature anisotropies in this plasma gave rise to the net polarisation of the CMB that we see today \cite{Hu:1997hv}.
-Electrons in the plasma are surrounded by hot and cold patches. Those that are surrounded by quadrupolar temperature anisotropies - two hotter patches either side and then two cooler patches either side on an axis perpendicular to the hotter patches produce a net polarisation through Thomson scattering.
+Electrons in the plasma are surrounded by hot and cold patches. Those that are surrounded by quadrupolar temperature anisotropies - two hotter patches either side and then two cooler patches either side on an axis perpendicular to the hotter patches produce a net polarisation through Thomson scattering as shown in figure ~\ref{fig:quadrupole}.
 
 Figure~\ref{fig:thomson} shows how a net linear polarisation arises from Thomson scattering about a quadrupolar temperature anisotropy. Two photons approach the electron from perpendicular directions, one from the cool patch (shown in red) and one from the hot patch (shown in blue). The two photons scatter off the electron perpendicular to the plane of incidence for both photons. The resultant photon has a net linear polarisation oriented in the plane of incidence with an angle of polarisation proportional to the difference in temperature of the two photons. 
 
@@ -94,12 +92,6 @@ Noise \propto \frac{1}{\sqrt{N_{detectors}}}
 \end{equation}
 so far, each stage of CMB experiments have added a factor of 10 more detectors, bringing the noise level down by a factor of $\sqrt{10}$.
 
-\begin{figure}[h]
-\centering
-\includegraphics[scale=0.75]{images/experiments.png} 
-\caption{Plot of approximate raw experimental sensitivity of CMB experiments vs time in years. The Red lines indicate space-based experiments. Of note is PLANCK whose sensitivity falls in the middle-range of the stage-2 CMB experiments. The dotted cyan line represents the sensitivity of CMB-S3, which we expect to improve by up to an order of magnitude over Stage 2. CMB-S4 is represented by the dotted purple line, which is set to improve by a further order of magnitude over S3. Figure from \cite{Abazajian:2013oma}}
-\end{figure}
-
 \begin{table}[b]
 \centering
 \caption{Properties of Present and Future CMB experiments}
@@ -113,9 +105,14 @@ SPT-3G & \multicolumn{1}{c|}{3} & \multicolumn{1}{c|}{15 234} & \multicolumn{1}{
 Simons Array & \multicolumn{1}{c|}{3} & \multicolumn{1}{c|}{22 764} & \multicolumn{1}{c|}{33 000} & \multicolumn{1}{c}{4.8} \\ 
 Stage 4 Expected & \multicolumn{1}{c|}{4} & \multicolumn{1}{c|}{500 000} & \multicolumn{1}{c|}{20 000} & \multicolumn{1}{c}{1.4} \\
 \end{tabular}
-
 \\
 \begin{flushleft}
 table shows a short (and by no means comprehensive) list of current and upcoming CMB experiments and their key design features useful for detecting PMFs. \cite{Henderson:2015nzj} \cite{Benson:2014qhw} \cite{Suzuki:2015zzg} \cite{Adam:2015vua}. The PLANCK telescope is the only space-based experiment listed on this table. I have included it because I will use its data release in my analysis. The number of detectors has been left out since the number of detectors on ground and space-based experiment can't be directly compared. For reference PLANCK has 32 polarisation detectors on its High Frequency Instrument (HFI) and carries out full-sky observations \cite{Lamarre:2003zh}.
 \end{flushleft} 
 \end{table}
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.75]{images/experiments.png} 
+\caption{Plot of approximate raw experimental sensitivity of CMB experiments vs time in years. The Red lines indicate space-based experiments. Of note is PLANCK whose sensitivity falls in the middle-range of the stage-2 CMB experiments. The dotted cyan line represents the sensitivity of CMB-S3, which we expect to improve by up to an order of magnitude over Stage 2. CMB-S4 is represented by the dotted purple line, which is set to improve by a further order of magnitude over S3. Figure from \cite{Abazajian:2013oma}}
+\end{figure}
