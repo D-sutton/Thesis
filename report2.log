@@ -1,17 +1,15 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.7.29)  20 OCT 2016 18:22
+=======
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2015.3.21)  19 OCT 2016 20:44
+>>>>>>> 0b5a6f1b81c7db9bd9b6a3181295df1212f2b6df
 entering extended mode
  %&-line parsing enabled.
 **report2.tex
 (./report2.tex
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
-yphenation, farsi, arabic, croatian, bulgarian, ukrainian, russian, czech, slov
-ak, danish, dutch, finnish, french, basque, ngerman, german, german-x-2009-06-1
-9, ngerman-x-2009-06-19, ibycus, monogreek, greek, ancientgreek, hungarian, san
-skrit, italian, latin, latvian, lithuanian, mongolian2a, mongolian, bokmal, nyn
-orsk, romanian, irish, coptic, serbian, turkish, welsh, esperanto, uppersorbian
-, estonian, indonesian, interlingua, icelandic, kurmanji, slovenian, polish, po
-rtuguese, spanish, galician, catalan, swedish, ukenglish, pinyin, loaded.
+yphenation, loaded.
 (/usr/share/texmf-texlive/tex/latex/base/article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
 (/usr/share/texmf-texlive/tex/latex/base/size12.clo
@@ -52,8 +50,7 @@ Package ifvtex Info: VTeX not detected.
 \Gm@odd@mp=\dimen105
 \Gm@even@mp=\dimen106
 \Gm@dimlist=\toks15
-
-(/usr/share/texmf-texlive/tex/xelatex/xetexconfig/geometry.cfg))
+)
 (/usr/share/texmf-texlive/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2000/07/18 v2.13 AMS math features
 \@mathmargin=\skip43
@@ -279,6 +276,7 @@ or  <return>  to continue without it.
 
 [1
 
+<<<<<<< HEAD
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 
 pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
@@ -643,6 +641,10 @@ p): fontmap entry for `wttro8r' already exists, duplicates ignored
  (./acknowledgements.tex) [2
 
 ]
+=======
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/UOM.png (PNG copy
+)>]
+>>>>>>> 0b5a6f1b81c7db9bd9b6a3181295df1212f2b6df
 \openout2 = `Abstract.aux'.
 
  (./Abstract.tex)
@@ -655,7 +657,11 @@ p): fontmap entry for `wttro8r' already exists, duplicates ignored
 \tf@toc=\write3
 \openout3 = `report2.toc'.
 
+<<<<<<< HEAD
  [5]
+=======
+ [4]
+>>>>>>> 0b5a6f1b81c7db9bd9b6a3181295df1212f2b6df
 \openout2 = `Introduction.aux'.
 
  (./Introduction.tex [6
@@ -664,9 +670,16 @@ p): fontmap entry for `wttro8r' already exists, duplicates ignored
 <images/quadrupole.png, id=34, 313.17pt x 277.035pt>
 File: images/quadrupole.png Graphic file (type png)
 
+<<<<<<< HEAD
 <use images/quadrupole.png> [8 <./images/quadrupole.png>]
 Overfull \hbox (3.80411pt too wide) in paragraph at lines 63--64
 []\OT1/cmr/m/n/12 Figure 2[] shows how a net lin-ear po-lar-i-sa-tion arises fr
+=======
+]
+[6]
+Overfull \hbox (3.80411pt too wide) in paragraph at lines 65--66
+[]\OT1/cmr/m/n/12 Figure 1[] shows how a net lin-ear po-lar-i-sa-tion arises fr
+>>>>>>> 0b5a6f1b81c7db9bd9b6a3181295df1212f2b6df
 om Thom-son scat-ter-ing about a quadrupo-
  []
 
@@ -886,7 +899,35 @@ you left one out. Proceed, with fingers crossed.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+<<<<<<< HEAD
 <images/contours/nrun.png, id=138, 578.16pt x 433.62pt>
+=======
+[27 <./images/noise.png>] [28 <./images/width.png>] [29 <./images/knee.png>]
+[30]
+! Missing } inserted.
+<inserted text> 
+                }
+l.106 ...s relationship between $\sigma{B_{1Mpc})$
+                                                   and $\sigma{n_{run})$ ind...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.106 ... $\sigma{B_{1Mpc})$ and $\sigma{n_{run})$
+                                                   indicates that future CMB...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+<images/contours/nrun.png, id=131, 578.16pt x 433.62pt>
+>>>>>>> 0b5a6f1b81c7db9bd9b6a3181295df1212f2b6df
 File: images/contours/nrun.png Graphic file (type png)
 
 <use images/contours/nrun.png>
@@ -980,6 +1021,7 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  2635 strings out of 493848
  34200 string characters out of 1152823
  94332 words of memory out of 3000000
@@ -999,6 +1041,27 @@ texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive
 1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/public/ams
 fonts/cm/cmti12.pfb>
 Output written on report2.pdf (40 pages, 1237134 bytes).
+=======
+ 2616 strings out of 495061
+ 33700 string characters out of 1182621
+ 91830 words of memory out of 3000000
+ 5711 multiletter control sequences out of 15000+50000
+ 12750 words of font info for 49 fonts, out of 3000000 for 9000
+ 28 hyphenation exceptions out of 8191
+ 27i,9n,32p,1372b,225s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive
+/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/type
+1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-texlive/fonts/type1/public/am
+sfonts/cm/cmmi12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/c
+mmi6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></u
+sr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/tex
+mf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/f
+onts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/pu
+blic/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfon
+ts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12
+.pfb>
+Output written on report2.pdf (38 pages, 1197498 bytes).
+>>>>>>> 0b5a6f1b81c7db9bd9b6a3181295df1212f2b6df
 PDF statistics:
  213 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
