@@ -14,48 +14,65 @@ I was expecting a `,' or a `}'---line 200 of file references.bib
  : @article{39087c288ce54d4bb9580169e1666880,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "Beck:1996"
+Too many commas in name 1 of "{Beck et. al.}, Rainer Beck, Axel Brandenburg, Anvar Shukurov, David Moss, Dmitry Sokoloff" for entry beck
+while executing---line 1020 of file apalike.bst
+Too many commas in name 1 of "{Beck et. al.}, Rainer Beck, Axel Brandenburg, Anvar Shukurov, David Moss, Dmitry Sokoloff" for entry beck
+while executing---line 1020 of file apalike.bst
+Too many commas in name 1 of "{Beck et. al.}, Rainer Beck, Axel Brandenburg, Anvar Shukurov, David Moss, Dmitry Sokoloff" for entry beck
+while executing---line 1020 of file apalike.bst
+Too many commas in name 1 of "{Beck et. al.}, Rainer Beck, Axel Brandenburg, Anvar Shukurov, David Moss, Dmitry Sokoloff" for entry beck
+while executing---line 1020 of file apalike.bst
+Too many commas in name 1 of "{Beck et. al.}, Rainer Beck, Axel Brandenburg, Anvar Shukurov, David Moss, Dmitry Sokoloff" for entry beck
+while executing---line 1020 of file apalike.bst
+Too many commas in name 1 of "{Beck et. al.}, Rainer Beck, Axel Brandenburg, Anvar Shukurov, David Moss, Dmitry Sokoloff" for entry beck
+while executing---line 1020 of file apalike.bst
 Warning--empty journal in Ade:2015xua
 Warning--empty journal in Ade:2015cva
-You've used 24 entries,
+Too many commas in name 1 of "{Beck et. al.}, Rainer Beck, Axel Brandenburg, Anvar Shukurov, David Moss, Dmitry Sokoloff" for entry beck
+while executing---line 1095 of file apalike.bst
+Too many commas in name 1 of "{Beck et. al.}, Rainer Beck, Axel Brandenburg, Anvar Shukurov, David Moss, Dmitry Sokoloff" for entry beck
+while executing---line 1095 of file apalike.bst
+Too many commas in name 1 of "{Beck et. al.}, Rainer Beck, Axel Brandenburg, Anvar Shukurov, David Moss, Dmitry Sokoloff" for entry beck
+while executing---line 1095 of file apalike.bst
+You've used 26 entries,
             1935 wiz_defined-function locations,
-            651 strings with 7818 characters,
-and the built_in function-call counts, 8545 in all, are:
-= -- 845
-> -- 297
-< -- 21
-+ -- 94
-- -- 92
-* -- 696
-:= -- 1529
-add.period$ -- 70
-call.type$ -- 24
-change.case$ -- 157
-chr.to.int$ -- 22
-cite$ -- 26
-duplicate$ -- 326
-empty$ -- 625
-format.name$ -- 139
-if$ -- 1673
+            663 strings with 8179 characters,
+and the built_in function-call counts, 9299 in all, are:
+= -- 917
+> -- 327
+< -- 22
++ -- 104
+- -- 102
+* -- 760
+:= -- 1665
+add.period$ -- 76
+call.type$ -- 26
+change.case$ -- 172
+chr.to.int$ -- 24
+cite$ -- 28
+duplicate$ -- 354
+empty$ -- 679
+format.name$ -- 151
+if$ -- 1819
 int.to.chr$ -- 3
 int.to.str$ -- 0
-missing$ -- 22
-newline$ -- 121
-num.names$ -- 72
-pop$ -- 96
+missing$ -- 24
+newline$ -- 131
+num.names$ -- 78
+pop$ -- 106
 preamble$ -- 1
-purify$ -- 157
+purify$ -- 172
 quote$ -- 0
-skip$ -- 266
+skip$ -- 287
 stack$ -- 0
-substring$ -- 629
-swap$ -- 20
+substring$ -- 683
+swap$ -- 22
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 144
+type$ -- 156
 warning$ -- 2
-while$ -- 70
+while$ -- 76
 width$ -- 0
-write$ -- 306
-(There was 1 error message)
+write$ -- 332
+(There were 10 error messages)

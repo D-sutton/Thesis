@@ -12,7 +12,7 @@
 \contentsline {subsubsection}{\numberline {2.2.2}Phase Transitions}{14}
 \contentsline {subsection}{\numberline {2.3}Galactic Dynamos as Amplifiers}{14}
 \contentsline {subsection}{\numberline {2.4}Effect of PMFs on the Cosmic Microwave Background}{15}
-\contentsline {subsection}{\numberline {2.5}Observational Effects of PMFs}{16}
+\contentsline {subsection}{\numberline {2.5}Observable Effects of PMFs}{16}
 \contentsline {subsubsection}{\numberline {2.5.1}Large Scale Structure}{17}
 \contentsline {subsubsection}{\numberline {2.5.2}Big Bang Nucleosynthesis}{17}
 \contentsline {subsection}{\numberline {2.6}Other Sources of Cosmic Birefringence}{18}

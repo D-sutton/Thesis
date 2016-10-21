@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.7.29)  21 OCT 2016 18:28
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.7.29)  21 OCT 2016 19:22
 entering extended mode
  %&-line parsing enabled.
 **report2.tex
@@ -740,55 +740,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--31
 
  []
 
-
-LaTeX Warning: Citation `Yamazaki:2012pg' on page 14 undefined on input line 32
-.
-
-
-LaTeX Warning: Citation `beck' on page 14 undefined on input line 35.
-
 [14] <images/dynamos_beck.png, id=65, 375.65344pt x 228.10219pt>
 File: images/dynamos_beck.png Graphic file (type png)
 
 <use images/dynamos_beck.png>
-
-LaTeX Warning: Citation `beck' on page 15 undefined on input line 40.
-
-
-LaTeX Warning: Citation `beck' on page 15 undefined on input line 40.
-
 <images/PMFpower.png, id=66, 601.24625pt x 457.71pt>
 File: images/PMFpower.png Graphic file (type png)
  <use images/PMFpower.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[15 <./images/dynamos_beck.png>]
-
-LaTeX Warning: Citation `Yamazaki:2012pg' on page 16 undefined on input line 75
-.
-
-[16 <./images/PMFpower.png (PNG copy)>]
+[15 <./images/dynamos_beck.png>] [16 <./images/PMFpower.png (PNG copy)>]
 <images/matterpower.png, id=75, 390.64865pt x 185.16747pt>
 File: images/matterpower.png Graphic file (type png)
 
-<use images/matterpower.png>
-
-LaTeX Warning: Citation `Yamazaki:2012pg' on page 17 undefined on input line 80
-.
-
-
-LaTeX Warning: Citation `Yamazaki:2012pg' on page 17 undefined on input line 80
-.
-
-[17 <./images/matterpower.png>]) [18]
+<use images/matterpower.png> [17 <./images/matterpower.png>]) [18]
 \openout2 = `Method.aux'.
 
- (./Method.tex [19
+
+(./Method.tex
+
+LaTeX Warning: Citation `Albrecht:2006um' on page 19 undefined on input line 7.
 
 
-] [20]
-<images/diffs/H0bb.png, id=90, 578.16pt x 433.62pt>
+[19
+
+
+]
+
+LaTeX Warning: Citation `Albrecht:2006um' on page 20 undefined on input line 49
+.
+
+
+LaTeX Warning: Citation `Albrecht:2006um' on page 20 undefined on input line 60
+.
+
+[20] <images/diffs/H0bb.png, id=90, 578.16pt x 433.62pt>
 File: images/diffs/H0bb.png Graphic file (type png)
 
 <use images/diffs/H0bb.png>
@@ -799,15 +786,11 @@ File: images/diffs/H0bbz.png Graphic file (type png)
 
 LaTeX Warning: Float too large for page by 23.49309pt on input line 73.
 
-[21] [22 <./images/diffs/H0bb.png> <./images/diffs/H0bbz.png>]
-<images/diffs/reez.png, id=100, 578.16pt x 433.62pt>
+[21] [22 <./images/diffs/H0bb.png> <./images/diffs/H0bbz.png>] [23]
+<images/diffs/reez.png, id=103, 578.16pt x 433.62pt>
 File: images/diffs/reez.png Graphic file (type png)
 
-<use images/diffs/reez.png>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[23] [24 <./images/diffs/reez.png>]
+<use images/diffs/reez.png> [24 <./images/diffs/reez.png>]
 
 ! LaTeX Error: \begin{document} ended by \end{itemize}.
 
@@ -815,7 +798,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.148 \end{itemize}
+l.149 \end{itemize}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -824,14 +807,14 @@ or  <return>  to continue without it.
 ! Extra \endgroup.
 <recently read> \endgroup 
                           
-l.148 \end{itemize}
+l.149 \end{itemize}
                    
 Things are pretty mixed up, but I think the worst is over.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.156     ($\Delta
+l.157     ($\Delta
                    \ell$)^{-1},& \text{if } j$\Delta \ell$ \leq i \leq (j+1)...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -839,7 +822,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.156     ($\Delta \ell$)^
+l.157     ($\Delta \ell$)^
                           {-1},& \text{if } j$\Delta \ell$ \leq i \leq (j+1)...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -847,7 +830,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.156 ...$\Delta \ell$)^{-1},& \text{if } j$\Delta
+l.157 ...$\Delta \ell$)^{-1},& \text{if } j$\Delta
                                                    \ell$ \leq i \leq (j+1)$\...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -855,7 +838,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.156 ...l$)^{-1},& \text{if } j$\Delta \ell$ \leq
+l.157 ...l$)^{-1},& \text{if } j$\Delta \ell$ \leq
                                                    i \leq (j+1)$\Delta \ell$
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -863,7 +846,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.156 ...} j$\Delta \ell$ \leq i \leq (j+1)$\Delta
+l.157 ...} j$\Delta \ell$ \leq i \leq (j+1)$\Delta
                                                    \ell$
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -871,7 +854,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.157     0,              &
+l.158     0,              &
                             \text{otherwise}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -879,7 +862,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.157     0,              &
+l.158     0,              &
                             \text{otherwise}
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
@@ -999,7 +982,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 ]) [38] (./report2.bbl
 ! Undefined control sequence.
-l.40 \newblock {\em \aap
+l.45 \newblock {\em \aap
                         }, 241:47--56.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1008,7 +991,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.51 \newblock {\em \jcap
+l.56 \newblock {\em \jcap
                          }, 11:055.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1026,13 +1009,13 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 2705 strings out of 493848
- 35020 string characters out of 1152823
- 96557 words of memory out of 3000000
- 5886 multiletter control sequences out of 15000+50000
+ 2706 strings out of 493848
+ 35037 string characters out of 1152823
+ 96604 words of memory out of 3000000
+ 5887 multiletter control sequences out of 15000+50000
  13050 words of font info for 50 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 27i,9n,32p,1194b,225s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,9n,32p,1192b,225s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sha
 re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-te
 xlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-texlive/fonts
@@ -1044,7 +1027,7 @@ texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive
 /fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type
 1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/public/ams
 fonts/cm/cmti12.pfb>
-Output written on report2.pdf (40 pages, 1273590 bytes).
+Output written on report2.pdf (40 pages, 1275587 bytes).
 PDF statistics:
  214 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

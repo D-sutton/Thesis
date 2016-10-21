@@ -1,10 +1,10 @@
 \section{Method}
 
-In this section I outline the method I used to forecast upper limits for PMF detection using mock stage-3 and stage-4 covariance matrices and simulated CMB power spectra. In section 3.1 I will introduce the Fisher matrix, its properties and discuss how it is useful for experimental design. In section 3.2 I will discuss how I obtained CMB power spectra and how they are used to construct the Fisher matrix. Next, in section 3.3 I will describe the properties of the mock covariances and how I processed them into a useable format. Finally in section 3.4 will bring all the pieces together and explain how to obtain a Fisher matrix, apply conditioning to secure it against numerical instabilities and apply a change of variables to recieve forecasts for the upper limits on $B_{1Mpc}$.
+In this section I outline the method I used to forecast upper limits for PMF detection using mock stage-3 and stage-4 covariance matrices and simulated CMB power spectra. In section 3.1, I will introduce the Fisher matrix, its properties and discuss how it is useful for experimental design. In section 3.2, I will discuss how I obtained CMB power spectra and how they are used to construct the Fisher matrix. Next, in section 3.3 I will describe the properties of the mock covariances and how I processed them into a useable format. Finally in section 3.4, I will bring all the pieces together and explain how to obtain a Fisher matrix, apply conditioning to secure it against numerical instabilities and apply a change of variables to recieve forecasts for the upper limits on $B_{1Mpc}$.
 
 \subsection{Introduction to Fisher Matrices}
 
-The Fisher matrix is a powerful tool in experimental design, allowing us to forecast the theoretical maximum precision for a planned experiment. In my research I constructed Fisher matrices for future CMB experiments and inverted them into covariance matrices over the many model parameters a CMB experiment can measure with the aim of finding the theoretical maximum precision for an experiment aiming to measure or constrain the field strength of PMFs.
+The Fisher matrix is a powerful tool in experimental design, allowing us to forecast the theoretical maximum precision for a planned experiment \cite{Albrecht:2006um}. In my research I constructed Fisher matrices for future CMB experiments and inverted them into covariance matrices over the many model parameters a CMB experiment can measure with the aim of finding the theoretical maximum precision for an experiment aiming to measure or constrain the field strength of PMFs.
 
 The elements of the Fisher matrix are defined as:
 \begin{equation}
@@ -46,9 +46,9 @@ F_{ca} & F_{cb} & F_{cc}\\
 
 Here, I have a prior, P on a variable, c. All I need to do is add P to the corresponding diagonal term. However, if the prior is too big the Fisher matrix becomes numerically singular. This is a nuisance when dealing with large data sets and many model parameters however there are ways to combat this. I employ the second useful property of Fisher matrices, marginalisation.
 
-If I have a Fisher matrix with more variables than we're interested in, I can just remove the rows and columns associated with the variables that I don't care about. The resultant matrix is a Fisher matrix that is valid for the remaining variables - there's no need to recalculate the Fisher matrix with fewer variables!
+If I have a Fisher matrix with more variables than we're interested in, I can just remove the rows and columns associated with the variables that I don't care about\cite{Albrecht:2006um}. The resultant matrix is a Fisher matrix that is valid for the remaining variables - there's no need to recalculate the Fisher matrix with fewer variables!
 
-Returning to the case where P $>>$ $F_{cc}$, we can marginalise over the variable c by removing its associated rows and columns from the Fisher matrix. In this case the information lost is negligible, since the variance from our experiment was much larger than P's experiment anyway. In return, we now find we can forecast for the remaining variables.
+Returning to the case where P $>>$ $F_{cc}$ (see equation ~\ref{eqn:prior}), we can marginalise over the variable c by removing its associated rows and columns from the Fisher matrix. In this case the information lost is negligible, since the variance from our experiment was much larger than P's experiment anyway. In return, we now find we can forecast for the remaining variables.
 
 Equation 9 defines a case where one must know the log-likelihoods over the model parameters. There are special cases where this need not be done. If the model parameters are unbiased and Gaussian distributed then the following definition for the Fisher matrix holds:
 
@@ -57,7 +57,7 @@ Equation 9 defines a case where one must know the log-likelihoods over the model
 F_{ij} = \frac{\partial f}{\partial p^i} C^{-1} \frac{\partial f}{\partial p^j}
 \end{equation}
 
-where $f$ is the function that relates the model parameters to each other, $C$ is the covariance matrix for the experimental design and $p^{i}$ are the model parameters. In this thesis I will take $f$ to be the CMB polarisation power spectrum, $C_{\ell}$. Next, ${p}$ will be the $\Lambda CDM$ parameters as well as some additional parameters (see table ~\ref{table:camb}) and finally $C$ are mock covariance matrices associated with CMB-S3-like and CMB-S4-like experiments. Equation (12) then becomes:
+where $f$ is the function that relates the model parameters to each other, $C$ is the covariance matrix for the experimental design and $p^{i}$ are the model parameters\cite{Albrecht:2006um}. In this thesis I will take $f$ to be the CMB polarisation power spectrum, $C_{\ell}$. Next, ${p}$ will be the $\Lambda CDM$ parameters as well as some additional parameters (see table ~\ref{table:camb}) and finally $C$ are mock covariance matrices associated with stage-3-like and stage-4-like experiments. Equation (12) then becomes:
 
 \begin{equation}
 \label{eqn:clfisher}
@@ -74,7 +74,7 @@ F_{ij} = \frac{\partial C_{\ell}}{\partial p^i} C^{-1} \frac{\partial C_{\ell}}{
 
 \subsection{The CMB Power Spectrum}
 
-To begin constructing the Fisher matrix in the form given by ~\ref{eqn:clfisher} I used CAMB to build the CMB power spectrum \cite{Challinor:2005jy}. CAMB numerically computes the lensed CMB power spectrum and returns the coefficients of the spherical harmonic decomposition of the CMB power spectrum, $C_{\ell}$. To call on CAMB one first needs to define cosmological parameters parameters. A quick list of the parameters and their central values is given in table 2. The parameters I varied were the six $\Lambda CDM$ model parameters: $\Omega_{b}h^{2}$, the baryonic density. $\Omega_{c}h^{2}$, the cold dark matter density. $H_0$, Hubble's constant. $\tau$, the optical depth of reionisation. $\tau$ is a measure of approximately when reionisation occurred. $n_s$, the scalar spectral index for the primordial power spectrum, given by $P(k) = A_s k^{n_s - 1}$. $A_s$ is the amplitude of the primordial power spectrum. In addition we also have: The running of the scalar index, $n_{run}$. The effective number of neutrinos, $N_{eff}$ and the tensor-to-scalar ratio, $r$, which is used in constraining the effects of primordial gravity waves.
+To begin constructing the Fisher matrix in the form given by equation ~\ref{eqn:clfisher} I used CAMB to build the CMB power spectrum \cite{Challinor:2005jy}. CAMB numerically computes the lensed CMB power spectrum and returns the coefficients of the spherical harmonic decomposition of the CMB power spectrum, $C_{\ell}$. To call on CAMB one first needs to define cosmological parameters. A quick list of the parameters and their central values is given in table 2. The parameters I varied were the six $\Lambda CDM$ model parameters: $\Omega_{b}h^{2}$, the baryonic density. $\Omega_{c}h^{2}$, the cold dark matter density. $H_0$, Hubble's constant. $\tau$, the optical depth of reionisation. $\tau$ is a measure of approximately when reionisation occurred. $n_s$, the scalar spectral index for the primordial power spectrum, given by $P(k) = A_s k^{n_s - 1}$. $A_s$ is the amplitude of the primordial power spectrum. In addition we also have: The running of the scalar index, $n_{run}$. The effective number of neutrinos, $N_{eff}$ and the tensor-to-scalar ratio, $r$, which is used in constraining the effects of primordial gravity waves.
 
 \begin{table}[h]
 \centering
@@ -98,9 +98,10 @@ $r$ & \multicolumn{1}{c|}{0.01} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c}{$\
 This table shows the 6 $\Lambda CDM$ model parameters, as well as the running of the scalar index, the effective number of neutrinos and the tensor-to-scalar ratio. The 'Value' column shows the central value I entered into CAMB when producing the polarisation power spectrum and the 'Step Size' column indicates the magnitude of the perturbation around the central value I used for calculating the numerical derivatives. Finally, the 'Uncertianty' column gives the Planck best fit (2015) \cite{Ade:2015xua} $\Lambda CDM$ uncertainties, which were used as an upper bound for step sizes.
 \end{flushleft}
 \end{table}
- 
 
-In order to differentiate the power spectrum as required by ~\ref{eqn:clfisher} I employ a numerical form of the derivative:
+\pagebreak 
+
+In order to differentiate the power spectrum as required by equation ~\ref{eqn:clfisher} I employ a numerical form of the derivative:
 
 \begin{equation}
 \label{eqn:dcl}
@@ -119,9 +120,9 @@ To ensure that the derivatives are accurate the step sizes must be small, howeve
 
 As a final sanity check on the value of the step sizes, I would like them to be less than the 2015 Planck best fit uncertainties (refer to table 2).
  
-Figure~\ref{fig:diffH0} shows a plot of $\Delta C_{\ell}$ for the BB polarisation power spectrum, varying Hubble's constant and holding all else fixed. The top panel shows the differences over $ 0 < \ell < 5000$. The lines all appear to be converging on the same function. The blue line, corresponding to a step size of 0.02 has significant artifacting, so by criterion one it can be ruled out. The second panel is zoomed in on the peak and trough over $\ell ~ 700$. Taking a closer look at the lines reveals that as the step size increases toward 0.1 the lines begin to converge. There isn't an ostensible difference between step sizes of 0.08 or 0.1, so the deciding factor is which one produces a better approximation of $\frac{\partial C_{\ell}}{\partial p}$. Smaller step sizes suit this purpose so for Hubble's constant I chose 0.08.
+Figure~\ref{fig:diffH0} shows a plot of $\Delta C_{\ell}$ for the BB polarisation power spectrum, varying Hubble's constant and holding all else fixed. The top panel shows the differences over $ 0 < \ell < 5000$. The lines all appear to be converging on the same function. The blue line, corresponding to a step size of 0.02 has significant artifacting, so by criterion one it can be ruled out. The second panel is zoomed in on the peak and trough over $\ell \sim 700$. Taking a closer look at the lines reveals that as the step size increases toward 0.1 the lines begin to converge. There isn't an ostensible difference between step sizes of 0.08 or 0.1, so the deciding factor is which one produces a better approximation of $\frac{\partial C_{\ell}}{\partial p}$. Smaller step sizes suit this purpose so for Hubble's constant I chose 0.08.
   
-An interesting second case is the difference plot for the tensor-to-scalar ratio. When $\ell < 220$ the difference plot is well behaved with good convergence and few artifacts for larger step sizes. When $\ell > 220$ numerical effects begin to dominate. This occurs since CAMB isn't programmed to handle variations in the tensor-to-scalar ratio as cleanly as the more standard parameters. This will likely be addressed in the future, once the value for r is found and its effects can be properly studied. For now, one can easily remedy this adding a low pass filter, keeping $\ell < 220$ and discarding the rest, since we expect that r is only significant at low $\ell$. However this might be a drastic response. Since the effects of r are small, it is safe to ignore these artifacts without any significant change in the result. Indeed, perturbing around my chosen step size in r yields negligble variations in the Fisher matrix.
+An interesting second case is the difference plot for the tensor-to-scalar ratio. When $\ell < 220$ the difference plot is well behaved with good convergence and few artifacts for larger step sizes. When $\ell > 220$ numerical effects begin to dominate. This occurs since CAMB isn't programmed to handle variations in the tensor-to-scalar ratio as cleanly as the more standard parameters. This will likely be addressed in the future, once the value for r is found and its effects can be properly studied. For now, one can easily remedy this by adding a low pass filter, keeping $\ell < 220$ and discarding the rest, since we expect that r is only significant at low $\ell$. However this might be a drastic response. Since the effects of r are small, it is safe to ignore these artifacts without any significant change in the result. Indeed, perturbing around my chosen step size in r yields negligble variations in the Fisher matrix.
 
 \begin{figure}[h]
 \centering
@@ -131,16 +132,16 @@ An interesting second case is the difference plot for the tensor-to-scalar ratio
 \end{figure}
  
  
-In addition to the CAMB power spectra I also PMF templates which were generated using the method from \cite{Ade:2015cao} and \cite{PhysRevD.80.023510}. These templates are the PMF power spectrum, differentiated with respect to the PMF amplitude: $\frac{\partial C_{\ell}}{\partial A_{pmf}}$.
+In addition to the CAMB power spectra I also used PMF templates which were generated using the method from \cite{Ade:2015cao} and \cite{PhysRevD.80.023510}. These templates are the PMF power spectrum, differentiated with respect to the PMF amplitude: $\frac{\partial C_{\ell}}{\partial A_{pmf}}$.
 These templates assume that the PMF strength is $B_{1Mpc} = 2.5nG$ when $A_{pmf} = 1$
 
 \subsection{The Covariance Matrix}
 
-For the inverse covariance matrix in equation ~\ref{eqn:clfisher} I used mock stage-3 and stage-4-like covariance matrices. These covariance matrices were calculated as per Tegmark (1997) \cite{Tegmark:1997vs} with six experimental variables that describe a ground-based CMB experiment. These variables are the survey area, noise level, beam width, $\ell_{knee}$, beam uncertainty and calibration error.
+For the inverse covariance matrix in equation ~\ref{eqn:clfisher} I used mock stage-3 and stage-4-like covariance matrices. These covariance matrices were calculated as per \cite{Tegmark:1997vs} with six experimental variables that describe a ground-based CMB experiment. These variables are the survey area, noise level, beam width, $\ell_{knee}$, beam uncertainty and calibration error.
 
-Survey area is the area of the sky that the CMB experiment observes. The units for the survey area are square degrees. For reference the full sky is 41 253 square degrees, SPT-3G will observe a patch the size of 2 500 square degrees and most other CMB experiments starting in 2017 will scan about 20 000 square degrees.
+Survey area is the area of the sky that the CMB experiment observes. The units for the survey area are square degrees. For reference the full sky is 41,253 square degrees, SPT-3G will observe a patch the size of 2,500 square degrees and most other CMB experiments starting in 2017 will scan about 20,000 square degrees.
 
-Noise is the background noise level of the experiment. Noise scales with the number of detectors, n like $\sqrt{n}$. CMB experiments starting 2017 will have of the order 10 000 detectors with noise levels between 5 and 10 $\mu$K arcmin. Noise level depends on a number of other factors, such as time spent scanning but these effects will be marginalised over in this analysis. The calibration error corresponds to the error in the calibration temperature of the bolometers given in the form of a percentage error.
+Noise is the background noise level of the experiment. Noise scales with the number of detectors, n like $\sqrt{n}$. CMB experiments starting 2017 will have of the order 10,000 detectors with noise levels between 5 and 10 $\mu$K arcmin. Noise level depends on a number of other factors, such as time spent scanning but these effects will be marginalised over in this analysis. The calibration error corresponds to the error in the calibration temperature of the bolometers given in the form of a percentage error.
 
 $\ell_{knee}$ is the angular scale where $1/f$ noise starts dominating over the white noise. It is a measure of stability of the experiment and larger $\ell_{knee}$s correspond to lower precision on CMB experiments. Ideally we want to have this value as low as possible and a given value for $\ell_{knee}$ isn't strictly unique to when a CMB experiment is made. Upcoming CMB experiments will be aiming for $\ell_{knee} \leq$ 100.
 
@@ -169,7 +170,7 @@ Where B is the binning matrix, defined above and $C^{-1}$ is the inverse covaria
 (\frac{\partial C_{\ell}}{\partial p})_{binned} = B\frac{\partial C_{\ell}}{\partial p}
 \end{equation}
  
-These new binned definitions are then substituted into ~\ref{eqn:clfisher} to construct the Fisher matrix. The output is an $N \times N$ matrix, where N is the number of parameters in the template matrix.
+These new binned definitions are then substituted into equation ~\ref{eqn:clfisher} to construct the Fisher matrix. The output is an $N \times N$ matrix, where N is the number of parameters in the template matrix.
 
 \subsection{Conditioning and Forecasting}
 
