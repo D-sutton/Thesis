@@ -95,7 +95,7 @@ $r$ & \multicolumn{1}{c|}{0.01} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c}{$\
 
 \bigskip
 \begin{flushleft}
-This table shows the 6 $\Lambda CDM$ model parameters, as well as the running of the scalar index, the effective number of neutrinos and the tensor-to-scalar ratio. The 'Value' column shows the central value I entered into CAMB when producing the polarisation power spectrum and the 'Step Size' column indicates the magnitude of the perturbation around the central value I used for calculating the numerical derivatives. Finally, the 'Uncertianty' column gives the PLANCK best fit (2015) \cite{Ade:2015xua} $\Lambda CDM$ uncertainties, which were used as an upper bound for step sizes.
+This table shows the 6 $\Lambda CDM$ model parameters, as well as the running of the scalar index, the effective number of neutrinos and the tensor-to-scalar ratio. The 'Value' column shows the central value I entered into CAMB when producing the polarisation power spectrum and the 'Step Size' column indicates the magnitude of the perturbation around the central value I used for calculating the numerical derivatives. Finally, the 'Uncertianty' column gives the Planck best fit (2015) \cite{Ade:2015xua} $\Lambda CDM$ uncertainties, which were used as an upper bound for step sizes.
 \end{flushleft}
 \end{table}
  
@@ -117,7 +117,7 @@ To ensure that the derivatives are accurate the step sizes must be small, howeve
 \item Smoothness: If the step size is too small then $\Delta C_{\ell}$ will oscillate significantly over a short change in $\ell$. The resultant plot will look 'blocky' or have large spikes and won't resemble a well-conditioned derivative of the CMB power spectrum.
 \end{enumerate}
 
-As a final sanity check on the value of the step sizes, I would like them to be less than the 2015 PLANCK best fit uncertainties (refer to table 2).
+As a final sanity check on the value of the step sizes, I would like them to be less than the 2015 Planck best fit uncertainties (refer to table 2).
  
 Figure~\ref{fig:diffH0} shows a plot of $\Delta C_{\ell}$ for the BB polarisation power spectrum, varying Hubble's constant and holding all else fixed. The top panel shows the differences over $ 0 < \ell < 5000$. The lines all appear to be converging on the same function. The blue line, corresponding to a step size of 0.02 has significant artifacting, so by criterion one it can be ruled out. The second panel is zoomed in on the peak and trough over $\ell ~ 700$. Taking a closer look at the lines reveals that as the step size increases toward 0.1 the lines begin to converge. There isn't an ostensible difference between step sizes of 0.08 or 0.1, so the deciding factor is which one produces a better approximation of $\frac{\partial C_{\ell}}{\partial p}$. Smaller step sizes suit this purpose so for Hubble's constant I chose 0.08.
   

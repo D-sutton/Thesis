@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.7.29)  21 OCT 2016 15:33
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.7.29)  21 OCT 2016 16:47
 entering extended mode
  %&-line parsing enabled.
 **report2.tex
@@ -887,16 +887,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [27
 
 
-]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.61 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-[28 <./images/area.png>] [29 <./images/noise.png>] [30 <./images/width.png>]
+] [28 <./images/area.png>] [29 <./images/noise.png>] [30 <./images/width.png>] 
 [31 <./images/knee.png>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -905,7 +896,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: images/contours/nrun.png Graphic file (type png)
 
 <use images/contours/nrun.png>
-Overfull \hbox (19.40709pt too wide) in paragraph at lines 118--119
+Overfull \hbox (19.40709pt too wide) in paragraph at lines 119--120
  [][] 
  []
 
@@ -916,7 +907,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: images/contours/neff.png Graphic file (type png)
 
 <use images/contours/neff.png>
-Overfull \hbox (19.40709pt too wide) in paragraph at lines 125--126
+Overfull \hbox (19.40709pt too wide) in paragraph at lines 126--127
  [][] 
  []
 
@@ -927,7 +918,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: images/contours/52.png Graphic file (type png)
 
 <use images/contours/52.png>
-Overfull \hbox (19.40709pt too wide) in paragraph at lines 132--133
+Overfull \hbox (19.40709pt too wide) in paragraph at lines 133--134
  [][] 
  []
 
@@ -937,7 +928,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.138 ... relationship between $\sigma({B_{1Mpc})$
+l.139 ... relationship between $\sigma({B_{1Mpc})$
                                                    and $\sigma({n_{run})$ in...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -948,7 +939,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.138 ...\sigma({B_{1Mpc})$ and $\sigma({n_{run})$
+l.139 ...\sigma({B_{1Mpc})$ and $\sigma({n_{run})$
                                                    indicates that future CMB...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -960,7 +951,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.144 ... relationship between $\sigma({B_{1Mpc})$
+l.145 ... relationship between $\sigma({B_{1Mpc})$
                                                    and $\sigma({n_{run})$ in...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -971,7 +962,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.144 ...\sigma({B_{1Mpc})$ and $\sigma({n_{run})$
+l.145 ...\sigma({B_{1Mpc})$ and $\sigma({n_{run})$
                                                    indicates that future CMB...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1017,7 +1008,7 @@ Here is how much of TeX's memory you used:
  5876 multiletter control sequences out of 15000+50000
  13050 words of font info for 50 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 27i,9n,32p,1578b,225s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,9n,32p,1194b,225s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/c
 mbx12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb><
 /usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/
@@ -1029,7 +1020,7 @@ fonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr
 share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf
 -texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fon
 ts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on report2.pdf (41 pages, 1242428 bytes).
+Output written on report2.pdf (41 pages, 1242131 bytes).
 PDF statistics:
  216 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
