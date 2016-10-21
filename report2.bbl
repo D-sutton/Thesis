@@ -27,9 +27,6 @@ Ade, P. A.~R. et~al. (2015c).
   Magnetic Fields}.
 \newblock {\em Phys. Rev.}, D92:123509.
 
-\bibitem[Beck et~al., ]{Beck:1996}
-Beck, R., Brandenburg, A., Moss, D., Shukurov, A., and Sokoloff, D.
-
 \bibitem[Benson et~al., 2014]{Benson:2014qhw}
 Benson, B.~A. et~al. (2014).
 \newblock {SPT-3G: A Next-Generation Cosmic Microwave Background Polarization
@@ -102,6 +99,11 @@ Robishaw, T., Quataert, E., and Heiles, C. (2008).
 \newblock {Extragalactic Zeeman Detections in OH Megamasers}.
 \newblock {\em Astrophys. J.}, 680:981.
 
+\bibitem[Subramanian, 2007]{Subramanian:2008tt}
+Subramanian, K. (2007).
+\newblock {Magnetizing the universe}.
+\newblock {\em PoS}, MRU:071.
+
 \bibitem[Suzuki et~al., 2016]{Suzuki:2015zzg}
 Suzuki, A. et~al. (2016).
 \newblock {The POLARBEAR-2 and the Simons Array Experiment}.
@@ -121,5 +123,10 @@ Turner, M.~S. and Widrow, L.~M. (1988).
 Widrow, L.~M. (2002).
 \newblock {Origin of galactic and extragalactic magnetic fields}.
 \newblock {\em Rev. Mod. Phys.}, 74:775--823.
+
+\bibitem[{Zweibel} and {Stonebraker}, 2013]{Biermann}
+{Zweibel}, E. and {Stonebraker}, A. (2013).
+\newblock Viewpoint: The seeds of a magnetic universe.
+\newblock [Online; accessed 21-October-2016].
 
 \end{thebibliography}

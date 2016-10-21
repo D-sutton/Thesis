@@ -14,55 +14,48 @@ I was expecting a `,' or a `}'---line 200 of file references.bib
  : @article{39087c288ce54d4bb9580169e1666880,
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Unbalanced braces---line 400 of file references.bib
- : 
- : }
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Beck:1996"
 Warning--empty journal in Ade:2015xua
 Warning--empty journal in Ade:2015cva
-Warning--empty year in Beck:1996
-Warning--empty title in Beck:1996
-Warning--empty journal in Beck:1996
-You've used 23 entries,
+You've used 24 entries,
             1935 wiz_defined-function locations,
-            638 strings with 7573 characters,
-and the built_in function-call counts, 8335 in all, are:
-= -- 816
-> -- 305
-< -- 19
-+ -- 98
-- -- 96
-* -- 689
-:= -- 1488
-add.period$ -- 65
-call.type$ -- 23
-change.case$ -- 153
-chr.to.int$ -- 21
-cite$ -- 28
-duplicate$ -- 315
-empty$ -- 605
-format.name$ -- 140
-if$ -- 1628
+            651 strings with 7818 characters,
+and the built_in function-call counts, 8545 in all, are:
+= -- 845
+> -- 297
+< -- 21
++ -- 94
+- -- 92
+* -- 696
+:= -- 1529
+add.period$ -- 70
+call.type$ -- 24
+change.case$ -- 157
+chr.to.int$ -- 22
+cite$ -- 26
+duplicate$ -- 326
+empty$ -- 625
+format.name$ -- 139
+if$ -- 1673
 int.to.chr$ -- 3
 int.to.str$ -- 0
 missing$ -- 22
-newline$ -- 114
-num.names$ -- 69
-pop$ -- 106
+newline$ -- 121
+num.names$ -- 72
+pop$ -- 96
 preamble$ -- 1
-purify$ -- 154
+purify$ -- 157
 quote$ -- 0
-skip$ -- 252
+skip$ -- 266
 stack$ -- 0
-substring$ -- 608
-swap$ -- 19
+substring$ -- 629
+swap$ -- 20
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 138
-warning$ -- 5
-while$ -- 67
+type$ -- 144
+warning$ -- 2
+while$ -- 70
 width$ -- 0
-write$ -- 288
-(There were 2 error messages)
+write$ -- 306
+(There was 1 error message)

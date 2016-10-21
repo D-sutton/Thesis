@@ -7,15 +7,15 @@
 \contentsline {subsection}{\numberline {1.3}Future CMB experiments}{10}
 \contentsline {section}{\numberline {2}Primordial Magnetic Field Theory}{13}
 \contentsline {subsection}{\numberline {2.1}Biermann Batteries}{13}
-\contentsline {subsection}{\numberline {2.2}Other Methods of PMF Generation}{13}
-\contentsline {subsubsection}{\numberline {2.2.1}Inflation}{13}
+\contentsline {subsection}{\numberline {2.2}Other Methods of PMF Generation}{14}
+\contentsline {subsubsection}{\numberline {2.2.1}Inflation}{14}
 \contentsline {subsubsection}{\numberline {2.2.2}Phase Transitions}{14}
 \contentsline {subsection}{\numberline {2.3}Galactic Dynamos as Amplifiers}{14}
-\contentsline {subsection}{\numberline {2.4}Effect of PMFs on the Cosmic Microwave Background}{14}
-\contentsline {subsection}{\numberline {2.5}Other effects of PMFs}{15}
-\contentsline {subsubsection}{\numberline {2.5.1}Large Scale Structure}{15}
-\contentsline {subsubsection}{\numberline {2.5.2}Big Bang Nucleosynthesis}{16}
-\contentsline {subsection}{\numberline {2.6}Other Sources of Cosmic Birefringence}{17}
+\contentsline {subsection}{\numberline {2.4}Effect of PMFs on the Cosmic Microwave Background}{15}
+\contentsline {subsection}{\numberline {2.5}Observational Effects of PMFs}{16}
+\contentsline {subsubsection}{\numberline {2.5.1}Large Scale Structure}{17}
+\contentsline {subsubsection}{\numberline {2.5.2}Big Bang Nucleosynthesis}{17}
+\contentsline {subsection}{\numberline {2.6}Other Sources of Cosmic Birefringence}{18}
 \contentsline {section}{\numberline {3}Method}{19}
 \contentsline {subsection}{\numberline {3.1}Introduction to Fisher Matrices}{19}
 \contentsline {subsection}{\numberline {3.2}The CMB Power Spectrum}{21}
@@ -24,6 +24,6 @@
 \contentsline {section}{\numberline {4}Forecasts}{27}
 \contentsline {subsection}{\numberline {4.1}Optimising Design Variables}{27}
 \contentsline {subsection}{\numberline {4.2}Parameter Constraints}{32}
-\contentsline {section}{\numberline {5}Discussion and Future Work}{38}
-\contentsline {subsection}{\numberline {5.1}Discussion}{38}
-\contentsline {subsection}{\numberline {5.2}Future Work}{39}
+\contentsline {section}{\numberline {5}Discussion and Future Work}{37}
+\contentsline {subsection}{\numberline {5.1}Discussion}{37}
+\contentsline {subsection}{\numberline {5.2}Future Work}{38}
