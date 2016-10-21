@@ -1,15 +1,17 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.7.29)  20 OCT 2016 18:22
-=======
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2015.3.21)  19 OCT 2016 20:44
->>>>>>> 0b5a6f1b81c7db9bd9b6a3181295df1212f2b6df
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.7.29)  21 OCT 2016 15:33
 entering extended mode
  %&-line parsing enabled.
 **report2.tex
 (./report2.tex
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
-yphenation, loaded.
+yphenation, farsi, arabic, croatian, bulgarian, ukrainian, russian, czech, slov
+ak, danish, dutch, finnish, french, basque, ngerman, german, german-x-2009-06-1
+9, ngerman-x-2009-06-19, ibycus, monogreek, greek, ancientgreek, hungarian, san
+skrit, italian, latin, latvian, lithuanian, mongolian2a, mongolian, bokmal, nyn
+orsk, romanian, irish, coptic, serbian, turkish, welsh, esperanto, uppersorbian
+, estonian, indonesian, interlingua, icelandic, kurmanji, slovenian, polish, po
+rtuguese, spanish, galician, catalan, swedish, ukenglish, pinyin, loaded.
 (/usr/share/texmf-texlive/tex/latex/base/article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
 (/usr/share/texmf-texlive/tex/latex/base/size12.clo
@@ -50,7 +52,8 @@ Package ifvtex Info: VTeX not detected.
 \Gm@odd@mp=\dimen105
 \Gm@even@mp=\dimen106
 \Gm@dimlist=\toks15
-)
+
+(/usr/share/texmf-texlive/tex/xelatex/xetexconfig/geometry.cfg))
 (/usr/share/texmf-texlive/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2000/07/18 v2.13 AMS math features
 \@mathmargin=\skip43
@@ -152,23 +155,27 @@ File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
 ))
 \Gin@req@height=\dimen120
 \Gin@req@width=\dimen121
+)
+(/usr/share/texmf-texlive/tex/latex/ltxmisc/url.sty
+\Urlmuskip=\muskip11
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 ) (./report2.aux
 (./acknowledgements.aux) (./Abstract.aux) (./Introduction.aux) (./Theory.aux)
 (./Method.aux) (./Forecasts.aux) (./Conclusion.aux))
 \openout1 = `report2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
-LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
 
 *geometry auto-detecting driver*
 *geometry detected driver: pdftex*
@@ -248,12 +255,12 @@ LaTeX Info: Redefining \selectfont on input line 125.
 ) <images/UOM.png, id=1, 113.7048pt x 115.1502pt>
 File: images/UOM.png Graphic file (type png)
  <use images/UOM.png>
-LaTeX Font Info:    Try loading font information for U+msa on input line 37.
+LaTeX Font Info:    Try loading font information for U+msa on input line 38.
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 37.
+LaTeX Font Info:    Try loading font information for U+msb on input line 38.
 
 (/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
@@ -268,7 +275,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.38 \makeindex
+l.39 \makeindex
                
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -276,7 +283,6 @@ or  <return>  to continue without it.
 
 [1
 
-<<<<<<< HEAD
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
 
 pdfTeX warning: pdflatex (file /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.ma
@@ -641,10 +647,6 @@ p): fontmap entry for `wttro8r' already exists, duplicates ignored
  (./acknowledgements.tex) [2
 
 ]
-=======
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/UOM.png (PNG copy
-)>]
->>>>>>> 0b5a6f1b81c7db9bd9b6a3181295df1212f2b6df
 \openout2 = `Abstract.aux'.
 
  (./Abstract.tex)
@@ -657,11 +659,7 @@ p): fontmap entry for `wttro8r' already exists, duplicates ignored
 \tf@toc=\write3
 \openout3 = `report2.toc'.
 
-<<<<<<< HEAD
  [5]
-=======
- [4]
->>>>>>> 0b5a6f1b81c7db9bd9b6a3181295df1212f2b6df
 \openout2 = `Introduction.aux'.
 
  (./Introduction.tex [6
@@ -670,16 +668,9 @@ p): fontmap entry for `wttro8r' already exists, duplicates ignored
 <images/quadrupole.png, id=34, 313.17pt x 277.035pt>
 File: images/quadrupole.png Graphic file (type png)
 
-<<<<<<< HEAD
 <use images/quadrupole.png> [8 <./images/quadrupole.png>]
 Overfull \hbox (3.80411pt too wide) in paragraph at lines 63--64
 []\OT1/cmr/m/n/12 Figure 2[] shows how a net lin-ear po-lar-i-sa-tion arises fr
-=======
-]
-[6]
-Overfull \hbox (3.80411pt too wide) in paragraph at lines 65--66
-[]\OT1/cmr/m/n/12 Figure 1[] shows how a net lin-ear po-lar-i-sa-tion arises fr
->>>>>>> 0b5a6f1b81c7db9bd9b6a3181295df1212f2b6df
 om Thom-son scat-ter-ing about a quadrupo-
  []
 
@@ -779,10 +770,6 @@ File: images/diffs/H0bbz.png Graphic file (type png)
 
 LaTeX Warning: Float too large for page by 23.49309pt on input line 73.
 
-
-LaTeX Warning: Citation `Challinor:2005jy' on page 21 undefined on input line 7
-7.
-
 [21] [22 <./images/diffs/H0bb.png> <./images/diffs/H0bbz.png>]
 <images/diffs/reez.png, id=99, 578.16pt x 433.62pt>
 File: images/diffs/reez.png Graphic file (type png)
@@ -791,15 +778,27 @@ File: images/diffs/reez.png Graphic file (type png)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[23]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 139.
+[23] [24 <./images/diffs/reez.png>]
 
- (/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
-File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 139.
- [24 <./images/diffs/reez.png>]
+! LaTeX Error: \begin{document} ended by \end{itemize}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.148 \end{itemize}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.148 \end{itemize}
+                   
+Things are pretty mixed up, but I think the worst is over.
+
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -863,10 +862,13 @@ So I'll assume that you meant to type \cr instead.
  (./Forecasts.tex <images/area.png, id=114, 578.16pt x 433.62pt>
 File: images/area.png Graphic file (type png)
 
-<use images/area.png> <images/noise.png, id=115, 578.16pt x 433.62pt>
-File: images/noise.png Graphic file (type png)
+<use images/area.png>
 
-<use images/noise.png>
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/noise.png, id=115, 578.16pt x 433.62pt>
+File: images/noise.png Graphic file (type png)
+ <use images/noise.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -885,53 +887,25 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [27
 
 
- <./images/area.png>]
+]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.38 
+l.61 
      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-[28 <./images/noise.png>] [29 <./images/width.png>] [30 <./images/knee.png>]
-[31]
+[28 <./images/area.png>] [29 <./images/noise.png>] [30 <./images/width.png>]
+[31 <./images/knee.png>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<<<<<<< HEAD
 <images/contours/nrun.png, id=138, 578.16pt x 433.62pt>
-=======
-[27 <./images/noise.png>] [28 <./images/width.png>] [29 <./images/knee.png>]
-[30]
-! Missing } inserted.
-<inserted text> 
-                }
-l.106 ...s relationship between $\sigma{B_{1Mpc})$
-                                                   and $\sigma{n_{run})$ ind...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.106 ... $\sigma{B_{1Mpc})$ and $\sigma{n_{run})$
-                                                   indicates that future CMB...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-<images/contours/nrun.png, id=131, 578.16pt x 433.62pt>
->>>>>>> 0b5a6f1b81c7db9bd9b6a3181295df1212f2b6df
 File: images/contours/nrun.png Graphic file (type png)
 
 <use images/contours/nrun.png>
-Overfull \hbox (19.40709pt too wide) in paragraph at lines 115--116
+Overfull \hbox (19.40709pt too wide) in paragraph at lines 118--119
  [][] 
  []
 
@@ -942,7 +916,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: images/contours/neff.png Graphic file (type png)
 
 <use images/contours/neff.png>
-Overfull \hbox (19.40709pt too wide) in paragraph at lines 122--123
+Overfull \hbox (19.40709pt too wide) in paragraph at lines 125--126
  [][] 
  []
 
@@ -953,7 +927,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: images/contours/52.png Graphic file (type png)
 
 <use images/contours/52.png>
-Overfull \hbox (19.40709pt too wide) in paragraph at lines 129--130
+Overfull \hbox (19.40709pt too wide) in paragraph at lines 132--133
  [][] 
  []
 
@@ -963,7 +937,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.134 ... relationship between $\sigma({B_{1Mpc})$
+l.138 ... relationship between $\sigma({B_{1Mpc})$
                                                    and $\sigma({n_{run})$ in...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -974,7 +948,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.134 ...\sigma({B_{1Mpc})$ and $\sigma({n_{run})$
+l.138 ...\sigma({B_{1Mpc})$ and $\sigma({n_{run})$
                                                    indicates that future CMB...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -982,26 +956,37 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[32]) [33] [34 <./images/contours/nrun.png>] [35 <./images/contours/neff.png>]
-[36 <./images/contours/52.png>]
+[32]
+! Missing } inserted.
+<inserted text> 
+                }
+l.144 ... relationship between $\sigma({B_{1Mpc})$
+                                                   and $\sigma({n_{run})$ in...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.144 ...\sigma({B_{1Mpc})$ and $\sigma({n_{run})$
+                                                   indicates that future CMB...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+) [33] [34] [35 <./images/contours/nrun.png>] [36 <./images/contours/neff.png>]
+[37 <./images/contours/52.png>]
 \openout2 = `Conclusion.aux'.
 
- (./Conclusion.tex [37
+ (./Conclusion.tex [38
 
 
-]
-! Undefined control sequence.
-<recently read> \Lamda 
-                       
-l.14 ...ts with extra data and adding more $\Lamda
-                                                   CDM$ extension parameters...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-) [38] (./report2.bbl
+]) [39] (./report2.bbl
 ! Undefined control sequence.
 l.43 \newblock {\em \aap
                         }, 241:47--56.
@@ -1011,59 +996,42 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[39
+! Undefined control sequence.
+l.54 \newblock {\em \jcap
+                         }, 11:055.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-]) [40] (./report2.aux (./acknowledgements.aux) (./Abstract.aux)
+[40
+
+]) [41] (./report2.aux (./acknowledgements.aux) (./Abstract.aux)
 (./Introduction.aux) (./Theory.aux) (./Method.aux) (./Forecasts.aux)
-(./Conclusion.aux))
-
-LaTeX Warning: There were undefined references.
-
- ) 
+(./Conclusion.aux)) ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 2635 strings out of 493848
- 34200 string characters out of 1152823
- 94332 words of memory out of 3000000
- 5818 multiletter control sequences out of 15000+50000
+ 2694 strings out of 493848
+ 34832 string characters out of 1152823
+ 96487 words of memory out of 3000000
+ 5876 multiletter control sequences out of 15000+50000
  13050 words of font info for 50 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
  27i,9n,32p,1578b,225s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sha
-re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-te
-xlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-texlive/fonts
-/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-texlive/fonts/type1/publi
-c/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
-m/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/
-texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive
-/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type
-1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/public/ams
-fonts/cm/cmti12.pfb>
-Output written on report2.pdf (40 pages, 1237134 bytes).
-=======
- 2616 strings out of 495061
- 33700 string characters out of 1182621
- 91830 words of memory out of 3000000
- 5711 multiletter control sequences out of 15000+50000
- 12750 words of font info for 49 fonts, out of 3000000 for 9000
- 28 hyphenation exceptions out of 8191
- 27i,9n,32p,1372b,225s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive
-/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-texlive/fonts/type
-1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-texlive/fonts/type1/public/am
-sfonts/cm/cmmi12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/c
-mmi6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></u
-sr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/tex
-mf-texlive/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-texlive/f
-onts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/pu
-blic/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfon
-ts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti12
-.pfb>
-Output written on report2.pdf (38 pages, 1197498 bytes).
->>>>>>> 0b5a6f1b81c7db9bd9b6a3181295df1212f2b6df
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/c
+mbx12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmex10.pfb><
+/usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/
+texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-texliv
+e/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/type
+1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/ams
+fonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr
+17.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/
+share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf
+-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fon
+ts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on report2.pdf (41 pages, 1242428 bytes).
 PDF statistics:
- 213 PDF objects out of 1000 (max. 8388607)
+ 216 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  91 words of extra memory for PDF output out of 10000 (max. 10000000)
 

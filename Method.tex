@@ -72,9 +72,9 @@ F_{ij} = \frac{\partial C_{\ell}}{\partial p^i} C^{-1} \frac{\partial C_{\ell}}{
 \label{fig:diffH0}
 \end{figure}
 
-\subsection{The CMB Power Spectra}
+\subsection{The CMB Power Spectrum}
 
-To begin constructing the Fisher matrix in the form given by ~\ref{eqn:clfisher} I used CAMB \cite{Challinor:2005jy} to build the CMB power spectrum. CAMB numerically computes the lensed CMB power spectrum and returns the coefficients of the spherical harmonic decomposition of the CMB power spectrum, $C_{\ell}$. To call on CAMB one first needs to define cosmological parameters parameters. A quick list of the parameters and their central values is given in table 2. The parameters I varied were the six $\Lambda CDM$ model parameters: $\Omega_{b}h^{2}$, the baryonic density. $\Omega_{c}h^{2}$, the cold dark matter density. $H_0$, Hubble's constant. $\tau$, the optical depth of reionisation. $\tau$ is a measure of approximately when reionisation occurred. $n_s$, the scalar spectral index for the primordial power spectrum, given by $P(k) = A_s k^{n_s - 1}$. $A_s$ is the amplitude of the primordial power spectrum. In addition we also have: The running of the scalar index, $n_{run}$. The effective number of neutrinos, $N_{eff}$ and the tensor-to-scalar ratio, $r$, which is used in constraining the effects of primordial gravity waves.
+To begin constructing the Fisher matrix in the form given by ~\ref{eqn:clfisher} I used CAMB to build the CMB power spectrum \cite{Challinor:2005jy}. CAMB numerically computes the lensed CMB power spectrum and returns the coefficients of the spherical harmonic decomposition of the CMB power spectrum, $C_{\ell}$. To call on CAMB one first needs to define cosmological parameters parameters. A quick list of the parameters and their central values is given in table 2. The parameters I varied were the six $\Lambda CDM$ model parameters: $\Omega_{b}h^{2}$, the baryonic density. $\Omega_{c}h^{2}$, the cold dark matter density. $H_0$, Hubble's constant. $\tau$, the optical depth of reionisation. $\tau$ is a measure of approximately when reionisation occurred. $n_s$, the scalar spectral index for the primordial power spectrum, given by $P(k) = A_s k^{n_s - 1}$. $A_s$ is the amplitude of the primordial power spectrum. In addition we also have: The running of the scalar index, $n_{run}$. The effective number of neutrinos, $N_{eff}$ and the tensor-to-scalar ratio, $r$, which is used in constraining the effects of primordial gravity waves.
 
 \begin{table}[h]
 \centering
@@ -94,7 +94,9 @@ $r$ & \multicolumn{1}{c|}{0.01} & \multicolumn{1}{c|}{-} & \multicolumn{1}{c}{$\
 \end{tabular}
 
 \bigskip
+\begin{flushleft}
 This table shows the 6 $\Lambda CDM$ model parameters, as well as the running of the scalar index, the effective number of neutrinos and the tensor-to-scalar ratio. The 'Value' column shows the central value I entered into CAMB when producing the polarisation power spectrum and the 'Step Size' column indicates the magnitude of the perturbation around the central value I used for calculating the numerical derivatives. Finally, the 'Uncertianty' column gives the PLANCK best fit (2015) \cite{Ade:2015xua} $\Lambda CDM$ uncertainties, which were used as an upper bound for step sizes.
+\end{flushleft}
 \end{table}
  
 
@@ -134,17 +136,15 @@ These templates assume that the PMF strength is $B_{1Mpc} = 2.5nG$ when $A_{pmf}
 
 \subsection{The Covariance Matrix}
 
-For the inverse covariance matrix in ~\ref{eqn:clfisher} I used mock stage-3 and stage-4-like covariance matrices. These covariance matrices were calculated as per Tegmark (1997) \cite{Tegmark:1997vs} with five experimental parameters: survey area, noise, $\ell_{knee}$, beam error and calibration error. The values for these parameters match up with various stage-3 and stage-4 experimental designs.
-\begin{itemize}
-\item Survey area is the area of sky that these experiments will observe given in square degrees. For reference SPT-3G will observe a $2500 deg^{2}$ patch of sky whereas PLANCK observed the whole sky.
+For the inverse covariance matrix in equation ~\ref{eqn:clfisher} I used mock stage-3 and stage-4-like covariance matrices. These covariance matrices were calculated as per Tegmark (1997) \cite{Tegmark:1997vs} with six experimental variables that describe a ground-based CMB experiment. These variables are the survey area, noise level, beam width, $\ell_{knee}$, beam uncertainty and calibration error.
 
-\item Noise is the background/instrumental(?) noise level of the experiment. This parameter is directly related to the number of bolometers in the experiment.
+Survey area is the area of the sky that the CMB experiment observes. The units for the survey area are square degrees. For reference the full sky is 41 253 square degrees, SPT-3G will observe a patch the size of 2 500 square degrees and most other CMB experiments starting in 2017 will scan about 20 000 square degrees.
 
-\item $\ell_{knee}$ is the angular scale where $1/f$ noise starts dominating over the white noise. It is a measure of stability of the experiment and typically larger $\ell_{knee}$s equal lower precision on CMB experiments.
+Noise is the background noise level of the experiment. Noise scales with the number of detectors, n like $\sqrt{n}$. CMB experiments starting 2017 will have of the order 10 000 detectors with noise levels between 5 and 10 $\mu$K arcmin. Noise level depends on a number of other factors, such as time spent scanning but these effects will be marginalised over in this analysis. The calibration error corresponds to the error in the calibration temperature of the bolometers given in the form of a percentage error.
 
-\item Beam error is the percentage error on the width of the beam. The width of the beam is given by its fwhm.
+$\ell_{knee}$ is the angular scale where $1/f$ noise starts dominating over the white noise. It is a measure of stability of the experiment and larger $\ell_{knee}$s correspond to lower precision on CMB experiments. Ideally we want to have this value as low as possible and a given value for $\ell_{knee}$ isn't strictly unique to when a CMB experiment is made. Upcoming CMB experiments will be aiming for $\ell_{knee} \leq$ 100.
 
-\item Calibration error is the percentage error on the detectors. 
+The beam width is simply the full-width-half-maximum of the telescope beam  in arcminutes and is directly related to the resolution of the experiment. A smaller beam width is desired but comes at the cost of building a larger telescope. Beam widths for future CMB experiments will all be of order 4 arcmin. Beam uncertainty is the error on the beam width. In this thesis, the beam width is given in percentage error. 
 \end{itemize}
 
 In addition to the parameters the covariance matrix also has a prescribed binning. This isn't already implemented so it must be added manually. In order to bin the covariance matrix - and also the templates, I construct a bin matrix. The components of the bin matrix are defined like so:

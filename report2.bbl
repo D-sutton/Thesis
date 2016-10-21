@@ -42,6 +42,17 @@ Benson, B.~A. et~al. (2014).
   field}.
 \newblock {\em \aap}, 241:47--56.
 
+\bibitem[Challinor and Lewis, 2005]{Challinor:2005jy}
+Challinor, A. and Lewis, A. (2005).
+\newblock {Lensed CMB power spectra from all-sky correlation functions}.
+\newblock {\em Phys. Rev.}, D71:103010.
+
+\bibitem[{Fedeli} and {Moscardini}, 2012]{2012JCAP...11..055F}
+{Fedeli}, C. and {Moscardini}, L. (2012).
+\newblock {Constraining primordial magnetic fields with future cosmic shear
+  surveys}.
+\newblock {\em \jcap}, 11:055.
+
 \bibitem[Giovannini, 2004]{Giovannini:2003yn}
 Giovannini, M. (2004).
 \newblock {The Magnetized universe}.
@@ -79,6 +90,12 @@ Lamarre, J.-M. et~al. (2003).
 \newblock {The planck high frequency instrument, a 3rd generation cmb
   experiment, and a full sky submillimeter survey}.
 \newblock {\em New Astron. Rev.}, 47:1017.
+
+\bibitem[P5, 2014]{p5}
+P5 (2014).
+\newblock Building for discovery strategic plan for u.s. particle physics in
+  the global context.
+\newblock [Online; accessed 21-October-2016].
 
 \bibitem[Robishaw et~al., 2008]{Robishaw:2008ti}
 Robishaw, T., Quataert, E., and Heiles, C. (2008).

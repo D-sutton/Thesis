@@ -1,14 +1,30 @@
 \section{Forecasts}
 
 \subsection{Optimising Design Variables}
-<<<<<<< HEAD
+
 In a world where time and money are both finite, it is essential that we plan our experiments carefully and know what results we can expect from them. Since PMF detection is not the primary goal of future CMB experiments, it is useful to know before carrying out the analysis whether they have a chance to detect PMFs. Additionally, if the case ever arises that an experiment is designed for the sole purpose of detecting the signatures of PMFs in the CMB, we'd like to know how best to design that experiment. The experiments I carried out this analysis for are stage-3 CMB experiments, such as SPT-3G or The Simons Array which will enter operation between 2016 and 2017. I also carried out this analysis for experiments similar to stage-4 CMB experiments, which are still in the planning stage.
-=======
+
+\begin{table}[h]
+\centering
+\caption{Fixed Variables}
+\label{table: fixed-stats}
+\begin{tabular}{l|l}
+\multicolumn{1}{c}{Variable} & \multicolumn{1}{|c}{Value} \\ \hline
+\multicolumn{1}{c}{Survey area $(deg^2)$} & \multicolumn{1}{|c}{10313}  \\
+\multicolumn{1}{c}{Noise ($\mu$K arcmin)} & \multicolumn{1}{|c}{1.9}   \\
+\multicolumn{1}{c}{$\ell_{knee}$} & \multicolumn{1}{|c}{100} \\
+\multicolumn{1}{c}{beam width (arcmin)} & \multicolumn{1}{|c}{4.0}   \\
+\multicolumn{1}{c}{calibration error (\% error)} & \multicolumn{1}{|c}{0.01} \\
+\multicolumn{1}{c}{beam uncertainty (\% error)} & \multicolumn{1}{|c}{0.05}
+\end{tabular}
+\begin{flushleft}
+This table shows the values I chose for each independent variable when they were held fixed. The variables shown are all generous estimates for the range of capabilities the stage-3 experiments will have, but very conservative for stage-4. As a result, the forecasts will underestimate the strengths for the best-case scenario stage-4 experiments.
+\end{flushleft}
+\end{table}
 
 There is only so much funding one can get to carry out science. In order to get the best return on time and money invested, you want to know what you're studying and how best to measure it. This is no different for PMF detection. In order to find the best experimental set up and
 
 In order to find the best experimental set up and quantify the improvement from stage-2 to stage-3 or stage-4, I used the mock covariances as described in section 3.3. By varying one experimental variable at a time and holding the rest fixed, I was able to forecast the minimum uncertainty on the PMF strength, $\sigma(B_{1Mpc})$ for each mock experiment and plot the relationship between $\sigma(B_{1Mpc})$ and the experimental variables.
->>>>>>> 0b5a6f1b81c7db9bd9b6a3181295df1212f2b6df
 
 \begin{figure}[h]
 \centering
@@ -55,25 +71,6 @@ A further problem with increasing the survey area is the galactic plane. The Mil
 
 Another tradeoff is the beam width. Beam width is limited by how large we can build a telescope. If the telescope is too large, it becomes more expensive to build and maintain. In addition large telescopes become cumbersome and we may have to trade away some of our survey area to gain narrower beams. $\ell_{knee}$ is a technical constraint. Ideally we'd like to have $\ell_{knee} = 0$ of course in practice this simply won't happen since we can never reduce noise to zero. The tradeoff here is between money and quality. A device with a low $\ell_{knee}$ will likely be expensive and a device with a high $\ell_{knee}$ will be cheaper.  
 
-\begin{table}[h]
-\centering
-\caption{Fixed Variables}
-\label{table: fixed-stats}
-\begin{tabular}{l|l}
-\multicolumn{1}{c}{Variable} & \multicolumn{1}{|c}{Value} \\ \hline
-\multicolumn{1}{c}{Survey area $(deg^2)$} & \multicolumn{1}{|c}{10313}  \\
-\multicolumn{1}{c}{Noise ($\mu$K arcmin)} & \multicolumn{1}{|c}{1.9}   \\
-\multicolumn{1}{c}{$\ell_{knee}$} & \multicolumn{1}{|c}{100} \\
-\multicolumn{1}{c}{beam width (arcmin)} & \multicolumn{1}{|c}{4.0}   \\
-\multicolumn{1}{c}{calibration error (\% error)} & \multicolumn{1}{|c}{0.01} \\
-\multicolumn{1}{c}{beam uncertainty (\% error)} & \multicolumn{1}{|c}{0.05}
-\end{tabular}
-\begin{flushleft}
-This table shows the values I chose for each independent variable when they were held fixed. The variables shown are all generous estimates for the range of capabilities the stage-3 experiments will have, but very conservative for stage-4. As a result, the forecasts will underestimate the strengths for the best-case scenario stage-4 experiments.
-\end{flushleft}
-\end{table}
-
-\pagebreak
 \subsection{Parameter Constraints}
 
 Constraining the field strength of PMFs is not the only science goal of future CMB experiments. These experiments are also expected to constrain a wide variety of other model parameters characteristic of extensions to $\Lambda CDM$ cosmology. In this section I will provide the 1$\sigma$ confidence contours for $B_{1Mpc}$ and the selection of extended model parameters as described in Section 3.
@@ -116,15 +113,6 @@ This table shows the values for each variable for both the mock covariance matri
 \end{flushleft}
 \end{table}
 
-<<<<<<< HEAD
-=======
-As shown in figure ~\ref{fig:nrun}, stage-3 and stage-4 experiments make major improvements on $B_{1Mpc}$ and moderate improvements over $n_{run}$ from PLANCK results. The gains in precision in $n_{run}$ are significant from stage-3 to stage-4 in contrast to the gains in $B_{1Mpc}$. This relationship between $\sigma({B_{1Mpc})$ and $\sigma({n_{run})$ indicates that future CMB experiments will be effective for providing constraints on $n_{run}$. Additionally, There is a very weak degeneracy between the two parameters according to the PLANCK contour which seems to be broken by the contours from stage-3 and stage-4.
-
-Figure ~\ref{fig:neff} shows that stage-3 and stage-4 experiments make moderate improvements on constraining $N_{eff}$ from current PLANCK results. The graph also shows that within PLANCK data there exists a degeneracy between the $B_{1Mpc}$ and the effective number of neutrinos. Stage-3 and stage-4 appear to break this degeneracy. Given the magnitude of the decrease in the size of the contours from PLANCK to stage-3 to stage-4, there is something to gain from using data from future CMB experiments to constrain $N_{eff}$.
-
-Finally, figure ~\ref{fig:r} shows a drastic improvement on the constraints of $r$ from PLANCK to the next generations. This is to be expected since detecting primordial gravity waves from inflation is one of the primary science goals of ground-based CMB polarisation experiments. Data from stage-3 and stage-4 do not break the degeneracy that existed in PLANCK between $B_{1Mpc}$ and $r$ however. As a result, other methods for constraining the values of these parameters will be needed.
->>>>>>> 0b5a6f1b81c7db9bd9b6a3181295df1212f2b6df
-
 \begin{figure}[h]
 \centering
 \includegraphics[scale=0.85]{images/contours/nrun.png}
@@ -145,6 +133,13 @@ Finally, figure ~\ref{fig:r} shows a drastic improvement on the constraints of $
 \caption{This is a plot of the 1$\sigma$ contours for $r$ vs. $B_{1Mpc}$. The red line shows the confidence contour for previous PLANCK data. The blue contour shows the confidence contour for stage-3 CMB experiments plus PLANCK data. The green contour shows the confidence contour for stage-4 CMB experiments plus PLANCK data. There is a large forecasted improvement in both the constraints on $B_{1Mpc}$ and $r$ over previous PLANCK data, however neither stage-3 or stage-4 are expected to break the degeneracy between $B_{1Mpc}$ and $r$.}
 \label{fig:r}
 \end{figure}
+
+
+As shown in figure ~\ref{fig:nrun}, stage-3 and stage-4 experiments make major improvements on $B_{1Mpc}$ and moderate improvements over $n_{run}$ from PLANCK results. The gains in precision in $n_{run}$ are significant from stage-3 to stage-4 in contrast to the gains in $B_{1Mpc}$. This relationship between $\sigma({B_{1Mpc})$ and $\sigma({n_{run})$ indicates that future CMB experiments will be effective for providing constraints on $n_{run}$. Additionally, There is a very weak degeneracy between the two parameters according to the PLANCK contour which seems to be broken by the contours from stage-3 and stage-4.
+
+Figure ~\ref{fig:neff} shows that stage-3 and stage-4 experiments make moderate improvements on constraining $N_{eff}$ from current PLANCK results. The graph also shows that within PLANCK data there exists a degeneracy between the $B_{1Mpc}$ and the effective number of neutrinos. Stage-3 and stage-4 appear to break this degeneracy. Given the magnitude of the decrease in the size of the contours from PLANCK to stage-3 to stage-4, there is something to gain from using data from future CMB experiments to constrain $N_{eff}$.
+
+Finally, figure ~\ref{fig:r} shows a drastic improvement on the constraints of $r$ from PLANCK to the next generations. This is to be expected since detecting primordial gravity waves from inflation is one of the primary science goals of ground-based CMB polarisation experiments. Data from stage-3 and stage-4 do not break the degeneracy that existed in PLANCK between $B_{1Mpc}$ and $r$ however. As a result, other methods for constraining the values of these parameters will be needed.
 
 As shown in figure ~\ref{fig:nrun}, stage-3 and stage-4 experiments make major improvements on $B_{1Mpc}$ and moderate improvements over $n_{run}$ from PLANCK results. The gains in precision in $n_{run}$ are significant from stage-3 to stage-4 in contrast to the gains in $B_{1Mpc}$. This relationship between $\sigma({B_{1Mpc})$ and $\sigma({n_{run})$ indicates that future CMB experiments will be effective for providing constraints on $n_{run}$. Additionally, There is a very weak degeneracy between the two parameters according to the PLANCK contour which seems to be broken by the contours from stage-3 and stage-4.
 
